@@ -1,0 +1,35 @@
+2.) How can you use the command ls to find out about the size of /etc/passwd?
+
+ls -al /etc/passwd
+
+1.) What will happen if you type man man in Linux?
+
+the manual page of man is going to be displayed showing several optional parameters one can apply and how to use the command man
+
+2.) How can you use the command ls to find out about the size of /etc/lilo.conf?
+
+ls -al /etc/lilo.conf
+
+3.) What happens if you have two files file1 and file2 and you type mv file1 file2? Which option of mv issues a warning in this situation?
+
+The file file2 is going to be overwritten. The interactive option (mv -i) issues a warning in a case like this.
+
+4.) What is the command that you issue if you are in directory / and want to copy the file /mydata to directory /newdirectory?
+
+cp mydata newdirectory/
+
+5.) What is the command that you issue if you are in directory / and want to copy all files and directories under directory /mydirectory to directory /newdirectory?
+
+cp -r mydirectory/* newdirectory/
+
+6.) What happens when you type rm * in a directory?
+
+It will remove all files in this directory that are not hidden, but will refrain from deleting subdirectories and their contents.
+
+7.) What is the command that you issue if you want to delete all files and directories under the directory /mydirectory?
+
+rm -r /mydirectory/*
+
+
+
+
