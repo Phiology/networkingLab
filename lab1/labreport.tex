@@ -8,7 +8,9 @@
 % hier beginnt das Dokument
 \begin{document}
 \maketitle
+\newpage
 \tableofcontents
+\newpage
 \section{Prelab}
 
 In order to have version control and making changes of files parallely possible, a git repository (https://www.github.com/Phiology/networkingLab)
@@ -34,24 +36,24 @@ It was asked to use some basic linux commands. This exercise was skipped, becaus
 \section{Part 3}
 
 The content of /etc/ was saved on three different ways (using redirection, view and save at the same time, and via copy paste).
-The files etcfile_1-3 can be found in lab1/exercise3/.
+The files etcfile\_1-3 can be found in lab1/exercise3/.
 
 \section{Part 4}
 
 \subsection {Saving data to a USB stick}
 
-The etcfile_1 was saved to a USB stick. Also, the output of df was redirected into a file df_output. The file can be
+The etcfile\_1 was saved to a USB stick. Also, the output of df was redirected into a file df\_output. The file can be
 found in lab1/exercise4/.
 
 \subsection {Convention for saving data on a USB stick}
 
-FTP was used to acquire each etcfile_1-3 from PC1,PC3 and PC4. These files can be found in lab1/exercise4/PC[1,3,4]/.
+FTP was used to acquire each etcfile\_1-3 from PC1,PC3 and PC4. These files can be found in lab1/exercise4/PC[1,3,4]/.
 
 \section{Part 5}
 
 \subsection{Using the more command}
 
-The output of the command 'more /etc/hosts' was saved and can be found in lab1/exercise5/etc_hosts.
+The output of the command 'more /etc/hosts' was saved and can be found in lab1/exercise5/etc\_hosts.
 
 \subsection{Exercise 5}
 
@@ -61,11 +63,11 @@ The file /etc/hostname has to be edited in order to permanently change the hostn
 
 \emph{Which files include information that determines whether a Linux PC performs IP forwarding?}
 
-Whether or not a linux PC performs IP forwarding can be seen in /proc/sys/net/ipv4/ip_forward. When the file contains a 0,
+Whether or not a linux PC performs IP forwarding can be seen in /proc/sys/net/ipv4/ip\_forward. When the file contains a 0,
 no forwarding takes place, 1 means forwarding is enabled.
 
 It is also possible that permanent forwarding is enabled in /etc/sysctl.conf. If that's the case, it contains a line 
-net.ipv4.ip_forward = 1.
+net.ipv4.ip\_forward = 1.
 
 \emph{Attach the standard Ubuntu network interface configuration file.}
 
@@ -76,7 +78,7 @@ The /etc/network/interfaces file can be found in lab1/exercise5/.
 \subsection{Issuing Ping commands}
 
 From PC2, the commands 'ping -c 5 10.0.1.11' (ping PC1) and ping -c 5 127.0.0.1 (ping lo interface) were issued and
-the results can be found in lab1/exercise6/ in the files ping_1 and ping_lo.
+the results can be found in lab1/exercise6/ in the files ping\_1 and ping\_lo.
 
 \subsection{Exercise 6}
 
@@ -95,7 +97,7 @@ going to work when there is no network connection. Because the eth0 adress ping 
 \subsection{Simple tcpdump exercise}
 
 On PC2, 'tcpdump -n host 10.0.1.11' was issued as root and a ping was executed to PC1. The output of tcpdump was saved and can
-be found in lab1/exercise7/tcpdump_PC1.
+be found in lab1/exercise7/tcpdump\_PC1.
 
 \subsection{Exercise 7A}
 
@@ -115,8 +117,8 @@ The fourth line gives the wanted information to PC1 so it can send the data.
 \subsection {Another tcpdump traffic capture}
 
 On PC2, packet capturing was started by issuing 'tcpdump -n' as root. A ping was issued to a nonexistant IP adress (111.111.111.111).
-Also a ping was issued to the broadcast adress 10.0.1.255. The outputs of ping commands are saved in files ping_nonexistant and ping_broadcast 
-and the tcpdump output was saved to the file tcpdump_nonexistant_and_broadcast. All files can be found in lab1/exercise7/.
+Also a ping was issued to the broadcast adress 10.0.1.255. The outputs of ping commands are saved in files ping\_nonexistant and ping\_broadcast 
+and the tcpdump output was saved to the file tcpdump\_nonexistant\_and\_broadcast. All files can be found in lab1/exercise7/.
 
 \subsection {Exercise 7B}
 
@@ -144,7 +146,7 @@ Since there is no further route, the search remains unsuccessful and the ping fa
 
 The output of the broadcast ping is similar to the one in Exercise 7A. The ping goes to 10.1.0.255 (broadcast address) and all three connected PCs answer the echo request.
 ARP again resolves the MAC-Address of PC2 for each other PC. However, the broadcast only reaches all three other computers after the command 
-'sysctl -w net.ipv4.icmp_echo_ignore_broadcasts=0' was issued as root on PC3, because PC3 was ignoring broadcasts before. 
+'sysctl -w net.ipv4.icmp\_echo\_ignore\_broadcasts=0' was issued as root on PC3, because PC3 was ignoring broadcasts before. 
 
 \section{Part 8}
 
