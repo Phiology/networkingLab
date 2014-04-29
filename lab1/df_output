@@ -1,0 +1,13 @@
+Filesystem           1K-blocks      Used Available Use% Mounted on
+tmpfs                   511928     27488    484440   6% /lib/modules/2.6.27-7-generic/volatile
+tmpfs                   511928     27488    484440   6% /lib/modules/2.6.27-11-generic/volatile
+tmpfs                   511928         0    511928   0% /lib/init/rw
+varrun                  511928        92    511836   1% /var/run
+varlock                 511928         0    511928   0% /var/lock
+udev                    511928      2856    509072   1% /dev
+tmpfs                   511928       104    511824   1% /dev/shm
+rootfs                  511928     27488    484440   6% /
+/dev/scd0               719348    719348         0 100% /cdrom
+/dev/loop0              695296    695296         0 100% /rofs
+tmpfs                   511928        12    511916   1% /tmp
+/dev/sda1              3936736     68436   3868300   2% /media/PC2
