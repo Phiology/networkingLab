@@ -1,1 +1,0 @@
-host 3 does not reply to broadcast, because in /etc/network/interfaces the is no Gateway entered. One could add one with the adress 10.0.1.254 and with a /etc/init.d/networking restart it would work
