@@ -1,0 +1,50 @@
+- read ip man page
+- read ss man page
+- read paper everything you want to know about internet. Link is not correct, but added paper to git repo.
+- read about tcpdump options
+- read about wireshark capture and display filters
+- Write an ip command that adds the IP address 10.10.10.10/16 with broadcast address 10.10.255.255 to the interface eth0.
+
+sudo ip addr add 10.10.10.10/16 broadcast 10.10.255.255 dev eth0
+
+Write a tcpdump command that captures packets containing IP datagrams with a source or destination IP address equal to 10.0.1.12.
+
+tcpdump ip host 10.0.1.12
+
+Write a tcpdump command that captures packets containing ICMP messages with 192.168.0.10 as source or destination IP address.
+
+tcpdump icmp and host 192.168.0.10
+
+Write a tcpdump command that captures packets containing IP datagrams between two hosts with IP addresses 134.76.83.11 and 10.0.1.12, both on interface eth0.
+
+tcpdump ip host 134.76.83.11 and 10.0.1.12 -i eth0
+
+Write a tcpdump filter expression that captures packets containing TCP segments with a source or destination IP address equal to 192.168.0.10.
+
+#tcpdump 'tcp[tcpflags] & (tcp-syn|tcp-fin) != 0 and host 192.168.0.10'
+
+tcpdump 'tcp and host 192.168.0.10'
+
+Write a tcpdump filter expression that, in addition to the constraints of the last question, only captures packets using TCP port number 23.
+
+tcpdump 'tcp port 23 and host 192.168.0.10'
+
+Write a wireshark command with capture filter so that all IP datagrams with a source or destination IP address equal to 192.168.0.10 are recorded.
+
+wireshark -f 'ip host 192.168.0.10'
+
+Write a wireshark display filter that shows IP datagrams with a destination IP address equal to 192.168.0.50 and frame sizes greater than 400 bytes.
+
+ip.dst==192.168.0.50 and frame.len>400
+
+Write a wireshark display filter that shows packets containing ICMP messages with a source or destination IP adress equal to 192.168.0.10 and frame numbers between 15 und 30.
+
+ip.addr==192.168.0.10 and frame.number>=15 and frame.number<=30 and icmp
+
+Write a wireshark display filter that shows packets containing TCP segments with a source or destination IP address equal to 192.168.0.10 and using port number 23.
+
+ip.addr==192.168.0.10 and tcp and tcp.port==23
+
+Write a wireshark capture filter expression for the last question.
+
+wireshark -f 'tcp port 23 and host 192.168.0.10''
