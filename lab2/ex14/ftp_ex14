@@ -1,0 +1,18 @@
+220 PC2 FTP server (Version 6.4/OpenBSD/Linux-ftpd-0.17) ready.
+USER ubuntu
+331 Password required for ubuntu.
+PASS lab
+230- Linux PC2 2.6.27-11-generic #1 SMP Thu Jan 29 19:24:39 UTC 2009 i686
+230- 
+230- The programs included with the Ubuntu system are free software;
+230- the exact distribution terms for each program are described in the
+230- individual files in /usr/share/doc/*/copyright.
+230- 
+230- Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+230- applicable law.
+230- 
+230- To access official Ubuntu documentation, please visit:
+230- http://help.ubuntu.com/
+230 User ubuntu logged in.
+SYST
+215 UNIX Type: L8 (Linux)

@@ -1,0 +1,650 @@
+No.     Time        Source                Destination           Protocol Info
+     11 23.941276   10.10.10.11           10.10.10.12           TCP      54722 > telnet [SYN] Seq=0 Win=5840 Len=0 MSS=1460 TSV=308706 TSER=0 WS=6
+
+Frame 11 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     12 23.941420   10.10.10.12           10.10.10.11           TCP      telnet > 54722 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 TSV=1077611 TSER=308706 WS=6
+
+Frame 12 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     13 23.941452   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=1 Ack=1 Win=5888 Len=0 TSV=308706 TSER=1077611
+
+Frame 13 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     14 23.942433   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 14 (93 bytes on wire, 93 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 1, Ack: 1, Len: 27
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     15 23.942533   10.10.10.12           10.10.10.11           TCP      telnet > 54722 [ACK] Seq=1 Ack=28 Win=5824 Len=0 TSV=1077612 TSER=308706
+
+Frame 15 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 1, Ack: 28, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     18 24.059388   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 18 (78 bytes on wire, 78 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 1, Ack: 28, Len: 12
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     19 24.059411   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=28 Ack=13 Win=5888 Len=0 TSV=308735 TSER=1077641
+
+Frame 19 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 28, Ack: 13, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     20 24.059505   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 20 (105 bytes on wire, 105 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 13, Ack: 28, Len: 39
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     21 24.059515   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=28 Ack=52 Win=5888 Len=0 TSV=308736 TSER=1077641
+
+Frame 21 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 28, Ack: 52, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     22 24.059870   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 22 (138 bytes on wire, 138 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 28, Ack: 52, Len: 72
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     23 24.059969   10.10.10.12           10.10.10.11           TCP      telnet > 54722 [ACK] Seq=52 Ack=100 Win=5824 Len=0 TSV=1077641 TSER=308736
+
+Frame 23 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 52, Ack: 100, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     24 24.060224   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 24 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 52, Ack: 100, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     25 24.060264   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 25 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 100, Ack: 55, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     26 24.062654   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 26 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 55, Ack: 103, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     27 24.062705   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 27 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 103, Ack: 58, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     28 24.062801   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 28 (79 bytes on wire, 79 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 58, Ack: 106, Len: 13
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     29 24.103439   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=106 Ack=71 Win=5888 Len=0 TSV=308746 TSER=1077642
+
+Frame 29 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 106, Ack: 71, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     30 26.090466   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 30 (77 bytes on wire, 77 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 71, Ack: 106, Len: 11
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     31 26.090532   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=106 Ack=82 Win=5888 Len=0 TSV=309243 TSER=1078148
+
+Frame 31 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 106, Ack: 82, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     32 48.094123   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 32 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 106, Ack: 82, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     33 48.094320   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 33 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 82, Ack: 107, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     34 48.094346   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=107 Ack=83 Win=5888 Len=0 TSV=314744 TSER=1083650
+
+Frame 34 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 107, Ack: 83, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     35 48.237878   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 35 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 107, Ack: 83, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     36 48.238026   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 36 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 83, Ack: 108, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     37 48.238050   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=108 Ack=84 Win=5888 Len=0 TSV=314780 TSER=1083685
+
+Frame 37 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 108, Ack: 84, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     38 48.349964   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 38 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 108, Ack: 84, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     39 48.350099   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 39 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 84, Ack: 109, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     40 48.350124   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=109 Ack=85 Win=5888 Len=0 TSV=314808 TSER=1083713
+
+Frame 40 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 109, Ack: 85, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     41 48.557870   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 41 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 109, Ack: 85, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     42 48.558008   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 42 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 85, Ack: 110, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     43 48.558032   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=110 Ack=86 Win=5888 Len=0 TSV=314860 TSER=1083765
+
+Frame 43 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 110, Ack: 86, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     44 48.717876   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 44 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 110, Ack: 86, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     45 48.718008   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 45 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 86, Ack: 111, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     46 48.718032   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=111 Ack=87 Win=5888 Len=0 TSV=314900 TSER=1083805
+
+Frame 46 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 111, Ack: 87, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     47 48.813875   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 47 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 111, Ack: 87, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     48 48.814006   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 48 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 87, Ack: 112, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     49 48.814029   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=112 Ack=88 Win=5888 Len=0 TSV=314924 TSER=1083829
+
+Frame 49 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 112, Ack: 88, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     50 51.758079   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 50 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 112, Ack: 88, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     51 51.758273   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 51 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 88, Ack: 114, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     52 51.758298   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=114 Ack=90 Win=5888 Len=0 TSV=315660 TSER=1084566
+
+Frame 52 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 114, Ack: 90, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     53 51.761213   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 53 (76 bytes on wire, 76 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 90, Ack: 114, Len: 10
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     54 51.761236   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=114 Ack=100 Win=5888 Len=0 TSV=315661 TSER=1084566
+
+Frame 54 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 114, Ack: 100, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     55 52.526070   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 55 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 114, Ack: 100, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     56 52.566063   10.10.10.12           10.10.10.11           TCP      telnet > 54722 [ACK] Seq=100 Ack=115 Win=5824 Len=0 TSV=1084768 TSER=315852
+
+Frame 56 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 100, Ack: 115, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     57 52.637909   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 57 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 115, Ack: 100, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     58 52.638010   10.10.10.12           10.10.10.11           TCP      telnet > 54722 [ACK] Seq=100 Ack=116 Win=5824 Len=0 TSV=1084785 TSER=315880
+
+Frame 58 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 100, Ack: 116, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     59 53.533955   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 59 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 116, Ack: 100, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     60 53.534058   10.10.10.12           10.10.10.11           TCP      telnet > 54722 [ACK] Seq=100 Ack=117 Win=5824 Len=0 TSV=1085010 TSER=316104
+
+Frame 60 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 100, Ack: 117, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     61 53.917957   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 61 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 117, Ack: 100, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     62 53.918059   10.10.10.12           10.10.10.11           TCP      telnet > 54722 [ACK] Seq=100 Ack=119 Win=5824 Len=0 TSV=1085106 TSER=316200
+
+Frame 62 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 100, Ack: 119, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     63 53.918152   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 63 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 100, Ack: 119, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     64 53.918164   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=119 Ack=102 Win=5888 Len=0 TSV=316200 TSER=1085106
+
+Frame 64 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 119, Ack: 102, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     65 53.920883   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 65 (492 bytes on wire, 492 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 102, Ack: 119, Len: 426
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     66 53.920907   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=119 Ack=528 Win=6912 Len=0 TSV=316201 TSER=1085106
+
+Frame 66 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 119, Ack: 528, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     67 54.222769   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 67 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 528, Ack: 119, Len: 32
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     68 54.222807   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=119 Ack=560 Win=6912 Len=0 TSV=316276 TSER=1085182
+
+Frame 68 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 119, Ack: 560, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     69 75.870030   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 69 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 119, Ack: 560, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     70 75.870303   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 70 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 560, Ack: 120, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     71 75.870328   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=120 Ack=561 Win=6912 Len=0 TSV=321688 TSER=1090594
+
+Frame 71 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 120, Ack: 561, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     72 76.142364   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 72 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 120, Ack: 561, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     73 76.142549   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 73 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 561, Ack: 121, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     74 76.142577   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=121 Ack=562 Win=6912 Len=0 TSV=321756 TSER=1090662
+
+Frame 74 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 121, Ack: 562, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     75 76.302039   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 75 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 121, Ack: 562, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     76 76.302239   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 76 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 562, Ack: 122, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     77 76.302265   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=122 Ack=563 Win=6912 Len=0 TSV=321796 TSER=1090702
+
+Frame 77 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 122, Ack: 563, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     78 76.382199   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 78 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 122, Ack: 563, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     79 76.382378   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 79 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 563, Ack: 123, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     80 76.382402   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=123 Ack=564 Win=6912 Len=0 TSV=321816 TSER=1090722
+
+Frame 80 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 123, Ack: 564, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     81 88.750090   10.10.10.11           10.10.10.12           TELNET   Telnet Data ...
+
+Frame 81 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 123, Ack: 564, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     82 88.750322   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 82 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 564, Ack: 125, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     83 88.750348   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=125 Ack=566 Win=6912 Len=0 TSV=324908 TSER=1093814
+
+Frame 83 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 125, Ack: 566, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     84 88.750440   10.10.10.12           10.10.10.11           TELNET   Telnet Data ...
+
+Frame 84 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 566, Ack: 125, Len: 8
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     85 88.750449   10.10.10.11           10.10.10.12           TCP      54722 > telnet [ACK] Seq=125 Ack=574 Win=6912 Len=0 TSV=324908 TSER=1093814
+
+Frame 85 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 125, Ack: 574, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     86 88.758346   10.10.10.12           10.10.10.11           TCP      telnet > 54722 [FIN, ACK] Seq=574 Ack=125 Win=5824 Len=0 TSV=1093816 TSER=324908
+
+Frame 86 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 574, Ack: 125, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     87 88.758414   10.10.10.11           10.10.10.12           TCP      54722 > telnet [FIN, ACK] Seq=125 Ack=575 Win=6912 Len=0 TSV=324910 TSER=1093816
+
+Frame 87 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.12 (10.10.10.12)
+Transmission Control Protocol, Src Port: 54722 (54722), Dst Port: telnet (23), Seq: 125, Ack: 575, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     88 88.758507   10.10.10.12           10.10.10.11           TCP      telnet > 54722 [ACK] Seq=575 Ack=126 Win=5824 Len=0 TSV=1093816 TSER=324910
+
+Frame 88 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.12 (10.10.10.12), Dst: 10.10.10.11 (10.10.10.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 54722 (54722), Seq: 575, Ack: 126, Len: 0

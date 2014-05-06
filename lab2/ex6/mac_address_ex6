@@ -1,0 +1,4 @@
+10.10.10.14 dev eth0 lladdr 00:18:8b:23:e8:27 REACHABLE
+10.10.10.13 dev eth0 lladdr 00:21:9b:77:11:eb REACHABLE
+10.10.10.12 dev eth0 lladdr 00:18:8b:1a:be:17 STALE
+

@@ -1,0 +1,18 @@
+10.0.2.0/24 dev eth1  proto kernel  scope link  src 10.0.2.11 
+10.10.10.0/24 dev eth0  proto kernel  scope link  src 10.10.10.11 
+broadcast 127.255.255.255 dev lo  table local  proto kernel  scope link  src 127.0.0.1 
+broadcast 10.10.10.0 dev eth0  table local  proto kernel  scope link  src 10.10.10.11 
+broadcast 10.0.2.0 dev eth1  table local  proto kernel  scope link  src 10.0.2.11 
+local 10.10.10.11 dev eth0  table local  proto kernel  scope host  src 10.10.10.11 
+broadcast 10.10.10.255 dev eth0  table local  proto kernel  scope link  src 10.10.10.11 
+broadcast 10.0.2.255 dev eth1  table local  proto kernel  scope link  src 10.0.2.11 
+local 10.0.2.11 dev eth1  table local  proto kernel  scope host  src 10.0.2.11 
+broadcast 127.0.0.0 dev lo  table local  proto kernel  scope link  src 127.0.0.1 
+local 127.0.0.1 dev lo  table local  proto kernel  scope host  src 127.0.0.1 
+local 127.0.0.0/8 dev lo  table local  proto kernel  scope host  src 127.0.0.1 
+fe80::/64 dev eth0  proto kernel  metric 256  mtu 1500 advmss 1440 hoplimit 4294967295
+unreachable default dev lo  table unspec  proto none  metric -1  error -101 hoplimit 255
+local ::1 via :: dev lo  table local  proto none  metric 0  mtu 16436 advmss 16376 hoplimit 4294967295
+local fe80::218:8bff:fe1a:be34 via :: dev lo  table local  proto none  metric 0  mtu 16436 advmss 16376 hoplimit 4294967295
+ff00::/8 dev eth0  table local  metric 256  mtu 1500 advmss 1440 hoplimit 4294967295
+unreachable default dev lo  table unspec  proto none  metric -1  error -101 hoplimit 255
