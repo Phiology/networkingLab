@@ -1,0 +1,93 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    10.10.10.11           10.10.10.21           ICMP     Echo (ping) request
+
+Frame 1 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.21 (10.10.10.21)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.000126    10.10.10.21           10.10.10.11           ICMP     Echo (ping) reply
+
+Frame 2 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.21 (10.10.10.21), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.999389    10.10.10.11           10.10.10.21           ICMP     Echo (ping) request
+
+Frame 3 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.21 (10.10.10.21)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.999495    10.10.10.21           10.10.10.11           ICMP     Echo (ping) reply
+
+Frame 4 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.21 (10.10.10.21), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      5 1.999393    10.10.10.11           10.10.10.21           ICMP     Echo (ping) request
+
+Frame 5 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.21 (10.10.10.21)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      6 1.999498    10.10.10.21           10.10.10.11           ICMP     Echo (ping) reply
+
+Frame 6 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.21 (10.10.10.21), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      7 2.999389    10.10.10.11           10.10.10.21           ICMP     Echo (ping) request
+
+Frame 7 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.21 (10.10.10.21)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      8 2.999518    10.10.10.21           10.10.10.11           ICMP     Echo (ping) reply
+
+Frame 8 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.21 (10.10.10.21), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      9 3.999388    10.10.10.11           10.10.10.21           ICMP     Echo (ping) request
+
+Frame 9 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.10.10.21 (10.10.10.21)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     10 3.999495    10.10.10.21           10.10.10.11           ICMP     Echo (ping) reply
+
+Frame 10 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.10.10.21 (10.10.10.21), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     11 5.004781    Dell_1a:be:17         Dell_1a:be:34         ARP      Who has 10.10.10.11?  Tell 10.10.10.21
+
+Frame 11 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     12 5.004800    Dell_1a:be:34         Dell_1a:be:17         ARP      10.10.10.11 is at 00:18:8b:1a:be:34
+
+Frame 12 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Address Resolution Protocol (reply)

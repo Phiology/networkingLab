@@ -1,0 +1,149 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    RealtekS_6a:1c:5a     Broadcast             ARP      Who has 10.10.20.1?  Tell 10.10.20.22
+
+Frame 1 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.000601    Cisco_e0:ef:28        RealtekS_6a:1c:5a     ARP      10.10.20.1 is at 00:1f:ca:e0:ef:28
+
+Frame 2 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.000616    10.10.10.11           10.100.10.110         ICMP     Echo (ping) request
+
+Frame 3 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.100.10.110 (10.100.10.110)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.001309    10.10.20.1            10.10.10.11           ICMP     Destination unreachable (Host unreachable)
+
+Frame 4 (70 bytes on wire, 70 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      5 0.996675    10.10.10.11           10.100.10.110         ICMP     Echo (ping) request
+
+Frame 5 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.100.10.110 (10.100.10.110)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      6 0.997422    10.10.20.1            10.10.10.11           ICMP     Destination unreachable (Host unreachable)
+
+Frame 6 (70 bytes on wire, 70 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      7 1.996710    10.10.10.11           10.100.10.110         ICMP     Echo (ping) request
+
+Frame 7 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.100.10.110 (10.100.10.110)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      8 1.997484    10.10.20.1            10.10.10.11           ICMP     Destination unreachable (Host unreachable)
+
+Frame 8 (70 bytes on wire, 70 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      9 3.000752    10.10.10.11           10.100.10.110         ICMP     Echo (ping) request
+
+Frame 9 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.100.10.110 (10.100.10.110)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     10 3.001531    10.10.20.1            10.10.10.11           ICMP     Destination unreachable (Host unreachable)
+
+Frame 10 (70 bytes on wire, 70 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     11 4.004778    10.10.10.11           10.100.10.110         ICMP     Echo (ping) request
+
+Frame 11 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28)
+Internet Protocol, Src: 10.10.10.11 (10.10.10.11), Dst: 10.100.10.110 (10.100.10.110)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     12 4.005538    10.10.20.1            10.10.10.11           ICMP     Destination unreachable (Host unreachable)
+
+Frame 12 (70 bytes on wire, 70 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 10.10.10.11 (10.10.10.11)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     13 4.759155    10.10.20.1            224.0.0.13            PIMv2    Hello
+
+Frame 13 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     14 5.175304    10.10.20.1            224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 14 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     15 15.176220   10.10.20.1            224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 15 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     16 34.161385   10.10.20.1            224.0.0.13            PIMv2    Hello
+
+Frame 16 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     17 63.915606   10.10.20.1            224.0.0.13            PIMv2    Hello
+
+Frame 17 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     18 65.179821   10.10.20.1            224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 18 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     19 66.180053   10.10.20.1            224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 19 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:28 (00:1f:ca:e0:ef:28), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.10.20.1 (10.10.20.1), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol

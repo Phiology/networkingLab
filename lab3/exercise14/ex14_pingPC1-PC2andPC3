@@ -1,0 +1,14 @@
+1:~$ ping -c 1 10.0.2.10
+PING 10.0.2.10 (10.0.2.10) 56(84) bytes of data.
+64 bytes from 10.0.2.10: icmp_seq=1 ttl=63 time=4.91 ms
+
+--- 10.0.2.10 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.910/4.910/4.910/0.000 ms
+ubuntu@PC1:~$ ping -c 1 10.0.2.137
+PING 10.0.2.137 (10.0.2.137) 56(84) bytes of data.
+64 bytes from 10.0.2.137: icmp_seq=1 ttl=63 time=3.42 ms
+
+--- 10.0.2.137 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.424/3.424/3.424/0.000 ms

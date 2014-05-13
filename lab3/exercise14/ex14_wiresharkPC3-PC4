@@ -1,0 +1,43 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    Dell_77:11:eb         Broadcast             ARP      Who has 10.0.2.139?  Tell 10.0.2.137
+
+Frame 1 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.000142    Dell_23:e8:27         Dell_77:11:eb         ARP      10.0.2.139 is at 00:18:8b:23:e8:27
+
+Frame 2 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: Dell_77:11:eb (00:21:9b:77:11:eb)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.000155    10.0.2.137            10.0.2.139            ICMP     Echo (ping) request
+
+Frame 3 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+Internet Protocol, Src: 10.0.2.137 (10.0.2.137), Dst: 10.0.2.139 (10.0.2.139)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.000273    10.0.2.139            10.0.2.137            ICMP     Echo (ping) reply
+
+Frame 4 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: Dell_77:11:eb (00:21:9b:77:11:eb)
+Internet Protocol, Src: 10.0.2.139 (10.0.2.139), Dst: 10.0.2.137 (10.0.2.137)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      5 5.000586    Dell_23:e8:27         Dell_77:11:eb         ARP      Who has 10.0.2.137?  Tell 10.0.2.139
+
+Frame 5 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: Dell_77:11:eb (00:21:9b:77:11:eb)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      6 5.000599    Dell_77:11:eb         Dell_23:e8:27         ARP      10.0.2.137 is at 00:21:9b:77:11:eb
+
+Frame 6 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+Address Resolution Protocol (reply)

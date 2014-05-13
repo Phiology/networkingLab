@@ -1,0 +1,9 @@
+3:~$ ping -c 1 10.0.2.10
+PING 10.0.2.10 (10.0.2.10) 56(84) bytes of data.
+From 10.0.2.138: icmp_seq=1 Redirect Host(New nexthop: 10.0.2.10)
+64 bytes from 10.0.2.10: icmp_req=1 ttl=64 time=3.91 ms
+
+--- 10.0.2.10 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.916/3.916/3.916/0.000 ms
+

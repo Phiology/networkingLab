@@ -1,0 +1,45 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    Dell_1a:be:34         Broadcast             ARP      Who has 10.0.1.1?  Tell 10.0.1.10
+
+Frame 1 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.000623    Cisco_6b:9d:60        Dell_1a:be:34         ARP      10.0.1.1 is at 00:21:55:6b:9d:60
+
+Frame 2 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.000642    10.0.1.10             10.0.2.10             ICMP     Echo (ping) request
+
+Frame 3 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+Internet Protocol, Src: 10.0.1.10 (10.0.1.10), Dst: 10.0.2.10 (10.0.2.10)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.000932    10.0.2.10             10.0.1.10             ICMP     Echo (ping) reply
+
+Frame 4 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.0.2.10 (10.0.2.10), Dst: 10.0.1.10 (10.0.1.10)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      5 9.228007    10.0.1.10             10.0.2.137            ICMP     Echo (ping) request
+
+Frame 5 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:34 (00:18:8b:1a:be:34), Dst: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+Internet Protocol, Src: 10.0.1.10 (10.0.1.10), Dst: 10.0.2.137 (10.0.2.137)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      6 9.231386    10.0.2.137            10.0.1.10             ICMP     Echo (ping) reply
+
+Frame 6 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: Dell_1a:be:34 (00:18:8b:1a:be:34)
+Internet Protocol, Src: 10.0.2.137 (10.0.2.137), Dst: 10.0.1.10 (10.0.1.10)
+Internet Control Message Protocol

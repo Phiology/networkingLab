@@ -1,0 +1,51 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    Dell_77:11:eb         Broadcast             ARP      Who has 10.0.2.138?  Tell 10.0.2.137
+
+Frame 1 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.000600    Cisco_6b:9d:61        Dell_77:11:eb         ARP      10.0.2.138 is at 00:21:55:6b:9d:61
+
+Frame 2 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Dell_77:11:eb (00:21:9b:77:11:eb)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.000611    10.0.2.137            10.0.2.10             ICMP     Echo (ping) request
+
+Frame 3 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Cisco_6b:9d:61 (00:21:55:6b:9d:61)
+Internet Protocol, Src: 10.0.2.137 (10.0.2.137), Dst: 10.0.2.10 (10.0.2.10)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.001284    10.0.2.138            10.0.2.137            ICMP     Redirect (Redirect for host)
+
+Frame 4 (70 bytes on wire, 70 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Dell_77:11:eb (00:21:9b:77:11:eb)
+Internet Protocol, Src: 10.0.2.138 (10.0.2.138), Dst: 10.0.2.137 (10.0.2.137)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      5 0.002162    Dell_1a:be:17         Broadcast             ARP      Who has 10.0.2.137?  Tell 10.0.2.10
+
+Frame 5 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      6 0.002176    Dell_77:11:eb         Dell_1a:be:17         ARP      10.0.2.137 is at 00:21:9b:77:11:eb
+
+Frame 6 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+      7 0.002227    10.0.2.10             10.0.2.137            ICMP     Echo (ping) reply
+
+Frame 7 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: Dell_77:11:eb (00:21:9b:77:11:eb)
+Internet Protocol, Src: 10.0.2.10 (10.0.2.10), Dst: 10.0.2.137 (10.0.2.137)
+Internet Control Message Protocol
