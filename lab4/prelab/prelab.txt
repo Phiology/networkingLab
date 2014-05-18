@@ -1,0 +1,81 @@
+    Provide the command that configures a Linux PC as an IP router (see Lab 3).
+	
+	- sudo sysctl -w net.ipv4.ip_forward=1
+	
+    What are the main differences between a distance vector routing protocol and a link state routing protocol? Give examples for each type of protocol.
+	
+	- distance vector RP: Routing information is only exchanged between directly connected neighbors. This means a router knows from which neighbor a route was learned, but it does not know where that neighbor learned the route; a router can't see beyond its own neighbors. Examples: RIP or EIGRP.
+	
+	- link state RP:  all routers know about the paths reachable by all other routers in the network. Link-state information is flooded throughout the link-state domain to ensure all routers posses a synchronized copy of the area's link-state database. From this common database, each router constructs its own relative shortest-path tree, with itself as the root, for all known routes. Examples: OSPF pr IS-IS.
+		
+    What are the differences between an intradomain routing protocol (also called interior gateway protocol or IGP) and an interdomain routing protocol (also called exterior gateway protocol or EGP)? Give examples for each type of protocol.
+	
+	IGP:
+
+    Within a single autonomous system
+    Single network administration
+    Unique routing policy
+    Make best use of network resource
+    An IGP (Interior Gateway Protocol) is a protocol for exchanging routing information between gateways (hosts with routers) within an autonomous network (for example, a system of corporate local area networks).
+    IGP’s fall into two categories:
+        Distance Vector Protocols
+            Routing Information Protocol (RIP)
+            Interior Gateway Routing Protocol (IGRP)
+        Link State Protocols
+            Open Shortest Path First (OSPF)
+            Intermediate System to Intermediate System (IS-IS)
+
+	EGP:
+
+    Among different autonomous systems
+    Independent administrative entities
+    Communication between independent network infrastructures
+    Exterior Gateway Protocol (EGP) is a protocol for exchanging routing information between two neighbor gateway hosts (each with its own router) in a network of autonomous systems.
+    EGP is commonly used between hosts on the Internet to exchange routing table information.
+    Examples of an EGP:
+        Border Gateway Protocol (BGP)
+        Exterior Gateway Protocol (Replaced by BGP)
+	
+    Which routing protocols are supportet by the software package Zebra?
+	
+	OSPF, ISIS, RIP, RIPng, BGP, Babel routing protocol	
+	
+    In the Zebra software package, the processes ripd, ospfd and bgpd deal, respectively, with the routing protocols RIP, OSPF and BGP. which role does the process zebra play?
+	
+	acts as an abstraction layer to the underlying Unix kernel and presents the Zserv API over a Unix or TCP stream to Quagga clients
+	
+    Describe how a Linux user accesses the processes of Zebra (zebra, ripd, ospfd, bgpd) to configure routing algorithm parameters?
+	
+	Configuration of routing can be done in /etc/quagga/*.conf files, or via accessing the vty interface by querying write terminal/write file/configure terminal.
+	
+    What is the main difference between RIP version 1 (RIPv1) and RIP version 2 (RIPv2)
+	
+	
+    ripv1 is classfull & ripv2 is classless routing protocol.
+    ripv1 does not support authentication ripv2 supports authentication.
+    ripv1 forwards broadcast where ripv2 forwards multicast.Multicast address is 224.0.0.9
+
+	
+    Explain what it means to run RIP in passive mode.
+	
+	In passive mode, RIP will will listen and update their routes based on information of neighbor routers, but will not advertise.
+	
+    Explain the meaning of triggered updates in RIP.
+	
+	Normally, a router will send its routing information to surrounding routers based on a specific time interval. When triggered updates are enabled, the router will also send the information in case when a route he is administrating changes.
+		
+    Explain the concept of split-horizon in RIP.
+	
+	In the routing table, the number of hops and the routers between goal and start are saved as well as the router, from which routing information was gained. The router will not send routingupdates to the interface from which it learned the routes, thsu avoiding loops.
+	
+    What is an autonomous system (AS)? Which roles do autonomous systems play in the Internet?
+	
+	An AS is a collection of IP-networks, which are administrated as a unit and are connected via one or more IGPs. AS are connected with each other and so build the internet.
+	
+    What is the AS number of your institution? Which autonomous system has AS number 1?
+	
+	The AS with number 1 belongs to the Level 3 Communications, Inc. located in Broomfield Colombia. I cant find the AS in which the University of Goettingen is located.
+	
+	
+    Explain the terms stub AS, multihomed AS and transit AS. 
+	
