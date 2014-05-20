@@ -1,0 +1,1516 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    10.0.2.3              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 1 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      2 2.688185    10.0.2.3              224.0.0.13            PIMv2    Hello
+
+Frame 2 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+      3 3.500330    10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 3 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+      4 5.468054    10.0.2.5              224.0.0.13            PIMv2    Hello
+
+Frame 4 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.5 (10.0.2.5), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+      5 8.920451    10.0.2.5              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 5 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.2.5 (10.0.2.5), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      6 20.917405   Cisco_e0:ef:29        Broadcast             ARP      Gratuitous ARP for 10.0.2.3 (Reply)
+
+Frame 6 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (reply/gratuitous ARP)
+
+No.     Time        Source                Destination           Protocol Info
+      7 23.923738   Cisco_e0:ef:29        Broadcast             ARP      Gratuitous ARP for 10.0.2.3 (Reply)
+
+Frame 7 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (reply/gratuitous ARP)
+
+No.     Time        Source                Destination           Protocol Info
+      8 30.265142   Cisco_6b:9d:61        Broadcast             ARP      Gratuitous ARP for 10.0.2.5 (Reply)
+
+Frame 8 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (reply/gratuitous ARP)
+
+No.     Time        Source                Destination           Protocol Info
+      9 32.238396   10.0.2.3              224.0.0.13            PIMv2    Hello
+
+Frame 9 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     10 33.053083   10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 10 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     11 35.170092   10.0.2.5              224.0.0.13            PIMv2    Hello
+
+Frame 11 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.5 (10.0.2.5), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     12 60.004509   10.0.2.3              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 12 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     13 61.004882   10.0.2.3              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 13 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     14 61.692590   10.0.2.3              224.0.0.13            PIMv2    Hello
+
+Frame 14 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     15 63.002736   10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 15 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     16 64.824091   10.0.2.5              224.0.0.13            PIMv2    Hello
+
+Frame 16 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.5 (10.0.2.5), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     17 90.994808   10.0.2.3              224.0.0.13            PIMv2    Hello
+
+Frame 17 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     18 92.756401   10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 18 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     19 94.474106   10.0.2.5              224.0.0.13            PIMv2    Hello
+
+Frame 19 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.5 (10.0.2.5), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     20 120.009021  10.0.2.3              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 20 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     21 120.597027  10.0.2.3              224.0.0.13            PIMv2    Hello
+
+Frame 21 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     22 122.158010  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 22 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     23 123.576095  10.0.2.5              224.0.0.13            PIMv2    Hello
+
+Frame 23 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.5 (10.0.2.5), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     24 125.928438  10.0.2.5              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 24 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.2.5 (10.0.2.5), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     25 147.592603  10.10.3.3             224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 25 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     26 147.593050  10.10.3.3             224.0.0.13            PIMv2    Hello
+
+Frame 26 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     27 147.593215  10.10.3.3             224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 27 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     28 147.594178  10.0.2.3              224.0.0.13            PIMv2    Hello
+
+Frame 28 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     29 147.594461  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 29 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     30 147.597070  Cisco_6b:9d:61        Broadcast             ARP      Gratuitous ARP for 10.10.3.3 (Reply)
+
+Frame 30 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (reply/gratuitous ARP)
+
+No.     Time        Source                Destination           Protocol Info
+     31 147.929929  10.10.3.3             224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 31 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     32 150.529949  10.10.3.3             224.0.0.13            PIMv2    Hello
+
+Frame 32 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     33 176.761050  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 33 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     34 177.501321  10.0.2.3              224.0.0.13            PIMv2    Hello
+
+Frame 34 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     35 179.831942  10.10.3.3             224.0.0.13            PIMv2    Hello
+
+Frame 35 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     36 180.013502  10.0.2.3              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 36 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     37 182.013952  10.0.2.3              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 37 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     38 206.362674  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 38 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     39 206.603465  10.0.2.3              224.0.0.13            PIMv2    Hello
+
+Frame 39 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     40 209.481946  10.10.3.3             224.0.0.13            PIMv2    Hello
+
+Frame 40 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     41 236.053784  10.0.2.3              224.0.0.13            PIMv2    Hello
+
+Frame 41 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     42 236.264311  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 42 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     43 238.983961  10.10.3.3             224.0.0.13            PIMv2    Hello
+
+Frame 43 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     44 240.018030  10.0.2.3              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 44 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.2.3 (10.0.2.3), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     45 241.944335  10.10.3.3             224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 45 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     46 258.938027  10.0.4.1              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 46 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     47 258.938476  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 47 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     48 258.938638  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 48 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     49 258.939615  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 49 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     50 258.939889  10.10.3.3             224.0.0.13            PIMv2    Hello
+
+Frame 50 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     51 258.942561  Cisco_e0:ef:29        Broadcast             ARP      Gratuitous ARP for 10.0.4.1 (Reply)
+
+Frame 51 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (reply/gratuitous ARP)
+
+No.     Time        Source                Destination           Protocol Info
+     52 259.945570  10.10.3.3             224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 52 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.10.3.3 (10.10.3.3), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     53 261.807614  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 53 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     54 269.562543  10.0.4.2              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 54 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     55 269.562985  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 55 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     56 269.563156  10.0.4.2              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 56 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     57 269.564113  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 57 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     58 269.564139  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 58 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     59 269.567007  Cisco_6b:9d:61        Broadcast             ARP      Gratuitous ARP for 10.0.4.2 (Reply)
+
+Frame 59 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (reply/gratuitous ARP)
+
+No.     Time        Source                Destination           Protocol Info
+     60 271.020445  10.0.4.1              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 60 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     61 272.438246  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 61 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     62 287.101538  Cisco_e0:ef:29        DEC-MOP-Remote-Console 0x6002   DEC DNA Remote Console
+
+Frame 62 (77 bytes on wire, 77 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: DEC-MOP-Remote-Console (ab:00:00:02:00:00)
+Data (63 bytes)
+
+0000  3d 00 07 00 00 00 01 00 03 03 00 00 02 00 02 21   =..............!
+0010  00 03 00 06 00 00 00 00 00 00 04 00 02 3c 00 05   .............<..
+0020  00 02 d8 05 06 00 02 00 01 07 00 06 00 1f ca e0   ................
+0030  ef 29 64 00 01 79 90 01 01 01 91 01 02 ee 05      .)d..y.........
+
+No.     Time        Source                Destination           Protocol Info
+     63 298.715785  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 63 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     64 299.558468  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 64 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     65 301.540229  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 65 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     66 303.022759  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 66 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     67 304.022919  10.0.4.1              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 67 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     68 327.817390  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 68 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     69 328.803175  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.2?  Tell 10.0.4.1
+
+Frame 69 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     70 329.412709  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 70 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     71 330.942235  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 71 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     72 345.188228  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 72 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     73 346.001564  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 73 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     74 347.186224  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 74 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     75 347.999592  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 75 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     76 351.186543  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 76 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     77 351.999848  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 77 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     78 357.719036  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 78 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     79 359.014932  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 79 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     80 359.187122  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 80 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     81 360.000394  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 81 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     82 360.063180  10.0.6.6              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 82 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     83 360.792271  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 83 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     84 360.952263  10.0.4.2              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 84 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     85 361.952452  10.0.4.2              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 85 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     86 363.027261  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 86 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     87 365.952736  10.0.4.2              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 87 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+     88 376.009198  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 88 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     89 377.610355  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 89 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     90 378.008514  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 90 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     91 379.609722  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 91 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     92 382.054745  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 92 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     93 382.867808  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 93 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     94 384.052988  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 94 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     95 384.866079  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 95 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     96 387.672709  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 96 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     97 388.053299  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 97 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     98 388.665155  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 98 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+     99 388.866359  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 99 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    100 389.995182  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 100 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    101 396.053924  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 101 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    102 396.866894  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 102 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    103 405.315656  Cisco_9c:0c:e1        Dell_23:e8:27         ARP      Who has 10.0.6.7?  Tell 10.0.6.6
+
+Frame 103 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    104 405.318060  Cisco_9c:0c:e1        Broadcast             ARP      Gratuitous ARP for 10.0.6.6 (Reply)
+
+Frame 104 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (reply/gratuitous ARP)
+
+No.     Time        Source                Destination           Protocol Info
+    105 407.043845  Cisco_9c:0c:e1        Broadcast             ARP      Gratuitous ARP for 10.0.6.6 (Reply)
+
+Frame 105 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (reply/gratuitous ARP)
+
+No.     Time        Source                Destination           Protocol Info
+    106 414.204206  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 106 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    107 415.565119  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 107 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    108 416.203390  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 108 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    109 417.522431  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 109 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    110 417.564301  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 110 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    111 418.119363  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 111 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    112 419.196271  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 112 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    113 420.203698  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 113 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    114 421.564590  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 114 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    115 423.031745  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 115 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    116 428.204310  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 116 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    117 429.565126  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 117 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    118 430.957159  10.0.4.2              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 118 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    119 440.641685  Cisco_6b:9d:61        DEC-MOP-Remote-Console 0x6002   DEC DNA Remote Console
+
+Frame 119 (77 bytes on wire, 77 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: DEC-MOP-Remote-Console (ab:00:00:02:00:00)
+Data (63 bytes)
+
+0000  3d 00 07 00 00 00 01 00 03 03 00 00 02 00 02 21   =..............!
+0010  00 03 00 06 00 00 00 00 00 00 04 00 02 3c 00 05   .............<..
+0020  00 02 d8 05 06 00 02 00 01 07 00 06 00 21 55 6b   .............!Uk
+0030  9d 61 64 00 01 79 90 01 01 01 91 01 02 ee 05      .ad..y.........
+
+No.     Time        Source                Destination           Protocol Info
+    120 443.287951  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 120 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    121 445.286209  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 121 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    122 447.424009  10.0.6.6              224.0.0.13            PIMv2    Hello
+
+Frame 122 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.6.6 (10.0.6.6), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    123 447.621557  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 123 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    124 448.298504  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 124 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    125 449.286477  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 125 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    126 453.751002  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 126 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    127 455.750385  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 127 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    128 457.287028  Cisco_6b:9d:61        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.2
+
+Frame 128 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    129 459.750685  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 129 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    130 467.751298  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.3?  Tell 10.0.4.1
+
+Frame 130 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    131 469.072863  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 131 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    132 469.073063  10.0.4.3              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 132 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    133 469.073854  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 133 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    134 469.073892  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 134 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    135 469.076772  Cisco_9c:0c:e1        Broadcast             ARP      Gratuitous ARP for 10.0.4.3 (Reply)
+
+Frame 135 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (reply/gratuitous ARP)
+
+No.     Time        Source                Destination           Protocol Info
+    136 470.959893  10.0.4.2              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 136 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    137 471.977360  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 137 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    138 475.170716  Cisco_9c:0c:e1        Broadcast             ARP      Who has 10.0.4.2?  Tell 10.0.4.3
+
+Frame 138 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    139 483.036279  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 139 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    140 484.036439  10.0.4.1              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 140 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    141 495.388962  Cisco_9c:0c:e1        Broadcast             ARP      Who has 10.0.4.1?  Tell 10.0.4.3
+
+Frame 141 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    142 498.353651  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 142 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    143 498.473389  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 143 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    144 501.126994  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 144 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    145 513.179704  Cisco_9c:0c:e1        DEC-MOP-Remote-Console 0x6002   DEC DNA Remote Console
+
+Frame 145 (77 bytes on wire, 77 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: DEC-MOP-Remote-Console (ab:00:00:02:00:00)
+Data (63 bytes)
+
+0000  3d 00 07 00 00 00 01 00 03 03 00 00 02 00 02 21   =..............!
+0010  00 03 00 06 00 00 00 00 00 00 04 00 02 3c 00 05   .............<..
+0020  00 02 d8 05 06 00 02 00 01 07 00 06 00 1f ca 9c   ................
+0030  0c e1 64 00 01 79 90 01 01 01 91 01 02 ee 05      ..d..y.........
+
+No.     Time        Source                Destination           Protocol Info
+    146 528.103685  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 146 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    147 528.427650  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 147 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    148 530.280597  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 148 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    149 543.040779  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 149 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    150 544.964891  10.0.4.2              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 150 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    151 557.905681  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 151 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    152 558.278173  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 152 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    153 559.430259  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 153 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    154 587.659731  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 154 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    155 588.232136  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 155 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    156 588.583811  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 156 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    157 603.045287  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 157 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    158 606.969143  10.0.4.2              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 158 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    159 617.409751  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 159 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    160 617.734334  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 160 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    161 618.485450  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 161 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    162 646.763756  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 162 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    163 647.684599  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 163 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    164 648.187107  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 164 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    165 663.049781  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 165 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    166 670.973516  10.0.4.2              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 166 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    167 676.314035  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 167 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    168 676.838777  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 168 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    169 678.036762  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 169 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    170 705.715768  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 170 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    171 706.641036  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 171 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    172 707.790416  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 172 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    173 723.054294  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 173 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    174 723.977109  10.0.4.2              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 174 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    175 734.969754  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 175 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    176 735.843219  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 176 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    177 736.892267  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 177 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    178 742.863704  Cisco_e0:ef:29        Broadcast             ARP      Who has 10.0.4.10?  Tell 10.0.4.1
+
+Frame 178 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+    179 742.863730  Dell_23:e8:27         Cisco_e0:ef:29        ARP      10.0.4.10 is at 00:18:8b:23:e8:27
+
+Frame 179 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+    180 742.865496  10.0.1.10             10.0.4.10             ICMP     Echo (ping) request
+
+Frame 180 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+Internet Protocol, Src: 10.0.1.10 (10.0.1.10), Dst: 10.0.4.10 (10.0.4.10)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    181 743.877799  10.0.1.10             10.0.4.10             ICMP     Echo (ping) request
+
+Frame 181 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+Internet Protocol, Src: 10.0.1.10 (10.0.1.10), Dst: 10.0.4.10 (10.0.4.10)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    182 744.877846  10.0.1.10             10.0.4.10             ICMP     Echo (ping) request
+
+Frame 182 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+Internet Protocol, Src: 10.0.1.10 (10.0.1.10), Dst: 10.0.4.10 (10.0.4.10)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    183 764.519774  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 183 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    184 765.393449  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 184 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    185 766.041623  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 185 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    186 783.058815  10.0.4.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 186 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    187 786.059112  10.0.4.1              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 187 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+
+No.     Time        Source                Destination           Protocol Info
+    188 793.973799  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 188 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    189 795.195684  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 189 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    190 795.895565  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 190 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    191 814.429136  Cisco_e0:ef:29        DEC-MOP-Remote-Console 0x6002   DEC DNA Remote Console
+
+Frame 191 (77 bytes on wire, 77 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: DEC-MOP-Remote-Console (ab:00:00:02:00:00)
+Data (63 bytes)
+
+0000  3d 00 07 00 00 00 01 00 03 03 00 00 02 00 02 21   =..............!
+0010  00 03 00 06 00 00 00 00 00 00 04 00 02 3c 00 05   .............<..
+0020  00 02 d8 05 06 00 02 00 01 07 00 06 00 1f ca e0   ................
+0030  ef 29 64 00 01 79 90 01 01 01 91 01 02 ee 05      .)d..y.........
+
+No.     Time        Source                Destination           Protocol Info
+    192 823.075788  10.0.4.2              224.0.0.13            PIMv2    Hello
+
+Frame 192 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_6b:9d:61 (00:21:55:6b:9d:61), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.2 (10.0.4.2), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    193 824.997932  10.0.4.1              224.0.0.13            PIMv2    Hello
+
+Frame 193 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_e0:ef:29 (00:1f:ca:e0:ef:29), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.1 (10.0.4.1), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+
+No.     Time        Source                Destination           Protocol Info
+    194 825.396914  10.0.4.3              224.0.0.13            PIMv2    Hello
+
+Frame 194 (72 bytes on wire, 72 bytes captured)
+Ethernet II, Src: Cisco_9c:0c:e1 (00:1f:ca:9c:0c:e1), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+Internet Protocol, Src: 10.0.4.3 (10.0.4.3), Dst: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast

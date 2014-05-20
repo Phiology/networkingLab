@@ -1,0 +1,37 @@
+*May 20 11:51:00.039:      10.0.2.0/24 via 0.0.0.0 in 1 hops
+*May 20 11:51:22.375: RIP: received v2 update from 10.0.4.4 on FastEthernet0/1
+*May 20 11:51:22.375:      10.0.1.0/24 via 0.0.0.0 in 12 hops
+*May 20 11:51:22.375:      10.0.2.0/24 via 0.0.0.0 in 1 hops
+*May 20 11:51:24.363: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (10.0.3.3)
+*May 20 11:51:24.363: RIP: build update entries
+*May 20 11:51:24.363:   10.0.4.0/24 via 0.0.0.0, metric 1, tag 0
+*May 20 11:51:25.827: RIP: received v2 update from 10.0.3.2 on FastEthernet0/0
+*May 20 11:51:25.827:      10.0.1.0/24 via 0.0.0.0 in 12 hops
+*May 20 11:51:25.827:      10.0.2.0/24 via 0.0.0.0 in 1 hops
+*May 20 11:51:26.167: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (10.0.4.3)
+*May 20 11:51:26.167: RIP: build update entries
+*May 20 11:51:26.167:   10.0.3.0/24 via 0.0.0.0, metric 1, tag 0
+*May 20 11:51:48.971: RIP: received v2 update from 10.0.4.4 on FastEthernet0/1
+*May 20 11:51:48.971:      10.0.1.0/24 via 0.0.0.0 in 12 hops
+*May 20 11:51:48.975:      10.0.2.0/24 via 0.0.0.0 in 1 hops
+*May 20 11:51:50.371: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (10.0.3.3)
+*May 20 11:51:50.371: RIP: build update entries
+*May 20 11:51:50.371:   10.0.4.0/24 via 0.0.0.0, metric 1, tag 0
+*May 20 11:51:55.267: RIP: received v2 update from 10.0.3.2 on FastEthernet0/0
+*May 20 11:51:55.267:      10.0.1.0/24 via 0.0.0.0 in 12 hops
+*May 20 11:51:55.267:      10.0.2.0/24 via 0.0.0.0 in 1 hops
+*May 20 11:51:56.087: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (10.0.4.3)
+*May 20 11:51:56.087: RIP: build update entries
+*May 20 11:51:56.087:   10.0.3.0/24 via 0.0.0.0, metric 1, tag 0
+*May 20 11:52:15.151: RIP: received v2 update from 10.0.4.4 on FastEthernet0/1
+*May 20 11:52:15.151:      10.0.1.0/24 via 0.0.0.0 in 12 hops
+*May 20 11:52:15.151:      10.0.2.0/24 via 0.0.0.0 in 1 hops
+*May 20 11:52:19.419: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/0 (10.0.3.3)
+*May 20 11:52:19.419: RIP: build update entries
+*May 20 11:52:19.419:   10.0.4.0/24 via 0.0.0.0, metric 1, tag 0
+*May 20 11:52:21.855: RIP: received v2 update from 10.0.3.2 on FastEthernet0/0
+*May 20 11:52:21.855:      10.0.1.0/24 via 0.0.0.0 in 12 hops
+*May 20 11:52:21.855:      10.0.2.0/24 via 0.0.0.0 in 1 hops
+*May 20 11:52:24.467: RIP: sending v2 update to 224.0.0.9 via FastEthernet0/1 (10.0.4.3)
+*May 20 11:52:24.467: RIP: build update entries
+*May 20 11:52:24.467:   10.0.3.0/24 via 0.0.0.0, metric 1, tag 

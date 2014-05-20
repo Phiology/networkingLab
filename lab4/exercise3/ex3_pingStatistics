@@ -1,0 +1,3 @@
+--- 10.0.1.10 ping statistics ---
+213 packets transmitted, 19 received, +126 errors, 91% packet loss, time 212830ms
+rtt min/avg/max/mdev = 0.434/0.936/5.108/1.259 ms, pipe 3

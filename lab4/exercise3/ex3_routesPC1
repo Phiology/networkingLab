@@ -1,0 +1,4 @@
+10.0.4.0/24 via 10.0.1.1 dev eth0  proto zebra  metric 3 
+10.0.1.0/24 dev eth0  proto kernel  scope link  src 10.0.1.10 
+10.0.2.0/24 via 10.0.1.1 dev eth0  proto zebra  metric 2 
+10.0.3.0/24 via 10.0.1.1 dev eth0  proto zebra  metric 3 

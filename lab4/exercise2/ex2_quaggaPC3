@@ -1,0 +1,11 @@
+ripd# show ip rip
+Codes: R - RIP, C - connected, S - Static, O - OSPF, B - BGP
+Sub-codes:
+      (n) - normal, (s) - static, (d) - default, (r) - redistribute,
+      (i) - interface
+
+     Network            Next Hop         Metric From            Tag Time
+R(n) 10.0.1.0/24        10.0.3.2              3 10.0.3.2          0 02:50
+R(n) 10.0.2.0/24        10.0.3.2              2 10.0.3.2          0 02:50
+C(i) 10.0.3.0/24        0.0.0.0               1 self              0
+R(n) 10.0.4.0/24        10.0.3.3              2 10.0.3.3          0 02:56

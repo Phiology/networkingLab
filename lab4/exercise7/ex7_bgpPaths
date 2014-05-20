@@ -1,0 +1,9 @@
+Router1#show ip bgp paths
+Address    Hash Refcount Metric Path
+0x43B23D48    0        5      0 i
+0x43B23CA4    1        2      0 i
+0x43B23A14 1510        1      0 200 300 i
+0x43B23B5C 1510        1      0 300 200 i
+0x43B23C00 1737        2      0 200 i
+0x43B23AB8 1837        2      0 300 i
+
