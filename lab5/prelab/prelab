@@ -33,3 +33,46 @@
     -Assume a TCP sender receives an ACK in which the acknowledgment number is set to 34567 and the window size is set to 2048. Which sequence numbers can the sender transmit? 
 	
 	34568 to 36615.
+	
+	-Describe the following heuristics used in TCP and explain why they are used:
+        
+		-Nagle's algorithm
+		
+		This algorithm limits the number of small segments that a TCP sender can transmit without waiting for an acknowledgement.
+		This is accomplished by having the receiver delay a period of time; if during this delay the receiver has data for the sender, ACKs can be piggybacked to the data, therefore saving transmissions of segments.
+		
+        -Karn's algorithm 
+		
+		In Karn's algorithm, when a segment is retransmitted, the current RTO value is doubled, instead of being calculated based on previous RTO measurements.
+		They are used to help with inefficiency when there are fewer transmissions than there are characters.
+		
+    -Answer the following questions about TCP acknowledgments:
+	
+        -What is a delayed ACK?
+		
+		Delayed acknowledgements are used to keep the number of segments with a small payload small.
+			
+        -What is a piggybacked ACK? 
+		
+		Piggybacked acknowledgements are acknowledgements that "ride" with data, in order to reduce the number of transmissions.
+		
+    -Describe how the retransmission timeout value is determined in TCP.
+	
+	TCP calucates RTO from the delay between transmission of a segment and the receipt of the acknowledgement for that segment.
+	
+    -Answer the following questions on TCP flow control and congestion control.
+	
+        -Describe the sliding window flow control mechanism used in TCP.
+		
+		Sliding window flow control prevents the receiver from being overloaded with data. It does this by restricting the amount of data it is willing to receive.
+		
+        -Describe the concepts of slow start and congestion avoidance in TCP.
+		
+		TCP congestion has two phases: slow start and congestion avoidance. The sender is in slow start when the congestion window (cnwd) is less than or equal to the slow start threshold (ssthresh).
+		When the cnwd is bigger than the ssthresh, the TCP sender is in the congestion avoidance phase. This results in the sender reducing his sending rate.
+		
+        -Explain the concept of fast retransmit and fast recovery in TCP. 
+		
+		Fast retransmit works by immediately retransmitting segments that are presumed lost (when three duplicate ACKs are received). It does not wait for the timer to expire. Fast recovery works by dividing the slow-start threshold by half of the value in the congestion window, and setting the congestion window to that value.
+		This occurs when the retransmission timer times out or when three duplicate ACKs arrive.
+		
