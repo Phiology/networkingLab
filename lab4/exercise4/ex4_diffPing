@@ -3,4 +3,4 @@
 rtt min/avg/max/mdev = 0.283/1.278/10.353/2.627 ms
 root@PC2:~# --- 10.0.1.10 ping statistics ---
 ---: Befehl nicht gefunden
-root@PC2:~# 262 packets transmitted, 65 received, +2 errors, 75% packet loss, time 260998ms
+root@PC2:~# 197 packets transmitted, 65 received, +2 errors, 75% packet loss, time 195758ms
