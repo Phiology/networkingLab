@@ -1,0 +1,95 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    10.0.2.22             134.76.10.46          DNS      Standard query A PC1.goemobile.de
+
+Frame 1 (76 bytes on wire, 76 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc)
+Internet Protocol, Src: 10.0.2.22 (10.0.2.22), Dst: 134.76.10.46 (134.76.10.46)
+User Datagram Protocol, Src Port: 53118 (53118), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.003890    RealtekS_dd:06:dc     Broadcast             ARP      Who has 10.0.2.22?  Tell 10.0.2.33
+
+Frame 2 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.003905    Dell_1a:be:17         RealtekS_dd:06:dc     ARP      10.0.2.22 is at 00:18:8b:1a:be:17
+
+Frame 3 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.003989    10.0.2.33             10.0.2.22             ICMP     Destination unreachable (Network unreachable)
+
+Frame 4 (104 bytes on wire, 104 bytes captured)
+Ethernet II, Src: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.0.2.33 (10.0.2.33), Dst: 10.0.2.22 (10.0.2.22)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      5 5.005107    10.0.2.22             134.76.33.21          DNS      Standard query A PC1.goemobile.de
+
+Frame 5 (76 bytes on wire, 76 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc)
+Internet Protocol, Src: 10.0.2.22 (10.0.2.22), Dst: 134.76.33.21 (134.76.33.21)
+User Datagram Protocol, Src Port: 49035 (49035), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Info
+      6 5.005222    10.0.2.33             10.0.2.22             ICMP     Destination unreachable (Network unreachable)
+
+Frame 6 (104 bytes on wire, 104 bytes captured)
+Ethernet II, Src: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.0.2.33 (10.0.2.33), Dst: 10.0.2.22 (10.0.2.22)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      7 10.010152   10.0.2.22             134.76.10.46          DNS      Standard query A PC1.goemobile.de
+
+Frame 7 (76 bytes on wire, 76 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc)
+Internet Protocol, Src: 10.0.2.22 (10.0.2.22), Dst: 134.76.10.46 (134.76.10.46)
+User Datagram Protocol, Src Port: 53118 (53118), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Info
+      8 10.010268   10.0.2.33             10.0.2.22             ICMP     Destination unreachable (Network unreachable)
+
+Frame 8 (104 bytes on wire, 104 bytes captured)
+Ethernet II, Src: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.0.2.33 (10.0.2.33), Dst: 10.0.2.22 (10.0.2.22)
+Internet Control Message Protocol
+
+No.     Time        Source                Destination           Protocol Info
+      9 10.013992   Dell_1a:be:17         RealtekS_dd:06:dc     ARP      Who has 10.0.2.33?  Tell 10.0.2.22
+
+Frame 9 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+     10 10.014078   RealtekS_dd:06:dc     Dell_1a:be:17         ARP      10.0.2.33 is at 00:e0:4c:dd:06:dc
+
+Frame 10 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+     11 15.015195   10.0.2.22             134.76.33.21          DNS      Standard query A PC1.goemobile.de
+
+Frame 11 (76 bytes on wire, 76 bytes captured)
+Ethernet II, Src: Dell_1a:be:17 (00:18:8b:1a:be:17), Dst: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc)
+Internet Protocol, Src: 10.0.2.22 (10.0.2.22), Dst: 134.76.33.21 (134.76.33.21)
+User Datagram Protocol, Src Port: 49035 (49035), Dst Port: domain (53)
+Domain Name System (query)
+
+No.     Time        Source                Destination           Protocol Info
+     12 15.015310   10.0.2.33             10.0.2.22             ICMP     Destination unreachable (Network unreachable)
+
+Frame 12 (104 bytes on wire, 104 bytes captured)
+Ethernet II, Src: RealtekS_dd:06:dc (00:e0:4c:dd:06:dc), Dst: Dell_1a:be:17 (00:18:8b:1a:be:17)
+Internet Protocol, Src: 10.0.2.33 (10.0.2.33), Dst: 10.0.2.22 (10.0.2.22)
+Internet Control Message Protocol

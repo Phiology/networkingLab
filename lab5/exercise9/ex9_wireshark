@@ -1,0 +1,43 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    RealtekS_6a:1c:a4     Broadcast             ARP      Who has 10.0.5.22?  Tell 10.0.5.11
+
+Frame 1 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.000036    RealtekS_6a:1c:5a     RealtekS_6a:1c:a4     ARP      10.0.5.22 is at 00:e0:4c:6a:1c:5a
+
+Frame 2 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.000056    10.0.5.11             10.0.5.22             TCP      34870 > telnet [SYN] Seq=0 Win=5840 Len=0 MSS=1460 TSV=659158 TSER=0 WS=6
+
+Frame 3 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 34870 (34870), Dst Port: telnet (23), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.000141    10.0.5.22             10.0.5.11             TCP      telnet > 34870 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+
+Frame 4 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 34870 (34870), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      5 5.012631    RealtekS_6a:1c:5a     RealtekS_6a:1c:a4     ARP      Who has 10.0.5.11?  Tell 10.0.5.22
+
+Frame 5 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      6 5.012658    RealtekS_6a:1c:a4     RealtekS_6a:1c:5a     ARP      10.0.5.11 is at 00:e0:4c:6a:1c:a4
+
+Frame 6 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Address Resolution Protocol (reply)

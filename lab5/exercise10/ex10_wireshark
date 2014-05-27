@@ -1,0 +1,1149 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    RealtekS_6a:1c:a4     Broadcast             ARP      Who has 10.0.5.22?  Tell 10.0.5.11
+
+Frame 1 (42 bytes on wire, 42 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.000035    RealtekS_6a:1c:5a     RealtekS_6a:1c:a4     ARP      10.0.5.22 is at 00:e0:4c:6a:1c:5a
+
+Frame 2 (60 bytes on wire, 60 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Address Resolution Protocol (reply)
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.000055    10.0.5.11             10.0.5.22             TCP      45105 > telnet [SYN] Seq=0 Win=5840 Len=0 MSS=1460 TSV=2937147 TSER=0 WS=6
+
+Frame 3 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.000155    10.0.5.22             10.0.5.11             TCP      telnet > 45105 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 TSV=355252 TSER=2937147 WS=6
+
+Frame 4 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      5 0.000198    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=1 Ack=1 Win=5888 Len=0 TSV=2937148 TSER=355252
+
+Frame 5 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      6 0.000330    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 6 (93 bytes on wire, 93 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 1, Ack: 1, Len: 27
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+      7 0.000411    10.0.5.22             10.0.5.11             TCP      telnet > 45105 [ACK] Seq=1 Ack=28 Win=5824 Len=0 TSV=355253 TSER=2937148
+
+Frame 7 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 1, Ack: 28, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      8 0.028957    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 8 (78 bytes on wire, 78 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 1, Ack: 28, Len: 12
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+      9 0.028998    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=28 Ack=13 Win=5888 Len=0 TSV=2937155 TSER=355260
+
+Frame 9 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 28, Ack: 13, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     10 0.029124    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 10 (105 bytes on wire, 105 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 13, Ack: 28, Len: 39
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     11 0.029134    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=28 Ack=52 Win=5888 Len=0 TSV=2937155 TSER=355260
+
+Frame 11 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 28, Ack: 52, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     12 0.029416    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 12 (138 bytes on wire, 138 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 28, Ack: 52, Len: 72
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     13 0.029930    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 13 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 52, Ack: 100, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     14 0.029971    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 14 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 100, Ack: 55, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     15 0.032130    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 15 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 55, Ack: 103, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     16 0.032194    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 16 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 103, Ack: 58, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     17 0.032274    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 17 (80 bytes on wire, 80 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 58, Ack: 106, Len: 14
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     18 0.071458    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=106 Ack=72 Win=5888 Len=0 TSV=2937166 TSER=355261
+
+Frame 18 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 106, Ack: 72, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     19 0.071559    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 19 (77 bytes on wire, 77 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 72, Ack: 106, Len: 11
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     20 0.071594    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=106 Ack=83 Win=5888 Len=0 TSV=2937166 TSER=355270
+
+Frame 20 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 106, Ack: 83, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     21 1.851067    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 21 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 106, Ack: 83, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     22 1.856880    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 22 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 83, Ack: 107, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     23 1.856918    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=107 Ack=84 Win=5888 Len=0 TSV=2937612 TSER=355717
+
+Frame 23 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 107, Ack: 84, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     24 1.994905    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 24 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 107, Ack: 84, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     25 2.000880    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 25 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 84, Ack: 108, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     26 2.000924    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=108 Ack=85 Win=5888 Len=0 TSV=2937648 TSER=355753
+
+Frame 26 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 108, Ack: 85, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     27 2.059065    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 27 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 108, Ack: 85, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     28 2.064885    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 28 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 85, Ack: 109, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     29 2.064925    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=109 Ack=86 Win=5888 Len=0 TSV=2937664 TSER=355769
+
+Frame 29 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 109, Ack: 86, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     30 2.218998    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 30 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 109, Ack: 86, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     31 2.224899    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 31 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 86, Ack: 110, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     32 2.224977    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=110 Ack=87 Win=5888 Len=0 TSV=2937704 TSER=355809
+
+Frame 32 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 110, Ack: 87, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     33 2.315165    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 33 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 110, Ack: 87, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     34 2.320904    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 34 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 87, Ack: 111, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     35 2.320983    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=111 Ack=88 Win=5888 Len=0 TSV=2937728 TSER=355833
+
+Frame 35 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 111, Ack: 88, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     36 2.411008    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 36 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 111, Ack: 88, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     37 2.416911    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 37 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 88, Ack: 112, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     38 2.416990    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=112 Ack=89 Win=5888 Len=0 TSV=2937752 TSER=355857
+
+Frame 38 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 112, Ack: 89, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     39 3.547046    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 39 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 112, Ack: 89, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     40 3.552056    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 40 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 89, Ack: 114, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     41 3.552090    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=114 Ack=91 Win=5888 Len=0 TSV=2938036 TSER=356140
+
+Frame 41 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 114, Ack: 91, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     42 3.553003    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 42 (76 bytes on wire, 76 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 91, Ack: 114, Len: 10
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     43 3.553015    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=114 Ack=101 Win=5888 Len=0 TSV=2938036 TSER=356141
+
+Frame 43 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 114, Ack: 101, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     44 4.251025    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 44 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 114, Ack: 101, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     45 4.288529    10.0.5.22             10.0.5.11             TCP      telnet > 45105 [ACK] Seq=101 Ack=115 Win=5824 Len=0 TSV=356325 TSER=2938210
+
+Frame 45 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 101, Ack: 115, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     46 4.314945    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 46 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 115, Ack: 101, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     47 4.315017    10.0.5.22             10.0.5.11             TCP      telnet > 45105 [ACK] Seq=101 Ack=116 Win=5824 Len=0 TSV=356331 TSER=2938226
+
+Frame 47 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 101, Ack: 116, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     48 4.362879    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 48 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 116, Ack: 101, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     49 4.362952    10.0.5.22             10.0.5.11             TCP      telnet > 45105 [ACK] Seq=101 Ack=117 Win=5824 Len=0 TSV=356343 TSER=2938238
+
+Frame 49 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 101, Ack: 117, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     50 4.458977    10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 50 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 117, Ack: 101, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     51 4.459049    10.0.5.22             10.0.5.11             TCP      telnet > 45105 [ACK] Seq=101 Ack=119 Win=5824 Len=0 TSV=356367 TSER=2938262
+
+Frame 51 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 101, Ack: 119, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     52 4.465118    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 52 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 101, Ack: 119, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     53 4.465142    10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=119 Ack=103 Win=5888 Len=0 TSV=2938264 TSER=356369
+
+Frame 53 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 119, Ack: 103, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     54 4.637252    10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 54 (239 bytes on wire, 239 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 103, Ack: 119, Len: 173
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     55 *REF*       10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=119 Ack=276 Win=6912 Len=0 TSV=2938307 TSER=356412
+
+Frame 55 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 119, Ack: 276, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     56 20.780863   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 56 (98 bytes on wire, 98 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 276, Ack: 119, Len: 32
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     57 20.780903   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=119 Ack=308 Win=6912 Len=0 TSV=2943502 TSER=361607
+
+Frame 57 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 119, Ack: 308, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     58 23.757714   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 58 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 119, Ack: 308, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     59 23.765041   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 59 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 308, Ack: 120, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     60 23.765077   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=120 Ack=309 Win=6912 Len=0 TSV=2944248 TSER=362353
+
+Frame 60 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 120, Ack: 309, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     61 27.517757   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 61 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 120, Ack: 309, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     62 27.525304   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 62 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 309, Ack: 121, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     63 27.525338   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=121 Ack=310 Win=6912 Len=0 TSV=2945188 TSER=363293
+
+Frame 63 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 121, Ack: 310, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     64 30.317767   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 64 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 121, Ack: 310, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     65 30.325511   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 65 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 310, Ack: 122, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     66 *REF*       10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=122 Ack=311 Win=6912 Len=0 TSV=2945888 TSER=363993
+
+Frame 66 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 122, Ack: 311, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     67 21.800260   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 67 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 122, Ack: 311, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     68 21.805552   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 68 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 311, Ack: 123, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     69 21.805588   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 69 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 123, Ack: 312, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     70 21.813530   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 70 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 312, Ack: 124, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     71 21.852631   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=124 Ack=313 Win=6912 Len=0 TSV=2951352 TSER=369446
+
+Frame 71 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 124, Ack: 313, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     72 21.896328   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 72 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 124, Ack: 313, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     73 21.901539   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 73 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 313, Ack: 125, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     74 21.901574   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 74 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 125, Ack: 314, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     75 21.909538   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 75 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 314, Ack: 126, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     76 21.952624   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=126 Ack=315 Win=6912 Len=0 TSV=2951376 TSER=369470
+
+Frame 76 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 126, Ack: 315, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     77 22.008231   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 77 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 126, Ack: 315, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     78 22.013547   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 78 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 315, Ack: 127, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     79 22.013607   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=127 Ack=316 Win=6912 Len=0 TSV=2951392 TSER=369496
+
+Frame 79 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 127, Ack: 316, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     80 22.120301   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 80 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 127, Ack: 316, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     81 22.125565   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 81 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 316, Ack: 128, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     82 22.125600   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 82 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 128, Ack: 317, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     83 22.133555   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 83 (69 bytes on wire, 69 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 317, Ack: 131, Len: 3
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     84 22.172631   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=131 Ack=320 Win=6912 Len=0 TSV=2951432 TSER=369526
+
+Frame 84 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 131, Ack: 320, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     85 22.408090   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 85 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 131, Ack: 320, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     86 22.413575   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 86 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 320, Ack: 132, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     87 22.413611   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=132 Ack=321 Win=6912 Len=0 TSV=2951492 TSER=369596
+
+Frame 87 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 132, Ack: 321, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     88 22.696221   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 88 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 132, Ack: 321, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     89 22.701601   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 89 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 321, Ack: 133, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     90 22.701638   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 90 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 133, Ack: 322, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     91 22.709599   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 91 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 322, Ack: 134, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     92 22.748629   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=134 Ack=323 Win=6912 Len=0 TSV=2951576 TSER=369670
+
+Frame 92 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 134, Ack: 323, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     93 22.920097   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 93 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 134, Ack: 323, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     94 22.925618   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 94 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 323, Ack: 135, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     95 22.925652   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=135 Ack=324 Win=6912 Len=0 TSV=2951620 TSER=369724
+
+Frame 95 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 135, Ack: 324, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     96 23.000212   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 96 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 135, Ack: 324, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     97 23.005622   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 97 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 324, Ack: 136, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+     98 23.005657   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=136 Ack=325 Win=6912 Len=0 TSV=2951640 TSER=369744
+
+Frame 98 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 136, Ack: 325, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     99 23.032652   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 99 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 136, Ack: 325, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    100 23.041623   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 100 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 325, Ack: 137, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    101 23.080630   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=137 Ack=326 Win=6912 Len=0 TSV=2951659 TSER=369753
+
+Frame 101 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 137, Ack: 326, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    102 23.128476   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 102 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 137, Ack: 326, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    103 23.133627   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 103 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 326, Ack: 138, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    104 23.133689   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=138 Ack=327 Win=6912 Len=0 TSV=2951672 TSER=369776
+
+Frame 104 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 138, Ack: 327, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    105 23.240382   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 105 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 138, Ack: 327, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    106 23.245637   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 106 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 327, Ack: 139, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    107 23.245671   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 107 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 139, Ack: 328, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    108 23.253636   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 108 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 328, Ack: 141, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    109 23.292631   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=141 Ack=330 Win=6912 Len=0 TSV=2951712 TSER=369806
+
+Frame 109 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 141, Ack: 330, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    110 23.489090   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 110 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 141, Ack: 330, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    111 23.493670   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 111 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 330, Ack: 142, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    112 23.493714   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=142 Ack=331 Win=6912 Len=0 TSV=2951762 TSER=369866
+
+Frame 112 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 142, Ack: 331, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    113 23.525041   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 113 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 142, Ack: 331, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    114 23.529658   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 114 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 331, Ack: 143, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    115 23.561383   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 115 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 143, Ack: 332, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    116 23.565662   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 116 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 332, Ack: 144, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    117 23.592305   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 117 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 144, Ack: 333, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    118 23.601665   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 118 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 333, Ack: 145, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    119 23.640630   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=145 Ack=334 Win=6912 Len=0 TSV=2951799 TSER=369893
+
+Frame 119 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 145, Ack: 334, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    120 23.704324   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 120 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 145, Ack: 334, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    121 23.709673   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 121 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 334, Ack: 146, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    122 23.709709   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 122 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 146, Ack: 335, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    123 23.717669   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 123 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 335, Ack: 147, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    124 23.756631   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=147 Ack=336 Win=6912 Len=0 TSV=2951828 TSER=369922
+
+Frame 124 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 147, Ack: 336, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    125 23.928384   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 125 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 147, Ack: 336, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    126 23.937687   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 126 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 336, Ack: 148, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    127 23.937732   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=148 Ack=337 Win=6912 Len=0 TSV=2951873 TSER=369977
+
+Frame 127 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 148, Ack: 337, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    128 24.177145   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 128 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 148, Ack: 337, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    129 24.181705   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 129 (67 bytes on wire, 67 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 337, Ack: 149, Len: 1
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    130 24.181747   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=149 Ack=338 Win=6912 Len=0 TSV=2951934 TSER=370038
+
+Frame 130 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 149, Ack: 338, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+    131 24.200471   10.0.5.11             10.0.5.22             TELNET   Telnet Data ...
+
+Frame 131 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 149, Ack: 338, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    132 24.205706   10.0.5.22             10.0.5.11             TELNET   Telnet Data ...
+
+Frame 132 (68 bytes on wire, 68 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: telnet (23), Dst Port: 45105 (45105), Seq: 338, Ack: 151, Len: 2
+Telnet
+
+No.     Time        Source                Destination           Protocol Info
+    133 24.244626   10.0.5.11             10.0.5.22             TCP      45105 > telnet [ACK] Seq=151 Ack=340 Win=6912 Len=0 TSV=2951950 TSER=370044
+
+Frame 133 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 45105 (45105), Dst Port: telnet (23), Seq: 151, Ack: 340, Len: 0

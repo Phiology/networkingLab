@@ -1,0 +1,6 @@
+ftp> get not-so-large-file
+local: not-so-large-file remote: not-so-large-file
+200 PORT command successful.
+150 Opening BINARY mode data connection for 'not-so-large-file' (10485760 bytes).
+226 Transfer complete.
+10485760 bytes received in 0.89 secs (11489.5 kB/s)

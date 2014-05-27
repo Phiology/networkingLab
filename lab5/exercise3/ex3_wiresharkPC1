@@ -1,0 +1,909 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    10.0.5.11             10.0.5.22             TCP      56828 > krb524 [SYN] Seq=0 Win=5840 Len=0 MSS=1460 TSV=21836 TSER=0 WS=6
+
+Frame 1 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 56828 (56828), Dst Port: krb524 (4444), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.000041    10.0.5.22             10.0.5.11             TCP      krb524 > 56828 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 TSV=650548 TSER=21836 WS=6
+
+Frame 2 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: krb524 (4444), Dst Port: 56828 (56828), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.000067    10.0.5.11             10.0.5.22             TCP      56828 > krb524 [ACK] Seq=1 Ack=1 Win=5888 Len=0 TSV=21836 TSER=650548
+
+Frame 3 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 56828 (56828), Dst Port: krb524 (4444), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.000213    10.0.5.11             10.0.5.22             TCP      56828 > krb524 [PSH, ACK] Seq=1 Ack=1 Win=5888 [TCP CHECKSUM INCORRECT] Len=85 TSV=21836 TSER=650548
+
+Frame 4 (151 bytes on wire, 151 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 56828 (56828), Dst Port: krb524 (4444), Seq: 1, Ack: 1, Len: 85
+Data (85 bytes)
+
+0000  6e 74 74 63 70 40 2d 72 40 2d 6c 31 30 32 34 40   nttcp@-r@-l1024@
+0010  2d 6e 31 30 40 2d 63 40 2d 73 40 2d 66 40 25 39   -n10@-c@-s@-f@%9
+0020  62 25 38 2e 32 72 74 25 38 2e 32 63 74 25 31 32   b%8.2rt%8.2ct%12
+0030  2e 34 72 62 72 25 31 32 2e 34 63 62 72 25 38 63   .4rbr%12.4cbr%8c
+0040  25 31 30 2e 32 72 63 72 25 31 30 2e 31 63 63 72   %10.2rcr%10.1ccr
+0050  40 2d 4e 31 0a                                    @-N1.
+
+No.     Time        Source                Destination           Protocol Info
+      5 0.000306    10.0.5.22             10.0.5.11             TCP      krb524 > 56828 [ACK] Seq=1 Ack=86 Win=5824 Len=0 TSV=650548 TSER=21836
+
+Frame 5 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: krb524 (4444), Dst Port: 56828 (56828), Seq: 1, Ack: 86, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      6 0.002144    10.0.5.22             10.0.5.11             TCP      krb524 > 56828 [PSH, ACK] Seq=1 Ack=86 Win=5824 Len=15 TSV=650548 TSER=21836
+
+Frame 6 (81 bytes on wire, 81 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: krb524 (4444), Dst Port: 56828 (56828), Seq: 1, Ack: 86, Len: 15
+Data (15 bytes)
+
+0000  64 61 74 61 70 6f 72 74 3a 20 35 30 33 38 0a      dataport: 5038.
+
+No.     Time        Source                Destination           Protocol Info
+      7 0.002172    10.0.5.11             10.0.5.22             TCP      56828 > krb524 [ACK] Seq=86 Ack=16 Win=5888 Len=0 TSV=21837 TSER=650548
+
+Frame 7 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 56828 (56828), Dst Port: krb524 (4444), Seq: 86, Ack: 16, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      8 0.002223    10.0.5.11             10.0.5.22             TCP      59957 > 5038 [SYN] Seq=0 Win=5840 Len=0 MSS=1460 TSV=21837 TSER=0 WS=6
+
+Frame 8 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 59957 (59957), Dst Port: 5038 (5038), Seq: 0, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+      9 0.002297    10.0.5.22             10.0.5.11             TCP      5038 > 59957 [SYN, ACK] Seq=0 Ack=1 Win=5792 Len=0 MSS=1460 TSV=650548 TSER=21837 WS=6
+
+Frame 9 (74 bytes on wire, 74 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 5038 (5038), Dst Port: 59957 (59957), Seq: 0, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     10 0.002311    10.0.5.11             10.0.5.22             TCP      59957 > 5038 [ACK] Seq=1 Ack=1 Win=5888 Len=0 TSV=21837 TSER=650548
+
+Frame 10 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 59957 (59957), Dst Port: 5038 (5038), Seq: 1, Ack: 1, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     11 0.002420    10.0.5.11             10.0.5.22             TCP      59957 > 5038 [PSH, ACK] Seq=1 Ack=1 Win=5888 [TCP CHECKSUM INCORRECT] Len=1024 TSV=21837 TSER=650548
+
+Frame 11 (1090 bytes on wire, 1090 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 59957 (59957), Dst Port: 5038 (5038), Seq: 1, Ack: 1, Len: 1024
+Data (1024 bytes)
+
+0000  14 72 ba a5 93 5b 4c 7b 3d f3 7d f0 ae 95 39 07   .r...[L{=.}...9.
+0010  c7 80 76 11 3b 82 f6 e7 aa c5 75 64 d8 c6 ab 8f   ..v.;.....ud....
+0020  3e 6f 74 2a ce 1d 02 10 3a f9 85 56 55 20 e4 0f   >ot*....:..VU ..
+0030  e8 69 4f 0d 97 71 ba 8c 59 b7 25 9e 9c 67 b2 81   .iO..q..Y.%..g..
+0040  9f 67 2d f1 d9 0d ac 8e 01 c2 6d cb 1d a0 e6 b3   .g-.......m.....
+0050  15 9f 8b ad ad 01 0c d0 c8 ad 21 1e 95 30 dd 1b   ..........!..0..
+0060  2f 7b 2a e9 64 76 56 28 b4 4c 51 5c ca e3 85 ab   /{*.dvV(.LQ\....
+0070  f8 dd 84 6a bc 50 fd e1 57 c9 f6 74 cb 87 aa 56   ...j.P..W..t...V
+0080  2c 6e fb 08 7a 14 ee ff 78 10 3e 3b 4b bb 24 18   ,n..z...x.>;K.$.
+0090  bb e1 d1 0f b5 80 0f 72 22 b9 72 0e a2 40 fa bb   .......r".r..@..
+00a0  4b 20 f3 99 bf 83 18 08 5e 30 9a cf 7a a2 c6 ba   K ......^0..z...
+00b0  02 61 14 2b cf 14 37 29 30 f2 91 36 32 3f bb 6c   .a.+..7)0..62?.l
+00c0  f6 84 12 0f 8c c5 8a 8b 0c 20 8a 52 04 06 a6 74   ......... .R...t
+00d0  3e a2 e9 1a 82 a0 b5 c0 8c f0 cd 7a e5 3d a3 98   >..........z.=..
+00e0  78 18 07 0c a6 3b 37 16 54 39 d8 c5 b5 34 8e 2c   x....;7.T9...4.,
+00f0  9e f9 ec 95 8d 03 54 06 95 57 3c c6 f6 f4 cf 91   ......T..W<.....
+0100  af fe 96 0b a0 74 c4 29 69 fa 26 d7 bf e7 4f 49   .....t.)i.&...OI
+0110  71 4d fc e9 1b 9f d0 bc bf 61 c1 17 64 14 f5 56   qM.......a..d..V
+0120  b9 34 22 42 64 87 5a 95 64 00 9a 4b f6 7f 99 d3   .4"Bd.Z.d..K....
+0130  fa 76 e2 fc 05 6d 05 d8 31 99 97 39 1d 6b 16 77   .v...m..1..9.k.w
+0140  0e 48 bb c0 0c df 36 6f f2 84 3c af 79 3c 9b 33   .H....6o..<.y<.3
+0150  33 6b a4 5b a5 0c 9a bc 18 91 a4 77 0a 63 36 72   3k.[.......w.c6r
+0160  50 8e c0 72 f3 b5 d0 61 25 1e 38 51 74 a7 c6 b5   P..r...a%.8Qt...
+0170  c0 42 cf b1 ee 73 c7 21 91 61 3a 3a c2 d0 bf a1   .B...s.!.a::....
+0180  da 71 54 8e c7 d7 de 36 27 4c bd 74 86 33 73 76   .qT....6'L.t.3sv
+0190  fb bd b3 16 8c 98 a9 e0 8e 7f 62 49 09 bf 68 3c   ..........bI..h<
+01a0  ff 47 17 41 d7 33 93 b9 59 6a be de 75 ea d8 70   .G.A.3..Yj..u..p
+01b0  23 dc 66 4b a5 14 70 5b 3c 36 63 e0 12 95 c7 33   #.fK..p[<6c....3
+01c0  f5 12 df da fc b0 f8 03 cb 71 e6 93 70 8d bb bd   .........q..p...
+01d0  de d6 fb fe 85 c1 25 31 7c ae 17 ea 83 30 09 42   ......%1|....0.B
+01e0  0b 8d 67 0a b3 61 ee 91 82 b6 22 e1 7d 31 fa 09   ..g..a....".}1..
+01f0  37 30 e7 07 b2 06 84 07 7a 41 ce db 88 33 f1 00   70......zA...3..
+0200  63 ef dc 3a 64 18 0e 09 3c 8e 50 dc 9d d3 21 5d   c..:d...<.P...!]
+0210  00 03 1e bb b0 43 ea d3 22 88 8f 13 6e ff 10 01   .....C.."...n...
+0220  69 e6 12 fb 27 f8 e0 f3 01 7a 1a f8 9d 9e 4c 64   i...'....z....Ld
+0230  ba b0 0d 66 d0 2e 5c bc 25 e4 b7 11 d1 7e d2 aa   ...f..\.%....~..
+0240  dc b7 82 a7 e0 c9 32 99 8f 43 68 57 92 38 45 1e   ......2..ChW.8E.
+0250  0f 7b 2b 64 b6 a8 d0 9f 86 8a 53 45 b1 94 60 c5   .{+d......SE..`.
+0260  5d da 98 c0 ee aa 8a 22 07 90 f1 3e 61 a6 04 f0   ]......"...>a...
+0270  f7 28 d3 6a b7 5d c8 63 de 4f 4b f3 e2 ac 26 aa   .(.j.].c.OK...&.
+0280  ef cc 2e 7b 8d 93 81 81 75 f2 fc c7 f2 d8 57 10   ...{....u.....W.
+0290  9a 11 8e 1c 8d 95 33 db 70 32 f6 7b 99 11 0b ae   ......3.p2.{....
+02a0  40 98 04 6a bd c0 ce 5a 9b 9a f0 fe ee c4 b6 7a   @..j...Z.......z
+02b0  8f 4b 3d 5f 85 f2 e9 b2 3f d3 06 13 a5 c0 04 2d   .K=_....?......-
+02c0  66 4f af cb 56 9e 16 5d 95 e1 62 f3 1f 49 94 10   fO..V..]..b..I..
+02d0  5b e3 d6 72 a0 68 24 d0 c0 70 92 02 24 62 e4 f3   [..r.h$..p..$b..
+02e0  d6 d4 9c b9 59 ca 19 87 52 d9 a8 b6 6d 54 f7 b7   ....Y...R...mT..
+02f0  10 67 bf 1c 14 43 48 dd 5b 8a 41 e8 4c cb 5a 79   .g...CH.[.A.L.Zy
+0300  a8 0d cc 79 78 0f f7 64 7c 95 63 dd 51 f0 43 a1   ...yx..d|.c.Q.C.
+0310  46 f5 88 67 43 3d 15 72 83 80 e8 93 e0 07 e0 0a   F..gC=.r........
+0320  38 a4 11 e0 0b 76 81 13 d9 57 61 c0 3f 90 ab b7   8....v...Wa.?...
+0330  4d b7 8b a4 2f 15 bb c3 12 64 86 2c 18 57 1e 27   M.../....d.,.W.'
+0340  f6 2f f5 cc 23 6a cd bd b7 f7 bd 44 f8 62 a5 0d   ./..#j.....D.b..
+0350  10 9b ab ec 1c ea 7a c2 fe d3 00 4f 79 a2 1d b5   ......z....Oy...
+0360  c3 b6 17 cb 12 e8 13 06 6c d4 27 e8 a3 f8 b5 79   ........l.'....y
+0370  aa 87 2d 99 9f 6f 5b f5 ec b3 68 9e f7 d3 3b fe   ..-..o[...h...;.
+0380  d5 76 c2 e2 9b 78 ee cc 14 58 47 4a 04 5d 65 d9   .v...x...XGJ.]e.
+0390  f8 81 09 9a fb b7 e0 69 04 59 24 e4 91 09 60 91   .......i.Y$...`.
+03a0  3e 19 3a dc 05 76 89 87 8b 6f fd c8 bd b7 16 12   >.:..v...o......
+03b0  ee 52 35 eb a2 02 45 cb 72 ac 75 96 f8 aa 96 a1   .R5...E.r.u.....
+03c0  86 f6 22 ac d5 78 bb 66 81 ab 98 f1 b2 f4 8c 70   .."..x.f.......p
+03d0  73 ce e7 86 bd f7 e8 41 8e 3e 6b 63 6b 04 1d 32   s......A.>kck..2
+03e0  7b 22 5f c9 33 1d 81 48 1d cd d2 99 6c 1c 5b 3a   {"_.3..H....l.[:
+03f0  ea c0 ee 49 f7 ff 87 d9 b2 6a ae 61 18 5e 90 ac   ...I.....j.a.^..
+
+No.     Time        Source                Destination           Protocol Info
+     12 0.002440    10.0.5.11             10.0.5.22             TCP      59957 > 5038 [PSH, ACK] Seq=1025 Ack=1 Win=5888 [TCP CHECKSUM INCORRECT] Len=1024 TSV=21837 TSER=650548
+
+Frame 12 (1090 bytes on wire, 1090 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 59957 (59957), Dst Port: 5038 (5038), Seq: 1025, Ack: 1, Len: 1024
+Data (1024 bytes)
+
+0000  0f d1 05 3f e4 f0 c8 6f 2c fa b3 19 3b 0f dd ca   ...?...o,...;...
+0010  c6 49 7d 55 9e 51 02 9c 98 e4 f4 b0 49 a7 41 72   .I}U.Q......I.Ar
+0020  dc 76 00 af e0 c9 a5 6b 1c 57 24 b3 d2 80 cb 84   .v.....k.W$.....
+0030  b2 a3 83 5a 9f 16 c4 52 68 ae 71 a4 9a 31 eb d7   ...Z...Rh.q..1..
+0040  7a ab a5 19 ef 71 13 c0 a7 48 db e9 07 99 8a 12   z....q...H......
+0050  d0 54 5f 55 f6 6d d5 77 65 0e a5 37 bc 53 e3 5a   .T_U.m.we..7.S.Z
+0060  e7 8a 1c a7 e9 0f 25 45 42 91 eb 09 13 f2 fc 04   ......%EB.......
+0070  5f e8 de c8 4a c1 3e e0 26 7f 9d 6b 0f 30 02 14   _...J.>.&..k.0..
+0080  f2 97 2e b2 87 a4 4d aa 9a 5e 21 33 63 34 9a af   ......M..^!3c4..
+0090  be f9 a8 56 f5 e1 ae ed 90 59 51 35 c0 6f 1c 4d   ...V.....YQ5.o.M
+00a0  86 5a 41 a9 b4 b5 e8 29 47 10 72 ca d1 1f 12 4b   .ZA....)G.r....K
+00b0  e2 8a 00 70 03 96 57 4a 5f 04 ed ea 75 88 66 aa   ...p..WJ_...u.f.
+00c0  3b ad 05 19 3b 72 e8 6b 9a b4 21 a6 49 f7 19 6d   ;...;r.k..!.I..m
+00d0  d9 aa 59 44 c0 c6 72 eb 6c 21 bb 85 17 12 da 1a   ..YD..r.l!......
+00e0  18 c2 0f 1d 86 c6 39 ea 36 ef 9d a5 e0 ec c0 43   ......9.6......C
+00f0  d4 3a e8 8d 24 7d bf b7 9f 89 4a 93 94 d4 ed e3   .:..$}....J.....
+0100  3a 93 28 a5 5b c7 f3 45 1c f4 26 6f 02 c8 f5 5e   :.(.[..E..&o...^
+0110  32 9e 8c 16 63 9e fb 20 e5 3f 76 ec 5e 8e d3 aa   2...c.. .?v.^...
+0120  91 f1 b3 e9 dd 1b 84 75 2a 2a 5f 33 da 0b aa d6   .......u**_3....
+0130  ab 4e 25 28 2b e5 33 85 5e 3f 53 ec b5 6b 25 a0   .N%(+.3.^?S..k%.
+0140  0c d2 ec aa 51 e9 77 9a 1c 45 9a 0b 5b b8 1c 18   ....Q.w..E..[...
+0150  5d 11 cf 35 08 32 a5 68 91 b2 8c 10 a8 86 4f 46   ]..5.2.h......OF
+0160  d2 5c 2f 48 41 50 57 32 3a 76 b4 84 ff 73 cf d6   .\/HAPW2:v...s..
+0170  2c 3a 3c 67 5f 64 12 b6 c4 2d 18 a1 c1 2f 22 44   ,:<g_d...-.../"D
+0180  a1 6a d9 8a 1b db ee 10 e7 10 09 66 21 1c 66 75   .j.........f!.fu
+0190  7a 00 73 63 c2 1d 65 34 db be c3 46 b5 8f db b7   z.sc..e4...F....
+01a0  20 dc 19 22 ec 46 c7 7c 8c b0 c2 6f 3f 06 ef c8    ..".F.|...o?...
+01b0  d9 99 f5 95 1c 59 9c 55 7d 2e 4e 87 2f 46 08 a8   .....Y.U}.N./F..
+01c0  e3 c1 4c 1f 6f 83 61 dc fc 5e 5c f4 66 17 2c 73   ..L.o.a..^\.f.,s
+01d0  19 ce cc 2d 69 69 bd 43 33 6d 82 de 4a 87 8d 9d   ...-ii.C3m..J...
+01e0  81 f6 2e b2 8c 6a d5 e4 f2 e6 bc ab 5a 01 34 d5   .....j......Z.4.
+01f0  39 f8 d9 5b 16 bc dc 95 bd b4 08 a9 5e 11 df 38   9..[........^..8
+0200  80 8a ca d8 1c 53 65 97 91 4c 84 5a a1 0e c2 5f   .....Se..L.Z..._
+0210  d4 02 a1 9e 1c 35 d4 95 08 44 81 16 a3 e0 bb 3a   .....5...D.....:
+0220  98 13 5f 50 5f 40 b9 c9 b7 b3 9f 95 9b eb 6d 50   .._P_@........mP
+0230  bc 5e e9 1f 8f f5 97 87 63 67 70 5e 5c 68 3e d6   .^......cgp^\h>.
+0240  71 75 d4 9c 03 fe ce a4 45 84 08 6c e1 7b 8f 1d   qu......E..l.{..
+0250  e3 60 39 51 4d 5c b7 e9 cc 27 0e a0 71 14 b5 36   .`9QM\...'..q..6
+0260  40 1e 49 6f 7a 48 d2 1a a6 6b 6f 09 51 e5 81 2e   @.IozH...ko.Q...
+0270  95 3b 59 ac ee 8f 73 a3 48 91 45 98 3f 36 b0 81   .;Y...s.H.E.?6..
+0280  ef 24 32 29 f1 bf 7a 0a da a9 ef bd c7 6b 6b 43   .$2)..z......kkC
+0290  74 eb e3 3e 49 8c 6d 93 88 d2 b7 4d 55 a6 b6 e7   t..>I.m....MU...
+02a0  c9 be d3 64 c0 ce a1 1a da 1c 4c 91 b1 14 0a fa   ...d......L.....
+02b0  7c ee 47 b6 5d d8 7f 19 48 11 2a 76 ff 80 fa 18   |.G.]...H.*v....
+02c0  8a b1 ac e2 02 1d 79 98 d9 e4 9e ad ab 5d 37 35   ......y......]75
+02d0  d5 7d e5 1c f7 0a d6 84 73 53 25 b3 aa ba e0 8b   .}......sS%.....
+02e0  ae 6b ef 05 dc 92 0b 4c 68 62 d0 34 fe 55 b6 cd   .k.....Lhb.4.U..
+02f0  c8 20 8b f4 16 e0 31 6b 97 ea 9a 2c a1 b7 15 02   . ....1k...,....
+0300  80 16 bf d9 bf 03 0d e0 4d 2c 77 4a 30 db 84 0a   ........M,wJ0...
+0310  e2 25 89 ab a5 24 8a 11 04 40 92 c9 f6 bf e2 87   .%...$...@......
+0320  d2 a2 f4 c7 74 76 a5 a2 e1 3d 2f d6 3b a8 c2 a0   ....tv...=/.;...
+0330  31 31 84 ae ce 8d 38 a8 f0 77 6b af c8 d0 92 4f   11....8..wk....O
+0340  da ae bf f8 e6 2b 57 26 57 62 fa 28 28 7b 3b a3   .....+W&Wb.(({;.
+0350  37 13 d4 ad bf 0c 93 16 a8 4f d8 c7 ad f1 d7 e3   7........O......
+0360  8f 2d 93 be 12 ec 4d 12 8b f8 11 48 0a 89 5d 25   .-....M....H..]%
+0370  c9 43 c3 3f 2e 77 3a ea 22 8a a3 4c 50 f9 c5 41   .C.?.w:."..LP..A
+0380  2f bc 17 61 cf 36 33 7d 8b 72 1f 7c 09 a4 65 2d   /..a.63}.r.|..e-
+0390  da 86 8a 52 a1 f2 8c 19 b5 ea 29 f3 ff 13 8a fe   ...R......).....
+03a0  7a 9e d0 fe 69 18 1a b1 2e 70 6d ea 07 24 94 2e   z...i....pm..$..
+03b0  c0 fb cf c3 88 82 38 f4 8c bd 28 50 91 cd d4 26   ......8...(P...&
+03c0  d1 5a 79 d5 af 29 05 93 ba 0d 7d 8d 92 77 58 c2   .Zy..)....}..wX.
+03d0  06 16 3c 89 8b 0c 52 5c cb dc 88 3c 8d ff f4 ba   ..<...R\...<....
+03e0  70 77 cb 55 c3 e0 53 ea ba 5e de 88 c4 2c d1 4d   pw.U..S..^...,.M
+03f0  c0 bc 74 65 b7 bf 1f a5 f9 4f 92 9d 47 c8 f7 09   ..te.....O..G...
+
+No.     Time        Source                Destination           Protocol Info
+     13 0.002457    10.0.5.11             10.0.5.22             TCP      59957 > 5038 [PSH, ACK] Seq=2049 Ack=1 Win=5888 [TCP CHECKSUM INCORRECT] Len=1024 TSV=21837 TSER=650548
+
+Frame 13 (1090 bytes on wire, 1090 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 59957 (59957), Dst Port: 5038 (5038), Seq: 2049, Ack: 1, Len: 1024
+Data (1024 bytes)
+
+0000  84 bd 68 e5 34 89 0f f5 f3 30 08 07 03 08 e9 74   ..h.4....0.....t
+0010  73 d4 45 6f 2e de 97 70 d4 b4 af 29 86 d8 08 7f   s.Eo...p...)....
+0020  01 c7 cc e7 a9 5c 69 09 30 2c 28 84 6e 87 3d 72   .....\i.0,(.n.=r
+0030  2b 22 0e 0d f5 7f 36 b9 8a 55 6b 80 cf 95 0c 2c   +"....6..Uk....,
+0040  73 b2 79 a2 01 e7 eb f3 b9 9b c3 9f 69 85 ef 9d   s.y.........i...
+0050  5e c2 8e 9e 82 be 78 5e fe e6 1c 97 9e c3 9f 7e   ^.....x^.......~
+0060  3a 4a 49 fe 07 74 83 02 51 77 95 88 1f b7 12 fa   :JI..t..Qw......
+0070  c5 1e 98 fa d4 87 05 3a 25 12 c5 06 49 bf 47 f2   .......:%...I.G.
+0080  1f ac c6 b2 a3 08 6c 13 da 32 7f 7f c5 c0 3c b5   ......l..2....<.
+0090  44 ee bc 6e 94 9b 1a 27 03 f1 8f 6d e0 f6 6e 1b   D..n...'...m..n.
+00a0  12 58 5a 03 b9 af 68 0a 4a b9 b0 2f 7b 6c a1 04   .XZ...h.J../{l..
+00b0  e0 fc f3 bc ef 9c 76 64 88 4f d8 6a 55 fd 2b 47   ......vd.O.jU.+G
+00c0  82 ae c8 26 5f 83 9f 82 27 f4 bf 9c 69 e2 0b c3   ...&_...'...i...
+00d0  c7 50 e7 af 3a 45 2f fe 13 51 83 ce 50 96 5c 89   .P..:E/..Q..P.\.
+00e0  d6 05 27 00 1c 06 5a ae 6f 35 9e 42 92 79 20 21   ..'...Z.o5.B.y !
+00f0  dc 3a 87 75 d8 d4 b9 cf 83 8a 86 ec 1f 70 bc 96   .:.u.........p..
+0100  b8 e7 09 f5 16 9f f9 dc 6e 71 49 f1 57 aa 28 97   ........nqI.W.(.
+0110  28 37 26 ab 03 ef 34 7b 00 13 12 1d fe 98 d6 99   (7&...4{........
+0120  a9 35 85 68 c6 38 00 13 a6 68 0c 21 ff 82 98 9f   .5.h.8...h.!....
+0130  c0 d7 91 47 33 da cc 2c a3 44 79 f8 c0 12 2e 9c   ...G3..,.Dy.....
+0140  87 52 bd 7b 3f 6c d5 6a 73 eb 3a 4a c1 46 e8 eb   .R.{?l.js.:J.F..
+0150  85 75 b9 64 b2 5f b8 9c 1c e1 b8 6d bd 41 9b 1d   .u.d._.....m.A..
+0160  61 09 92 b0 c5 6f b0 8d 57 d5 3b 0d c9 79 1a d7   a....o..W.;..y..
+0170  93 66 ac c4 c0 21 49 a3 41 a8 b1 c3 f3 2c e1 9a   .f...!I.A....,..
+0180  15 33 fb ee 45 f8 b0 18 e8 0c 8b 6d 36 e8 78 84   .3..E......m6.x.
+0190  6a 9b 95 49 68 64 15 e0 f1 e2 ce 36 2b 4a 48 f8   j..Ihd.....6+JH.
+01a0  c2 22 dd 91 87 09 d0 6f 4e 30 9b fc e0 ae f2 62   .".....oN0.....b
+01b0  ee b2 11 e6 ed ef 3d 3b 13 47 91 08 a0 2a 7e 7c   ......=;.G...*~|
+01c0  1d 1a b8 34 68 0d 2e d1 d1 0f eb f3 a3 d6 c2 85   ...4h...........
+01d0  3d d0 8f d6 d1 73 2b a9 30 5c bc 76 cc 3a 56 c7   =....s+.0\.v.:V.
+01e0  1c 46 84 b0 eb fb f6 cb 7f 99 40 26 66 cd b5 69   .F........@&f..i
+01f0  f8 54 9e eb 8f 7e af b5 d3 26 35 b0 dc ce 1b 56   .T...~...&5....V
+0200  80 c6 b9 e2 2f 5d 93 6a 09 de 8b 76 8e 1a c0 1c   ..../].j...v....
+0210  18 9a 9a 06 21 e6 10 dd 2e 29 b1 dd 89 e3 ab 0e   ....!....)......
+0220  e8 6b 22 02 97 b4 b6 ea fc 8a 20 26 73 89 05 f1   .k"....... &s...
+0230  86 64 5b 86 5b 25 51 95 27 4c e8 1c 8d e0 c3 8c   .d[.[%Q.'L......
+0240  7b 98 11 05 88 5b 27 ab 07 d6 be 66 fe f5 ba ff   {....['....f....
+0250  92 e2 60 fc a2 d5 89 29 96 33 b0 d8 9d 5b 36 cc   ..`....).3...[6.
+0260  66 4f d2 e8 eb 82 1f a8 69 fc 3a 56 f0 78 b6 ed   fO......i.:V.x..
+0270  73 f5 86 b4 f7 47 43 c7 1a 6c de 4c 62 ae 63 9e   s....GC..l.Lb.c.
+0280  7d ad 81 f4 df f3 dd 67 06 2b df 48 b3 7c d8 b8   }......g.+.H.|..
+0290  db fb a7 62 08 8f c9 65 15 6b a8 2b 03 1a f1 87   ...b...e.k.+....
+02a0  ca af 52 28 01 66 e6 8f 14 72 33 9c 38 57 30 66   ..R(.f...r3.8W0f
+02b0  de 90 1d af fa 2a a2 bd ca ca f7 e6 32 14 4e 7e   .....*......2.N~
+02c0  a7 d4 20 89 8f a8 25 8d e7 d4 a8 f7 c3 3e cd fe   .. ...%......>..
+02d0  cb 6a bc 27 24 67 c9 b2 0d e0 b7 41 52 0e 8d 05   .j.'$g.....AR...
+02e0  03 71 80 0b a2 46 9a 6f 60 e0 d1 c2 ad 5b 57 e3   .q...F.o`....[W.
+02f0  f4 83 1f 40 7a 62 34 25 99 49 28 af 45 d8 79 ad   ...@zb4%.I(.E.y.
+0300  eb dc e4 ad 7e f0 3a ed 87 5f df 80 f6 d8 6d 84   ....~.:.._....m.
+0310  be be b0 54 1c 5c 7d 3c 58 d3 8f 6d 09 dd df 07   ...T.\}<X..m....
+0320  ca 32 44 51 db 81 11 81 8a 38 e3 71 30 2e 70 26   .2DQ.....8.q0.p&
+0330  4b 64 a0 86 47 4e a5 e1 a5 6a f4 8c 63 36 14 63   Kd..GN...j..c6.c
+0340  70 9b 61 08 2e 7b 51 0f 90 5d 2f 28 aa 0b 44 e7   p.a..{Q..]/(..D.
+0350  9d 67 e8 94 64 f8 14 d4 9e e9 eb a8 06 40 1c 41   .g..d........@.A
+0360  21 65 97 37 50 ea d7 5c d1 24 c1 f8 66 03 b6 15   !e.7P..\.$..f...
+0370  4d 4a 1f 6f af cc 69 0c 25 04 12 cd 61 25 1d 5e   MJ.o..i.%...a%.^
+0380  86 30 e5 df 5c 57 f3 06 ba 8c fe 62 ee 4a a7 ca   .0..\W.....b.J..
+0390  11 1c b8 80 74 cf ae 64 01 bd 27 28 0d f7 81 90   ....t..d..'(....
+03a0  3e e2 90 cc 8d 2c 6c 4b 6c 1b e2 c8 ce 20 97 23   >....,lKl.... .#
+03b0  7f 62 cd 00 c5 a2 63 cf cf 6f 26 5e 18 6a fe 98   .b....c..o&^.j..
+03c0  0b fd c1 9f cc 57 45 79 83 5b 2a cf d6 d3 a8 04   .....WEy.[*.....
+03d0  ff a6 6e 90 2c 20 5a 20 f6 54 0c e1 dd 24 8a ec   ..n., Z .T...$..
+03e0  91 2b 87 7d b6 2a 39 3f af f7 20 1d f6 ab d2 64   .+.}.*9?.. ....d
+03f0  74 39 d8 68 4d 38 72 88 93 7a b7 0d c0 6c 86 96   t9.hM8r..z...l..
+
+No.     Time        Source                Destination           Protocol Info
+     14 0.002684    10.0.5.22             10.0.5.11             TCP      5038 > 59957 [ACK] Seq=1 Ack=1025 Win=7872 Len=0 TSV=650549 TSER=21837
+
+Frame 14 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 5038 (5038), Dst Port: 59957 (59957), Seq: 1, Ack: 1025, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     15 0.002698    10.0.5.11             10.0.5.22             TCP      59957 > 5038 [ACK] Seq=3073 Ack=1 Win=5888 [TCP CHECKSUM INCORRECT] Len=2896 TSV=21837 TSER=650549
+
+Frame 15 (2962 bytes on wire, 2962 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 59957 (59957), Dst Port: 5038 (5038), Seq: 3073, Ack: 1, Len: 2896
+Data (2896 bytes)
+
+0000  39 5b 92 12 95 9f 99 77 a1 ed b2 9b b4 46 d1 3d   9[.....w.....F.=
+0010  58 21 06 55 bf 88 d6 81 88 f4 cc 88 c8 af b9 6f   X!.U...........o
+0020  5b 26 40 29 ff c9 b0 5a bf 88 2f 65 1d a1 6f 43   [&@)...Z../e..oC
+0030  52 60 35 54 16 1c af bb 38 0f 3b f7 7a ea e6 b5   R`5T....8.;.z...
+0040  71 98 b3 22 4d e5 aa ce e6 84 52 a8 87 b2 3a e0   q.."M.....R...:.
+0050  7e 2a 06 e2 16 69 99 8c 4b 04 58 e6 cc 1d 9f 3c   ~*...i..K.X....<
+0060  04 f4 d5 db 67 96 f6 2f 96 4f 6d bc 4b 63 4e 11   ....g../.Om.KcN.
+0070  4d 86 c9 95 39 4a 1c 93 37 67 b9 9f 12 ff 41 a1   M...9J..7g....A.
+0080  58 d4 de f8 c7 ba 86 07 9f b8 99 8f c2 37 79 0f   X............7y.
+0090  c2 e2 97 84 7c ba 1f 62 1e 09 49 43 7d 7e 16 98   ....|..b..IC}~..
+00a0  2a 9a 51 43 c3 ce 9b 9f 1f f5 fe ea 39 cc 4d 6a   *.QC........9.Mj
+00b0  cc 76 a0 34 00 1e 31 95 37 28 51 42 49 b0 a9 4a   .v.4..1.7(QBI..J
+00c0  e4 16 c0 09 4a fa 82 c5 b4 ab 44 9e 61 ab db 5a   ....J.....D.a..Z
+00d0  b0 c6 43 25 94 52 ff 69 6f 46 5f cd 03 2f 1e ad   ..C%.R.ioF_../..
+00e0  8b 05 4f 89 0a 1b 14 bd bb fd f8 72 dc 30 ab f4   ..O........r.0..
+00f0  6f 17 af 7e 43 d8 1b 0b 10 60 16 cd dd 7f 29 d4   o..~C....`....).
+0100  fa 39 b0 a0 34 52 21 7f 9b 21 cb 16 61 ec 20 9a   .9..4R!..!..a. .
+0110  29 c0 29 ac 18 56 30 68 03 e9 5c b9 f8 b0 70 0b   ).)..V0h..\...p.
+0120  87 23 b0 4a cd f2 99 dd d5 5c 30 7e 3c 1d 55 61   .#.J.....\0~<.Ua
+0130  d1 ad a0 25 a1 a6 39 29 28 2e ee 87 46 dc a7 dc   ...%..9)(...F...
+0140  66 83 8c 48 24 08 b3 b2 24 d1 eb 1d 2e b3 54 20   f..H$...$.....T 
+0150  29 25 01 e0 4e 26 c5 57 65 be c1 40 7e 9f f9 f7   )%..N&.We..@~...
+0160  5d f4 cc ff ab ff 6e f7 1c ee 24 e9 8f ca f4 49   ].....n...$....I
+0170  33 8d 9a ec bc d0 9b f5 5a b5 e5 6f 23 00 b5 66   3.......Z..o#..f
+0180  b6 ac 6b d7 8e 20 bc 74 a1 14 c9 f2 f7 92 b1 67   ..k.. .t.......g
+0190  60 4b ca f3 70 f3 dd 4a 44 b9 55 01 70 88 d5 af   `K..p..JD.U.p...
+01a0  77 bf 85 dc 3e c3 95 d4 1b 5a a4 75 49 68 b9 e6   w...>....Z.uIh..
+01b0  81 e5 3c af 72 f2 03 7d 5b d3 39 c3 9c 39 34 c6   ..<.r..}[.9..94.
+01c0  9f 90 d5 7a e9 3e 44 0a 7d 63 99 ee 6d cb 13 14   ...z.>D.}c..m...
+01d0  23 ce b3 20 dc 41 4b 0b 16 1e 39 21 9e 62 17 35   #.. .AK...9!.b.5
+01e0  a7 e9 9b d4 dd 73 3c 7e 8d 31 38 72 11 bf 03 a6   .....s<~.18r....
+01f0  84 f2 e7 3d e2 01 22 d4 d6 ba 0d 25 5e 84 dd dd   ...=.."....%^...
+0200  eb 8b d2 12 46 8c 8d 50 f0 01 dc 9a 9c 49 77 75   ....F..P.....Iwu
+0210  30 dd 65 5f f0 d2 2f 3e 50 b7 f3 82 a4 83 3f 05   0.e_../>P.....?.
+0220  0b 6c b2 3c 7b b4 cf 6d a6 bc 9b e9 19 70 a0 d6   .l.<{..m.....p..
+0230  b1 fc 87 59 51 02 9a e2 64 49 b2 98 d6 ec 51 41   ...YQ...dI....QA
+0240  db 0b c2 50 0e 21 81 c1 a6 23 54 7e d2 d9 8d ba   ...P.!...#T~....
+0250  fc 63 a3 21 51 95 04 76 c7 b3 57 89 af 66 45 92   .c.!Q..v..W..fE.
+0260  a5 e4 08 cd ea 5a af 16 b5 02 38 9b 84 d5 9d 4e   .....Z....8....N
+0270  f9 e2 6f 12 0c f4 f7 dd c6 5a c8 21 5a ef fc 31   ..o......Z.!Z..1
+0280  03 77 07 90 3b 15 ca 70 b0 45 b4 9d 70 fe 55 ad   .w..;..p.E..p.U.
+0290  59 97 99 52 de d3 62 ce 59 22 27 4f 84 00 a4 5f   Y..R..b.Y"'O..._
+02a0  dc a3 6e 6a 79 10 16 98 6b c9 bf b5 8b 5c f0 56   ..njy...k....\.V
+02b0  80 42 5e d8 55 71 a0 42 80 09 f2 36 69 e1 00 27   .B^.Uq.B...6i..'
+02c0  34 aa ab d2 65 69 34 9a 11 8e c1 aa fa 92 44 97   4...ei4.......D.
+02d0  a7 5a 57 c5 32 e3 ce 6c 36 b4 66 4f b8 80 a3 a1   .ZW.2..l6.fO....
+02e0  e5 f3 37 cd 5b d1 30 ee 96 a2 f2 35 54 6a 6b ae   ..7.[.0....5Tjk.
+02f0  44 91 44 1f e9 2d 93 6e 87 72 fd 3e d0 2a dd 08   D.D..-.n.r.>.*..
+0300  58 cd be f8 3e f5 8e 45 83 82 ed 1b 3f 97 d1 88   X...>..E....?...
+0310  c0 c2 61 b4 84 85 34 b8 2a cf 7b dc f7 88 e6 c4   ..a...4.*.{.....
+0320  31 38 0b e5 0c 70 4b ae 73 b4 7f a5 a5 7e 1e 86   18...pK.s....~..
+0330  9a 46 3b 95 11 f6 bc 95 41 57 43 60 0b ef bb aa   .F;.....AWC`....
+0340  dd 31 f0 a3 16 20 0a 8c fc 1a be e3 aa d3 67 fc   .1... ........g.
+0350  e5 76 e0 87 fd 22 7d 03 2c a6 3f f5 86 0c 40 a0   .v..."}.,.?...@.
+0360  3d 52 22 a5 62 cc 41 e7 7e 80 95 d4 db 74 43 4c   =R".b.A.~....tCL
+0370  77 7e 67 bf 3b 16 97 b4 2d 01 ed e1 a5 62 0e 41   w~g.;...-....b.A
+0380  a0 1b 1e 01 25 d9 6f 17 78 3e 37 10 eb af e0 03   ....%.o.x>7.....
+0390  48 13 51 7a ea f1 7c 3e 51 d1 99 20 ec 87 62 2f   H.Qz..|>Q.. ..b/
+03a0  81 49 e3 09 7d d4 3f d8 75 62 38 68 91 a3 89 86   .I..}.?.ub8h....
+03b0  28 a4 44 38 ca 3d 8c ed 70 6c 9a d9 1f ad c0 cc   (.D8.=..pl......
+03c0  4a 84 97 14 87 91 6f 83 b2 2b 32 1b 00 86 52 e8   J.....o..+2...R.
+03d0  21 d7 9c 69 57 bf 1b 96 83 ab 69 0f 2d 73 b8 7b   !..iW.....i.-s.{
+03e0  e3 89 6a 47 84 d5 d3 97 49 d3 47 bd e2 20 1c ab   ..jG....I.G.. ..
+03f0  9f 2e 27 4f af 1c 75 48 11 49 bf b3 3e 6d ea 2e   ..'O..uH.I..>m..
+0400  fa 06 cf f5 93 7c 80 ac c7 1f 74 ef 60 59 65 20   .....|....t.`Ye 
+0410  56 b6 6b 6f 60 c2 f6 ad 3f ab 26 40 35 d2 1c 9b   V.ko`...?.&@5...
+0420  e4 4e 70 fc 6c f4 df 94 ef fa a4 17 ea 0c 31 1a   .Np.l.........1.
+0430  3b f7 6e d6 0a 83 02 92 6f 95 05 44 92 9b 7e b1   ;.n.....o..D..~.
+0440  a9 05 7a 32 1a a7 92 19 5a 70 08 06 8c 1d 24 3d   ..z2....Zp....$=
+0450  d0 c3 e0 ec bb 62 92 8b d1 cf be e0 09 97 79 cc   .....b........y.
+0460  c7 b5 96 a1 42 48 b2 23 fc 57 e1 fd cc d6 34 3b   ....BH.#.W....4;
+0470  e4 0c 56 e2 64 8b e2 e6 db 92 37 52 cd 46 98 3b   ..V.d.....7R.F.;
+0480  4f 0b d3 a1 19 37 a4 00 fc 76 00 02 18 c5 59 cf   O....7...v....Y.
+0490  11 d4 7f 2b 9f ef 19 14 1e af 2d 8e fc 7d 92 b4   ...+......-..}..
+04a0  66 bd 55 34 8e 03 fe c3 4b 70 85 9b ef 1e 8a 08   f.U4....Kp......
+04b0  5e f1 eb 88 d4 a9 e3 c1 34 13 de 6b 6d b0 90 7b   ^.......4..km..{
+04c0  63 b2 a8 10 c5 75 d6 8c d1 ea b3 b8 09 6c 13 2d   c....u.......l.-
+04d0  80 e8 32 02 6c 75 1f 69 1f e9 fa d3 1a 4f 82 59   ..2.lu.i.....O.Y
+04e0  ce b3 74 03 84 5d 0e 9b 7e 39 14 ff e8 f1 4f 15   ..t..]..~9....O.
+04f0  e2 31 dd 8e 0a 25 9f 2f a2 9c d9 fa 98 14 6e b0   .1...%./......n.
+0500  56 98 fc fb 78 b9 82 3d ee c2 b0 6d f9 58 32 0f   V...x..=...m.X2.
+0510  b0 35 04 e4 2d 93 94 cb 2b 3f e4 b2 06 fc 6e ec   .5..-...+?....n.
+0520  1a cd 20 eb 70 68 c1 93 de 03 2f e9 c1 fb 84 7f   .. .ph..../.....
+0530  7f 00 db f3 b8 11 a6 15 7d 4f 6a 4e 0a b7 81 48   ........}OjN...H
+0540  8c 93 52 2e f9 ed 04 c9 8d de 11 f7 f3 32 d0 0f   ..R..........2..
+0550  22 1b aa ac 0c 48 19 52 0c 1a 4b 64 7c 12 fa 41   "....H.R..Kd|..A
+0560  de 30 d1 d7 09 cf ce ba 41 24 8d 13 bf 18 b7 91   .0......A$......
+0570  ad 64 82 5c 84 26 ce c2 c5 35 d4 75 ea b5 e6 df   .d.\.&...5.u....
+0580  55 4f e9 94 31 df 96 cf 7c 50 3e 76 e3 f2 65 77   UO..1...|P>v..ew
+0590  0d 7a ae f9 b5 72 07 05 2b 36 5b 53 97 84 e3 fa   .z...r..+6[S....
+05a0  a6 f1 44 c0 b0 9f 0b 33 19 9c 95 da d4 6c 66 af   ..D....3.....lf.
+05b0  1f af d8 09 13 4b 86 c0 f8 ba f0 6c ab 3f 2c b4   .....K.....l.?,.
+05c0  2d 08 ae 95 b3 63 fa d4 02 8b 95 95 7d 68 22 7f   -....c......}h".
+05d0  a8 e8 57 65 69 81 34 b6 6f 5d 07 3e aa 12 73 ae   ..Wei.4.o].>..s.
+05e0  3c 4b 71 1b 0f 55 44 fd 07 0c b0 3d c7 c5 6e 59   <Kq..UD....=..nY
+05f0  8d d5 e3 42 e9 2b 4f 1d a1 7e ec d9 d8 76 6b 06   ...B.+O..~...vk.
+0600  9a 8a 7f 6f d4 ef a5 dc 14 c1 72 f0 31 30 58 79   ...o......r.10Xy
+0610  21 2d f4 6a ab 5b 92 cd b1 7a d5 b1 70 d5 06 8b   !-.j.[...z..p...
+0620  33 f6 a9 0e 55 47 38 4e f6 78 7a 2b ed a8 eb 86   3...UG8N.xz+....
+0630  22 f6 87 e9 9b 0a ca 07 1e 43 bf 8a ce bb 23 39   "........C....#9
+0640  68 af 22 c1 be 2f fa 21 9b 89 e2 e3 10 5c 60 e3   h."../.!.....\`.
+0650  26 7e b8 37 43 ca e9 a1 99 bb 0a 32 5a 42 9c b2   &~.7C......2ZB..
+0660  a6 98 3e 8c 65 44 da 71 36 a5 1b 0b df 5b ba 8c   ..>.eD.q6....[..
+0670  dc b1 6b 09 9f 04 f1 ba b3 9b a8 48 e5 24 0c 18   ..k........H.$..
+0680  53 a1 25 dd eb 95 a1 1b 4e 38 10 db d0 15 6c aa   S.%.....N8....l.
+0690  71 6e 2d ac d1 2c f8 50 0c 5f 7a e5 85 b2 40 ae   qn-..,.P._z...@.
+06a0  3b 6b 60 bd b8 2e be c7 3d 3d d2 1e a2 dc a2 3b   ;k`.....==.....;
+06b0  53 c6 73 89 06 c5 a5 6a 6b 8c 63 fe d6 ef 98 8e   S.s....jk.c.....
+06c0  52 3f 84 a9 63 12 94 f3 28 b5 af f6 14 da e3 4f   R?..c...(......O
+06d0  8f 95 56 35 a8 1c 6b ac 5c 54 1d d0 f8 f9 ec 45   ..V5..k.\T.....E
+06e0  18 9d e4 2a ce 85 f0 86 a4 b0 2c 4c 58 48 db 71   ...*......,LXH.q
+06f0  0d 81 13 d8 74 e7 54 13 2f dc eb bc da 74 df 30   ....t.T./....t.0
+0700  fe 66 98 1d c3 9b 38 af 5c 88 9b 9e 6f c2 e3 be   .f....8.\...o...
+0710  b6 c1 a9 29 74 94 ad 3e 93 2a 28 b8 91 1e 8e 97   ...)t..>.*(.....
+0720  2d 22 5c 09 14 06 41 79 c7 7e 72 fa d8 93 7e 8f   -"\...Ay.~r...~.
+0730  78 47 b0 78 d4 ea 73 03 0d 87 af 92 1f 13 a0 8d   xG.x..s.........
+0740  26 83 a0 da 24 90 99 5a a5 46 4c 15 34 54 bd 1c   &...$..Z.FL.4T..
+0750  06 39 17 e9 35 b6 f3 21 8e 26 55 b0 8b 23 93 50   .9..5..!.&U..#.P
+0760  00 92 79 2a 8e 5d ea f3 a6 e7 70 ed 3f 14 4f fc   ..y*.]....p.?.O.
+0770  08 56 f6 83 35 ac cf ea 89 e8 d5 05 95 f1 a7 cd   .V..5...........
+0780  e9 c0 3f 35 91 c8 08 61 8b fe 62 41 f1 47 6d f6   ..?5...a..bA.Gm.
+0790  8c 8f 3c a1 1c 7d 98 71 db 96 94 37 e8 26 26 41   ..<..}.q...7.&&A
+07a0  7c 24 83 8b 13 b7 8b a8 36 96 6d 55 59 a1 be 54   |$......6.mUY..T
+07b0  bb e4 fc a1 41 a2 df fb 9e cf 2b f8 fa db 99 ca   ....A.....+.....
+07c0  07 8d a7 cd e8 46 6c 0e 09 3c 8c 98 d1 9a 3a 03   .....Fl..<....:.
+07d0  78 0c d1 72 9e 70 22 dd 7c dc 42 38 a2 66 db b1   x..r.p".|.B8.f..
+07e0  a4 3b b8 b6 15 5b b1 7d 6d 82 2c 0f 35 8d c4 6c   .;...[.}m.,.5..l
+07f0  77 80 7f dc 79 c5 f0 fa 82 da 0d c0 7f 6d 2e a4   w...y........m..
+0800  2c e0 a0 80 cd 68 ec f7 4f 71 5c 48 41 fc 71 01   ,....h..Oq\HA.q.
+0810  5c 99 5e c3 e8 87 a4 8f 46 9f 4c a9 a2 6b 55 f7   \.^.....F.L..kU.
+0820  06 14 31 f2 fd c6 79 8f 03 17 09 9c 26 ec e3 02   ..1...y.....&...
+0830  55 25 4c fb 8b 11 94 00 17 06 8e b5 36 b7 71 c9   U%L.........6.q.
+0840  38 e4 f1 fd a8 e9 95 15 1f c3 fd a7 d8 c2 cd 4c   8..............L
+0850  28 b8 44 21 d8 17 46 cb d5 3c 0e 9b 45 a6 16 8c   (.D!..F..<..E...
+0860  70 c9 a5 9f 7c 3c 4d 8a 3f de d5 2a 2a c1 0d 0e   p...|<M.?..**...
+0870  a9 31 38 4c ee bd 23 e4 fc 7c 94 ad bd 19 9e fd   .18L..#..|......
+0880  85 a5 e7 89 e2 3e 2d 3e a8 06 76 0d e6 ac dc 02   .....>->..v.....
+0890  f5 5f 7f ba 74 97 68 eb 4e ad 8b 6b f2 d7 5b f6   ._..t.h.N..k..[.
+08a0  77 d9 37 ca f4 0b 9a 49 39 f0 34 a2 63 ed e8 00   w.7....I9.4.c...
+08b0  b4 ae 69 c9 3f c9 08 26 5f b3 88 8e b0 c4 74 60   ..i.?..&_.....t`
+08c0  80 ed 0b 69 a9 d4 2a 11 2b 97 78 1b d7 fc 2b 46   ...i..*.+.x...+F
+08d0  95 ac b5 e4 a6 c9 5f ce 32 24 b1 24 7b 4b b2 83   ......_.2$.${K..
+08e0  73 b0 21 aa 94 4b 14 55 d3 2a bc 55 43 d2 e2 80   s.!..K.U.*.UC...
+08f0  56 ec 0e aa c4 65 e0 11 12 e9 a6 df 7e 55 e7 42   V....e......~U.B
+0900  2d fa 41 d8 6d 70 0d 12 cc 22 b8 65 22 57 45 3a   -.A.mp...".e"WE:
+0910  bd 11 bb 1a e9 4e 2b 89 6b da 38 bc 37 84 f0 20   .....N+.k.8.7.. 
+0920  d5 53 01 e2 56 e3 9c 98 74 6a be 6b e1 70 e0 e3   .S..V...tj.k.p..
+0930  43 5b e1 71 57 82 fc 43 7a 53 71 dd 01 c9 0a 8a   C[.qW..CzSq.....
+0940  78 fd 1f 77 53 ce 11 fd 04 44 0e e7 f7 a9 56 a7   x..wS....D....V.
+0950  82 bf b5 bc e3 90 2c 0f c2 a6 61 e2 32 e7 67 eb   ......,...a.2.g.
+0960  b1 a1 79 4b 79 9f ce 67 c4 51 67 03 1c fd ca c6   ..yKy..g.Qg.....
+0970  68 56 7f 0f 24 8c 17 8d d5 e9 d0 76 cd 35 b7 7d   hV..$......v.5.}
+0980  ff dc 28 50 9a 03 4c 68 b9 e2 e4 4d 96 1c ab e9   ..(P..Lh...M....
+0990  3d 0c 0c 80 71 2a 2a ba 2b fb 65 15 15 72 91 29   =...q**.+.e..r.)
+09a0  cd 0c 03 4d 25 19 79 04 a6 2b 3d c5 b3 f1 83 fe   ...M%.y..+=.....
+09b0  8c d6 7f 66 db 8f 52 92 97 fc 18 99 61 d7 c2 35   ...f..R.....a..5
+09c0  5a f1 c8 d4 23 fa a6 ab a9 ba d6 d6 e6 95 7b c8   Z...#.........{.
+09d0  96 c4 b8 5c 4c 3b 0c 18 7c 92 8e b4 65 a4 73 bc   ...\L;..|...e.s.
+09e0  bd 03 74 a8 03 e0 ff 31 72 ac 59 2e a8 cb 26 57   ..t....1r.Y...&W
+09f0  07 76 f9 58 07 a6 35 2c 78 8c 4a 3e 10 bf 6e 6c   .v.X..5,x.J>..nl
+0a00  f0 d8 0a 4a ee 1a 2d 73 c9 2d 30 c4 52 ca 9f 83   ...J..-s.-0.R...
+0a10  1e 3e 16 25 e4 94 67 1e f3 6c bd ea e3 06 1b 75   .>.%..g..l.....u
+0a20  80 33 9d 57 b2 67 61 01 ca c9 f9 70 1a 14 42 97   .3.W.ga....p..B.
+0a30  8e d2 53 9e 7d de 4c ec 13 f3 7c 5b 34 4a 96 7d   ..S.}.L...|[4J.}
+0a40  e0 7e fa c8 d8 98 91 72 d9 f5 10 28 49 a4 7a f1   .~.....r...(I.z.
+0a50  fb cd f7 fc 90 2a e6 c4 9d 4d 1a 08 c3 9d af 79   .....*...M.....y
+0a60  5b 1c 0c c7 a3 bb 40 b1 f1 ca 70 2a ed 81 90 e9   [.....@...p*....
+0a70  b3 fe 69 54 d3 02 65 36 57 82 ce ae 84 09 b4 ab   ..iT..e6W.......
+0a80  87 4e ee e5 92 b4 ce 1b 0d dc 11 74 80 ca 4f 3a   .N.........t..O:
+0a90  95 d4 47 0b bd 1f 5f 9c 8b 04 be c5 2e 7d e1 4b   ..G..._......}.K
+0aa0  b3 9b 25 35 03 d3 96 15 17 99 92 25 13 db 31 6c   ..%5.......%..1l
+0ab0  54 89 e2 7c 2b 04 36 65 a5 54 5b 3b 01 2d 53 e0   T..|+.6e.T[;.-S.
+0ac0  b2 e9 3e 34 04 85 78 e8 a5 84 7a d7 4b 20 17 0f   ..>4..x...z.K ..
+0ad0  46 8e 01 72 f0 4e ad 7c eb 2d cf da 81 b8 2b a9   F..r.N.|.-....+.
+0ae0  5b 4b 83 57 94 d9 54 5b 0c b1 c3 eb b4 42 0f 65   [K.W..T[.....B.e
+0af0  a8 83 01 d7 56 32 d7 1c d5 2c 41 29 c0 3a c4 f7   ....V2...,A).:..
+0b00  ac e3 20 9e ce ad 06 19 9d e6 28 69 94 eb 4a 10   .. .......(i..J.
+0b10  6e aa 58 eb f3 04 06 94 af bb 9b 3e 41 46 c6 e7   n.X........>AF..
+0b20  ab 4e f0 5c 2d 37 11 a9 5d c8 12 59 57 20 b8 f0   .N.\-7..]..YW ..
+0b30  31 0d 58 40 e7 7e 01 49 45 eb f5 69 63 5a fd 8b   1.X@.~.IE..icZ..
+0b40  4a 43 b5 a1 99 ca 35 8f 7e c7 9e 68 a3 a7 ab 2b   JC....5.~..h...+
+
+No.     Time        Source                Destination           Protocol Info
+     16 0.002770    10.0.5.22             10.0.5.11             TCP      5038 > 59957 [ACK] Seq=1 Ack=2049 Win=9920 Len=0 TSV=650549 TSER=21837
+
+Frame 16 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 5038 (5038), Dst Port: 59957 (59957), Seq: 1, Ack: 2049, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     17 0.002780    10.0.5.11             10.0.5.22             TCP      59957 > 5038 [ACK] Seq=5969 Ack=1 Win=5888 [TCP CHECKSUM INCORRECT] Len=2896 TSV=21837 TSER=650549
+
+Frame 17 (2962 bytes on wire, 2962 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 59957 (59957), Dst Port: 5038 (5038), Seq: 5969, Ack: 1, Len: 2896
+Data (2896 bytes)
+
+0000  cb 97 7d ff f3 36 f7 99 2a 01 b3 b9 88 bd 74 f0   ..}..6..*.....t.
+0010  60 a6 fe 8c fe 2b 9f 71 de 44 cf 15 44 9b 09 83   `....+.q.D..D...
+0020  dd 1d fe d9 85 2d d3 9d 6d ff dc 42 5f 26 79 00   .....-..m..B_&y.
+0030  8c 14 68 74 92 75 57 9c 7d ed 89 01 6b 4a 94 df   ..ht.uW.}...kJ..
+0040  65 58 7c a8 5d e5 b0 b3 4c 4d aa 06 c3 1d 6a 47   eX|.]...LM....jG
+0050  7d 5f 07 f7 38 7d f8 28 35 6a c0 26 59 e7 15 45   }_..8}.(5j.&Y..E
+0060  70 a3 42 ff 15 cb 5d 00 64 f1 1b b4 f6 26 5d d2   p.B...].d....&].
+0070  58 50 55 b5 77 8f 0b c7 69 0e 0f cb ea 87 99 2d   XPU.w...i......-
+0080  f7 81 60 67 8c 6f 20 21 e1 9c d4 35 44 c9 fc 7a   ..`g.o !...5D..z
+0090  f3 f0 27 7a 54 96 4b b1 39 92 31 a9 00 64 ef ba   ..'zT.K.9.1..d..
+00a0  6a 68 25 4c e7 d7 4c c4 ef 68 dd 3d 64 51 db e9   jh%L..L..h.=dQ..
+00b0  9d 10 1e 3b 35 97 4d 6e 67 c3 f3 c7 a7 37 b1 5b   ...;5.Mng....7.[
+00c0  20 ed af 37 8f 56 35 d4 b3 b0 37 33 1d d5 2c 5c    ..7.V5...73..,\
+00d0  5b 3d 82 ad 4a 25 ff 7d 5d 40 82 41 15 ea e1 bd   [=..J%.}]@.A....
+00e0  1c 23 02 96 aa 6e 94 62 80 73 62 76 df 61 bf 93   .#...n.b.sbv.a..
+00f0  d2 9a 3b b7 3d 2a 5c b2 60 76 cb f3 8c e4 47 c0   ..;.=*\.`v....G.
+0100  d1 c4 f8 59 e3 ec 3d ca fb fb a7 cf f0 83 35 c1   ...Y..=.......5.
+0110  18 e8 f3 b3 4e 75 23 17 66 a3 fc fc 62 0d b0 69   ....Nu#.f...b..i
+0120  1a 61 17 0c 2c 65 25 72 ef 4b 3d 2d fa 45 3b 75   .a..,e%r.K=-.E;u
+0130  33 73 c7 87 e1 24 27 ad 43 93 a1 b7 14 75 60 81   3s...$'.C....u`.
+0140  e1 68 a5 d0 ba 18 f8 28 fd 0a 13 38 c4 04 ff da   .h.....(...8....
+0150  cf 99 6e 4a 2d 89 6e 68 43 70 a4 10 f2 c8 26 d6   ..nJ-.nhCp....&.
+0160  88 2c 38 aa 26 36 5b 6c 78 2d 25 0d 15 37 36 9a   .,8.&6[lx-%..76.
+0170  e1 26 d4 12 2c c9 7c 2d f7 b9 95 01 13 05 fa b0   .&..,.|-........
+0180  41 9e 72 4e 4e 0e f3 f4 d6 26 41 90 51 b1 a7 1a   A.rNN....&A.Q...
+0190  af f6 f9 43 f5 51 59 87 03 87 a0 93 de eb 28 27   ...C.QY.......('
+01a0  cf f1 2e 70 35 ce d7 1f ae ca 8a 76 bd c7 c9 f5   ...p5......v....
+01b0  40 de 0e d9 92 d0 ab 1b d4 7e 52 02 e4 0a a2 ac   @........~R.....
+01c0  70 ef c6 83 44 f4 9a 34 08 7b f6 7e 11 0c fd 31   p...D..4.{.~...1
+01d0  8a 1d dc a1 ea e4 c5 50 f9 45 34 de 08 85 92 aa   .......P.E4.....
+01e0  90 9d 5a bc fb 18 95 4c 36 fd ba d9 4b 13 2d d8   ..Z....L6...K.-.
+01f0  94 94 b6 fe e7 cb 26 c2 71 9b bd bc d5 7c ee f9   ......&.q....|..
+0200  0a fc 61 1a 81 1b e2 af fc bd 35 1f 4a 26 4f 66   ..a.......5.J&Of
+0210  26 ed d6 e2 62 8e 2c 43 be 9a ee b7 31 4d bc 34   &...b.,C....1M.4
+0220  94 d5 f5 e4 cb d4 b9 b0 6a 2c b4 70 40 27 72 fa   ........j,.p@'r.
+0230  cc 85 64 5c 50 99 64 40 ae 56 fe c6 6f 5a cc a5   ..d\P.d@.V..oZ..
+0240  3f e1 08 4a cd 36 1d 96 2f 71 d4 4d 10 18 2f 6d   ?..J.6../q.M../m
+0250  64 ca ef 00 4b d6 71 8c d2 4c bc 24 43 5c 58 27   d...K.q..L.$C\X'
+0260  57 91 49 a7 38 d1 b4 dd d2 5f b1 df 91 26 f2 c1   W.I.8...._...&..
+0270  f9 bf 5d 29 08 5b af fe e2 25 0d a8 8f f4 97 45   ..]).[...%.....E
+0280  e0 d9 0e b2 d5 26 af 56 6c 3c 6d 87 62 fe 49 84   .....&.Vl<m.b.I.
+0290  25 69 fa 8d 5c f2 c4 6a 33 c5 60 0d 93 45 2a 84   %i..\..j3.`..E*.
+02a0  f1 50 c8 ec 67 a0 5f a5 47 d9 03 60 94 37 25 e1   .P..g._.G..`.7%.
+02b0  e6 a7 e0 ea 87 f7 00 c1 76 15 c0 85 ea 37 34 b4   ........v....74.
+02c0  bd 46 f2 b7 73 1a 4d 5c 64 55 ca b3 8a 5f 2c 8b   .F..s.M\dU..._,.
+02d0  9f 9c 5c 7a d5 d6 42 48 a4 b7 06 b2 2b 68 b6 08   ..\z..BH....+h..
+02e0  8d 63 5b 99 70 36 4b 58 fb a9 18 46 fa 42 c3 88   .c[.p6KX...F.B..
+02f0  7a 9a 56 cc 2c f5 72 44 3f 4d d7 2e 3e ab 5e 8a   z.V.,.rD?M..>.^.
+0300  c4 5d 3d 44 8a 42 63 2e 14 c9 d8 0f f3 ef ca 01   .]=D.Bc.........
+0310  d8 d4 fb 7a 37 b9 83 98 9a 9b c2 b9 c9 89 4c b6   ...z7.........L.
+0320  47 f9 ee 09 dd 8a cd 7b 80 3e a6 b6 a1 3c 5d 0a   G......{.>...<].
+0330  21 6a 2a a7 ae 0e 83 3d 6c fa 9a a6 d1 49 ad a2   !j*....=l....I..
+0340  2a b3 ce 97 73 ad fa 9f d8 6d a5 bc fa c0 ce 3c   *...s....m.....<
+0350  46 b8 66 f1 fa d6 f4 2f 42 6a 0b f5 1c 6d 8b 5b   F.f..../Bj...m.[
+0360  eb f1 59 c0 2d 83 eb f3 24 83 b1 1b ea 2f ba 70   ..Y.-...$..../.p
+0370  c7 48 ea a8 6e f3 16 84 a1 0e b8 22 a7 aa 93 dc   .H..n......"....
+0380  ed 95 e4 46 f7 d1 ae d2 bc f6 61 56 b7 5a 72 cc   ...F......aV.Zr.
+0390  6f 34 b9 01 3d 30 d7 cf 68 e7 df 44 01 34 68 53   o4..=0..h..D.4hS
+03a0  b0 6f 46 01 d7 9b ee 00 9c 62 7e 3d 7b 28 3e 3e   .oF......b~={(>>
+03b0  89 8d c0 52 39 6b e3 ea be 79 c6 c6 cc 11 c5 bb   ...R9k...y......
+03c0  71 01 6e 74 a0 99 2d f1 22 08 a2 f0 a6 e0 73 07   q.nt..-.".....s.
+03d0  0b e5 06 9d b5 7c bc 1b 1b f2 12 bb 36 3c cc cc   .....|......6<..
+03e0  8b 96 c7 ef a0 20 0b b8 15 7c 55 d8 3c c7 d9 e9   ..... ...|U.<...
+03f0  1f cf 64 a6 26 77 fe 86 dd 61 37 79 be f5 91 a8   ..d.&w...a7y....
+0400  4c 94 64 0e 90 e5 5b 81 39 17 5c 75 f5 c2 15 1e   L.d...[.9.\u....
+0410  29 0b 46 76 57 5d 8f 7e 9d 18 95 45 18 68 8b 3d   ).FvW].~...E.h.=
+0420  97 09 4c 51 92 0f a0 01 6d dd ee 02 cd 78 ea 0f   ..LQ....m....x..
+0430  b7 55 3f 4a f5 e0 d0 9e 36 4c 2a 2f ac e9 4e d6   .U?J....6L*/..N.
+0440  d2 a1 e6 e4 28 7c a8 f9 a5 df ac 06 1f 37 3c 1a   ....(|.......7<.
+0450  e5 ea f9 1b 0a 9b 68 cd 12 76 1a d3 51 62 dd 25   ......h..v..Qb.%
+0460  0b 80 23 88 54 1d 77 9a c6 cc dc 53 18 ba d5 c5   ..#.T.w....S....
+0470  2a 48 6d 85 2e e5 48 0a b3 d7 55 80 98 13 2f ed   *Hm...H...U.../.
+0480  69 0b 55 e9 ae 32 11 7c 05 32 e9 e9 d8 36 44 8e   i.U..2.|.2...6D.
+0490  22 5e c0 ab 4b 20 0f a4 8d 08 31 56 51 5d a2 6e   "^..K ....1VQ].n
+04a0  2c 15 82 4b 75 7b 0d 7f 63 b1 f7 10 d8 c7 7c 73   ,..Ku{..c.....|s
+04b0  8b 61 83 ee cf 8a 9d 83 ca 1b 70 6c b3 9a a2 54   .a........pl...T
+04c0  55 1b 2d bf f7 cf ec 15 93 d7 95 d3 4a b7 9a d0   U.-.........J...
+04d0  55 55 cd 20 b3 5d d2 14 b0 64 72 33 18 43 a6 3f   UU. .]...dr3.C.?
+04e0  3c 84 0f 99 bf 21 27 cd 42 81 d2 dd 12 bc f5 26   <....!'.B......&
+04f0  9c 5b f8 6a b7 5a 36 a1 8c df d6 52 a8 d2 c3 fd   .[.j.Z6....R....
+0500  e1 54 fc 3d 14 18 70 ec f0 56 23 b8 91 23 d7 c5   .T.=..p..V#..#..
+0510  9c 51 70 71 9e 10 f1 c6 b9 2c eb 0c 7e b8 7b d7   .Qpq.....,..~.{.
+0520  96 45 e3 ff b0 c2 66 33 ca 00 13 d8 37 7b a3 b1   .E....f3....7{..
+0530  8d 3c 58 60 3f ad e7 9c 35 db ad c2 57 13 38 a4   .<X`?...5...W.8.
+0540  6f 85 d6 54 cd 85 f1 f8 b6 87 66 20 e2 6b 66 28   o..T......f .kf(
+0550  f2 6f 46 23 01 fe ee 95 12 c9 1e 13 f4 1d 87 57   .oF#...........W
+0560  c0 00 16 99 89 9e 38 09 88 17 3e f8 09 f7 1d fd   ......8...>.....
+0570  0b ac 8c eb d1 8f 01 ac 0e ca a4 49 d4 3b 73 20   ...........I.;s 
+0580  ad 89 23 ae b2 11 b2 81 1e b8 83 d2 1f 7d 19 88   ..#..........}..
+0590  dd 67 70 e9 65 aa 6c 49 ba 1e c0 e5 d4 68 cd ea   .gp.e.lI.....h..
+05a0  2e a8 a6 2d a6 60 a9 59 6c 82 4d d8 af 05 c3 f4   ...-.`.Yl.M.....
+05b0  25 f8 1d 8d 35 8f 4c 2a 60 32 66 d1 2d ac 2f f8   %...5.L*`2f.-./.
+05c0  97 b6 22 5a a9 8b 2a 88 37 37 c9 60 16 8d 71 0a   .."Z..*.77.`..q.
+05d0  c1 2c 14 0b f7 e5 4c 8e 23 ce c4 32 88 ff 9f c3   .,....L.#..2....
+05e0  4c ab 6a 73 bd 9b 31 bd 0b c8 09 49 31 74 a4 ae   L.js..1....I1t..
+05f0  2b 26 db 1f d6 44 31 5b 5d c5 e8 dc eb 03 ec 11   +&...D1[].......
+0600  87 f1 0d 5d 8f 34 7a f2 58 c4 30 5f ba d5 d7 c4   ...].4z.X.0_....
+0610  ca b5 99 81 62 2f d0 0a 6a 65 17 5b 5b 7c 62 dd   ....b/..je.[[|b.
+0620  1b 2a 42 dd 74 a8 de 1e 09 dd c4 86 46 a0 da 79   .*B.t.......F..y
+0630  8f 51 df f5 05 64 7a b5 58 0d 36 e9 54 19 15 2a   .Q...dz.X.6.T..*
+0640  f4 3b 42 a2 9e 3d 6f 5e e9 64 d8 0f 74 45 d0 d3   .;B..=o^.d..tE..
+0650  42 ba ea 5e a8 31 ae b4 0c 7d 48 37 21 50 e9 88   B..^.1...}H7!P..
+0660  b5 78 82 d6 12 ec 02 00 f8 b1 85 8f 42 2f e3 07   .x..........B/..
+0670  fe 33 cd 86 0f 23 a7 86 e8 11 10 82 eb a7 fb 20   .3...#......... 
+0680  c6 25 b0 93 a5 09 00 ab 5d b9 86 3a b5 01 b9 41   .%......]..:...A
+0690  6f a5 ab 99 31 e8 89 e7 f9 90 dc f0 62 1d f9 da   o...1.......b...
+06a0  7c 8e a8 48 f8 41 2e 67 ec 24 2f 92 78 9a 6e d4   |..H.A.g.$/.x.n.
+06b0  30 48 bd 29 4c 93 f0 d8 87 26 89 bf ff 9e 2f cd   0H.)L....&..../.
+06c0  8a 52 4e b8 98 bf e3 88 15 70 74 74 19 3d 1e b1   .RN......ptt.=..
+06d0  55 9b 09 3a ff 70 2a 61 a2 ac 12 42 0e ab b2 ef   U..:.p*a...B....
+06e0  74 6d d8 8a b3 a3 6f dc 95 00 9f 2a a6 57 e1 65   tm....o....*.W.e
+06f0  61 b2 d5 70 90 5e 3d 11 00 13 87 09 bc d8 00 76   a..p.^=........v
+0700  55 11 5f 3a 03 92 3c da f4 63 4c 5d 88 91 e0 c4   U._:..<..cL]....
+0710  77 f1 4a a3 32 eb c8 d9 6b dd b0 77 fb 5b 4e 1d   w.J.2...k..w.[N.
+0720  df a7 48 b2 61 2d df 91 32 f0 68 a8 4f 29 f5 06   ..H.a-..2.h.O)..
+0730  67 4c 82 71 b8 41 1c e1 54 04 93 d7 66 8d 0c 45   gL.q.A..T...f..E
+0740  f5 30 3d 54 90 b2 5d 09 43 23 9a 3d cc d7 17 ce   .0=T..].C#.=....
+0750  30 9b c1 f7 1a 79 99 c8 56 6b 3d 6d f2 a2 66 f5   0....y..Vk=m..f.
+0760  3f 1e 49 e4 1e 86 78 d0 93 2d 9f 91 61 94 4d 2d   ?.I...x..-..a.M-
+0770  0c 34 07 65 7d 5a 61 14 58 4f 1a b0 b0 0c 8f af   .4.e}Za.XO......
+0780  57 4a 38 d8 34 ef c5 91 e7 7c 7e a5 b8 1e 38 54   WJ8.4....|~...8T
+0790  51 e7 8f c5 cd af 58 1e 6b e6 a6 7a cb 04 a5 c9   Q.....X.k..z....
+07a0  bf 87 28 53 de d8 db a8 85 1c e9 23 60 99 3b 68   ..(S.......#`.;h
+07b0  ab 96 9a f9 2e f7 4d ff 02 12 1b 60 be d0 30 f0   ......M....`..0.
+07c0  ca 7d 13 17 38 f6 68 85 5f ad b4 cf 0d a9 28 16   .}..8.h._.....(.
+07d0  a7 6d e7 59 22 7f 5a 3b 00 b2 7d 2e fb 10 8e 6f   .m.Y".Z;..}....o
+07e0  b8 cb 5b 30 04 eb 51 4d 98 fc a9 e4 be 4d fd ac   ..[0..QM.....M..
+07f0  9f 77 f5 2c 99 40 58 c6 86 0e 85 82 72 a5 92 f3   .w.,.@X.....r...
+0800  a8 97 d9 6f 78 5a ed ec ba a5 63 a9 05 b9 82 5b   ...oxZ....c....[
+0810  c4 56 c4 8a fa 4f 23 6f a1 d8 4e 40 34 cc c4 95   .V...O#o..N@4...
+0820  c1 a9 66 a1 8f 27 8a e4 5a 5e 79 27 64 d7 c2 8a   ..f..'..Z^y'd...
+0830  18 44 9d bb 14 ff 35 53 d4 9e 5d b5 21 bd b3 d2   .D....5S..].!...
+0840  c4 32 2b 88 0c a7 35 f9 e0 83 cf 99 d3 ec 7a c7   .2+...5.......z.
+0850  49 f8 a6 a1 40 7e e5 9a 90 9d ba 41 e4 50 d1 8b   I...@~.....A.P..
+0860  d1 f8 85 8a f2 76 38 b6 32 77 37 34 b5 18 53 a1   .....v8.2w74..S.
+0870  71 9a 37 f7 d1 eb 80 08 64 fe 1a d2 c4 71 d0 51   q.7.....d....q.Q
+0880  88 6c 4b e3 09 50 94 87 78 0c 97 61 81 40 4f dd   .lK..P..x..a.@O.
+0890  fd 8c 98 4e 31 a3 a4 7c ff 24 53 3d 8d 30 77 dd   ...N1..|.$S=.0w.
+08a0  62 2a de d8 bf e7 ea 63 74 4b c4 37 42 b7 6e c3   b*.....ctK.7B.n.
+08b0  81 3b 97 d3 b2 06 1f 5f 17 7a 2e 27 4d 6e 1f 92   .;....._.z.'Mn..
+08c0  bf 47 d5 b5 f0 52 b6 bd d7 23 f4 b9 79 04 97 5e   .G...R...#..y..^
+08d0  e7 88 d2 76 4f 05 73 1c 29 5a 41 2b d8 ff 9d 38   ...vO.s.)ZA+...8
+08e0  bd 37 5f b5 51 42 1f 0d 83 49 05 e7 68 96 d8 a4   .7_.QB...I..h...
+08f0  08 17 0d df 7d 07 f8 57 e4 cb 1e a5 ae 58 4c ef   ....}..W.....XL.
+0900  f5 bf 1b d4 f9 9e f2 68 69 db cc 32 3a 90 28 8b   .......hi..2:.(.
+0910  52 bf f0 50 22 0b d7 c5 94 01 46 d1 6a 36 ee a6   R..P".....F.j6..
+0920  ca ab 87 a3 f5 bf 2a e6 61 2e 64 bb b9 e8 29 72   ......*.a.d...)r
+0930  05 24 09 fc 77 6b f9 02 54 38 a7 46 60 4c 3b e5   .$..wk..T8.F`L;.
+0940  82 97 23 02 f4 0e 00 5e 7c d8 16 ef dc 8f 67 33   ..#....^|.....g3
+0950  8b 85 02 22 fd 94 51 a0 83 3d 6c 2f a6 7e 4b 0f   ..."..Q..=l/.~K.
+0960  3c 21 6c 90 bf e6 c3 57 56 d2 6d b3 6d b6 fa 33   <!l....WV.m.m..3
+0970  7f 95 5c 43 2d 8d 71 20 92 4e 85 ef 02 e6 ee 38   ..\C-.q .N.....8
+0980  02 5f dc 04 80 6c 5e 3d 48 25 aa 68 53 50 94 0d   ._...l^=H%.hSP..
+0990  fc 30 10 d1 ec 26 59 c9 e9 2f 0a 43 05 14 8d dd   .0...&Y../.C....
+09a0  7a 4b ff 19 7b c7 12 95 65 14 44 af 96 95 63 6c   zK..{...e.D...cl
+09b0  29 b1 b1 b0 85 a0 ee 9b a0 b8 59 26 fb d1 4b eb   ).........Y&..K.
+09c0  5e 94 a5 26 d0 b0 85 73 fc a7 e5 dc ea d1 09 65   ^..&...s.......e
+09d0  3f 27 cc d8 d6 08 da 0b 93 38 e3 4b 87 a3 be 9e   ?'.......8.K....
+09e0  90 6a b0 c2 80 e5 4a 6b 4c f5 a8 94 30 b3 52 a1   .j....JkL...0.R.
+09f0  86 1c eb f7 3f c9 3e e7 aa 2c a2 e9 c9 b9 4a f3   ....?.>..,....J.
+0a00  44 92 5a a4 59 6e 79 bd a5 fa 72 2d be d5 cd 09   D.Z.Yny...r-....
+0a10  31 2b ac 03 19 0d 6e b6 82 f8 f7 e3 a2 09 9d ec   1+....n.........
+0a20  7a 72 6c d2 54 ab 68 04 0f 2b cc cd 26 f6 34 6e   zrl.T.h..+..&.4n
+0a30  ed 8f 89 42 ec b9 79 37 fc f7 17 f2 37 46 5b 98   ...B..y7....7F[.
+0a40  95 3d 10 f1 a7 5e 6c 0a c7 dd 10 25 ba 7b db 6f   .=...^l....%.{.o
+0a50  80 eb 68 63 f8 8a 80 ae fb 8a 4f dd cb 75 63 0c   ..hc......O..uc.
+0a60  12 5e 33 ed 4a 7f b5 60 f2 e9 74 06 64 a0 66 0a   .^3.J..`..t.d.f.
+0a70  d2 9e 0c de ef 5f c0 66 0b 72 69 13 29 ac 14 5c   ....._.f.ri.)..\
+0a80  ed 6f e9 a3 b6 83 a4 6f 5d 33 1b 9a 3c 73 05 ef   .o.....o]3..<s..
+0a90  e0 83 1a 6b 98 19 a1 4d e3 a4 c7 ee 05 6b 56 79   ...k...M.....kVy
+0aa0  c7 58 6c 25 6f 03 95 8c 6e 02 9f 33 49 47 66 02   .Xl%o...n..3IGf.
+0ab0  e7 06 4c c2 2b 4a 29 85 e0 83 5a 9b 8e ea 1d 96   ..L.+J)...Z.....
+0ac0  73 47 92 4a 6a 55 a8 3d b0 1c 08 db 3b cf 24 3f   sG.JjU.=....;.$?
+0ad0  9c 50 0b ad de 5b 76 04 e0 f2 9a ad 6d d2 a5 5f   .P...[v.....m.._
+0ae0  31 b0 23 75 43 fc 53 4b d8 21 28 e7 61 b8 e2 02   1.#uC.SK.!(.a...
+0af0  4b 84 a6 3e fc da 24 f3 35 46 24 60 b3 d0 5f 0a   K..>..$.5F$`.._.
+0b00  d9 db af 28 ec 21 60 3a 92 c9 57 20 de 6a 0a 24   ...(.!`:..W .j.$
+0b10  c2 a2 de 15 98 0a 01 bf 1e 48 15 2f 5f c9 ce 97   .........H./_...
+0b20  1b 01 e0 cb 4f d7 4d 6e 2d cf a0 6c 2d 85 02 bc   ....O.Mn-..l-...
+0b30  12 61 85 30 4f 9e 12 29 58 0d 19 53 12 6e 94 17   .a.0O..)X..S.n..
+0b40  2b 6c c5 3a 16 69 78 50 91 46 05 0b eb 39 63 04   +l.:.ixP.F...9c.
+
+No.     Time        Source                Destination           Protocol Info
+     18 0.002855    10.0.5.11             10.0.5.22             TCP      59957 > 5038 [FIN, PSH, ACK] Seq=8865 Ack=1 Win=5888 [TCP CHECKSUM INCORRECT] Len=1376 TSV=21837 TSER=650549
+
+Frame 18 (1442 bytes on wire, 1442 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 59957 (59957), Dst Port: 5038 (5038), Seq: 8865, Ack: 1, Len: 1376
+Data (1376 bytes)
+
+0000  6a b3 6d f9 08 4f 81 1f 36 a4 2f ee 2f e5 91 44   j.m..O..6././..D
+0010  7a 44 cd 75 24 0d c9 7e 3d 7c d6 7e fe 44 42 32   zD.u$..~=|.~.DB2
+0020  12 c3 54 43 d9 30 5c ef e8 0f a6 b7 c8 8b 51 e2   ..TC.0\.......Q.
+0030  1c 8d 5f 78 9f 3c 02 8f df cb 13 b6 5c 4f f8 aa   .._x.<......\O..
+0040  71 12 e9 7d 1c 41 2d 87 77 19 fd ca a5 72 4f dd   q..}.A-.w....rO.
+0050  ff 86 4a c0 3d ed 5c df 6c 03 58 18 04 d7 04 15   ..J.=.\.l.X.....
+0060  e0 4b 77 98 5b 7b 45 a5 ca db 1d 6a 5d ea 06 78   .Kw.[{E....j]..x
+0070  2d 3f 0c 0e 69 5e 0b 80 ba 2d b5 08 06 b4 8d 49   -?..i^...-.....I
+0080  18 90 f7 d9 f6 68 57 c4 cc 27 61 21 65 70 48 17   .....hW..'a!epH.
+0090  6a 28 dc 4b 9b 8a 98 b0 ad 83 54 b2 02 11 12 f5   j(.K......T.....
+00a0  c1 62 71 3c 60 ad c6 f4 52 c3 a7 e6 d3 fe 92 df   .bq<`...R.......
+00b0  24 78 a0 db 94 74 9d b3 3a 78 2d 4a d1 b3 2f c2   $x...t..:x-J../.
+00c0  8a ee fc 54 98 70 27 56 f2 95 94 de 2b d8 f9 8b   ...T.p'V....+...
+00d0  02 96 87 be b2 85 50 99 43 91 95 16 9c cd 85 3b   ......P.C......;
+00e0  60 66 85 f2 9f 19 d2 53 79 4b f4 00 c6 62 0e 6d   `f.....SyK...b.m
+00f0  af 54 84 a6 4e 7c 73 62 18 41 cf 79 b6 e4 62 12   .T..N|sb.A.y..b.
+0100  6b 19 4e 89 10 e2 21 8c cf 4f fa fe e0 c0 2c 0b   k.N...!..O....,.
+0110  7d f3 74 64 46 89 27 b2 2a 65 d6 0f 73 22 f8 55   }.tdF.'.*e..s".U
+0120  2c a7 ff 65 8e 6b 83 10 db 7a ac 20 dc 2c 2d 3e   ,..e.k...z. .,->
+0130  13 9d 2a 0a 71 c7 60 2f 55 6c 85 40 2a da fa 92   ..*.q.`/Ul.@*...
+0140  d3 15 a8 3d 85 6a 7e e6 3b 40 4c bc 32 ed 77 3c   ...=.j~.;@L.2.w<
+0150  ef f0 ae 89 b6 e4 50 4f 74 32 b6 b9 e2 0c 85 50   ......POt2.....P
+0160  9d 5c 41 d9 8b ed e3 58 83 28 b4 7c 9d 9b 7f c2   .\A....X.(.|....
+0170  c6 05 81 4d d3 8d f4 2b 94 9b 4b e9 bc 2d f6 ae   ...M...+..K..-..
+0180  35 ca a1 88 35 a5 c3 3e 34 64 08 30 9d 84 e2 3c   5...5..>4d.0...<
+0190  7c d2 bf e8 4d fc 8b 01 f0 d4 4d ad 3e c6 9e 4d   |...M.....M.>..M
+01a0  06 d8 59 be 54 92 b7 b8 1b f8 96 52 c5 0d 9b 07   ..Y.T......R....
+01b0  bf 4b 6f 54 8a b5 b4 3d 44 41 9a 35 86 f8 b8 ac   .KoT...=DA.5....
+01c0  0b 7b cc 86 09 f4 21 a9 3e eb 2d c3 eb 3b f2 af   .{....!.>.-..;..
+01d0  8a 63 d1 42 80 be a1 48 ef 45 86 5d c5 be 23 2b   .c.B...H.E.]..#+
+01e0  3f 24 45 a4 04 ae 4f d4 ea 3d e0 20 b6 10 f7 9e   ?$E...O..=. ....
+01f0  7f e7 48 dc 93 38 6f 6f 8f f1 33 9a 66 3d 6c 7f   ..H..8oo..3.f=l.
+0200  ba f3 0d 89 ff 7f ad 13 a1 ff 56 67 ef 2f af 35   ..........Vg./.5
+0210  0a 44 84 50 1c ae fb 17 5d 96 12 93 9b 6d be f6   .D.P....]....m..
+0220  07 f2 e7 06 7e 9f 34 61 d1 b5 12 6d fe 47 dc f9   ....~.4a...m.G..
+0230  a6 b1 18 6a 5d 19 94 8e 68 25 6b 0e 50 ab d7 af   ...j]...h%k.P...
+0240  73 7d 3c ff 07 d3 66 67 c2 88 d2 b4 ef 13 83 62   s}<...fg.......b
+0250  a8 f7 d8 39 cd 75 64 05 71 71 34 62 aa f4 48 06   ...9.ud.qq4b..H.
+0260  d8 aa 2c a2 d7 ad df 1b c1 63 8e ea c4 cb 8e 48   ..,......c.....H
+0270  4a 08 bf a4 6f ac 18 29 58 e1 e1 20 9c 68 15 13   J...o..)X.. .h..
+0280  d3 c9 aa 1b ef 78 41 17 da 53 13 5d 4e db d7 9a   .....xA..S.]N...
+0290  b6 6d 8f 6e be a0 b7 39 e1 e0 15 79 a6 e8 33 7d   .m.n...9...y..3}
+02a0  98 17 2e f2 d2 d6 95 11 35 fc a8 16 f9 46 19 2e   ........5....F..
+02b0  d9 83 b2 46 68 d2 80 86 27 98 6a aa 79 94 64 0a   ...Fh...'.j.y.d.
+02c0  66 75 c7 4d 9c db 81 66 eb 3b 04 0b f4 29 8e ee   fu.M...f.;...)..
+02d0  0a 9f 40 36 fb 61 3a b9 f0 4d 58 e6 cd 76 b0 41   ..@6.a:..MX..v.A
+02e0  5c 57 88 95 17 f8 8f dd 82 fa 7a 96 39 e8 f1 92   \W........z.9...
+02f0  9b 27 89 29 99 b6 c4 ea c1 a0 a1 32 6e 07 15 bb   .'.).......2n...
+0300  66 9d e9 b5 5e d8 4b 40 03 2d 23 1c 65 b1 3c 32   f...^.K@.-#.e.<2
+0310  93 02 4e 45 db 39 80 82 c6 b7 10 28 b4 15 23 d1   ..NE.9.....(..#.
+0320  ef b6 4b 03 7f e2 90 f9 7c 4e 9f 50 f8 7f 24 bf   ..K.....|N.P..$.
+0330  7c bd 15 bd 7c 20 a2 79 01 3a 62 48 c0 57 11 2a   |...| .y.:bH.W.*
+0340  20 7e ec 51 51 06 a9 7b 51 e2 2e d0 40 53 67 0c    ~.QQ..{Q...@Sg.
+0350  f0 61 7b 17 41 a5 e7 68 93 87 be 41 17 a6 dc 59   .a{.A..h...A...Y
+0360  f6 95 2f 69 11 aa f2 30 ef 72 f3 f8 f2 fc 89 61   ../i...0.r.....a
+0370  6e 99 19 bd b6 a8 09 7f ed 9c 0e 4b 50 61 79 41   n..........KPayA
+0380  a9 e6 48 c8 34 d4 67 42 61 5e 5c ac 2f cf 8c ce   ..H.4.gBa^\./...
+0390  b0 2c 5a 86 88 90 13 b6 eb 36 d8 14 03 d1 ce b3   .,Z......6......
+03a0  24 2d 07 6f aa 58 bc 9d 20 ae 5b 45 05 56 40 66   $-.o.X.. .[E.V@f
+03b0  95 a5 f6 77 dc e1 7a eb 86 9a 9f 09 89 d2 cc 23   ...w..z........#
+03c0  fe 42 54 47 b9 1e 49 55 ae 4c 73 9e 7a 54 b3 a1   .BTG..IU.Ls.zT..
+03d0  6d a8 da 6d 26 0a 9c 27 b6 e8 27 06 6a bb c7 b8   m..m&..'..'.j...
+03e0  dc ba 8e 0a 1b ed 2e a9 54 75 f3 b4 0e 97 d8 a1   ........Tu......
+03f0  62 36 98 56 34 1d 07 16 bf 49 56 72 9b 46 a6 2a   b6.V4....IVr.F.*
+0400  b7 c9 62 43 ba 05 d8 07 94 3b ec ef d2 4b 90 69   ..bC.....;...K.i
+0410  e1 fb 87 1e f6 60 7c 21 f7 b6 ad d7 15 5f d3 cd   .....`|!....._..
+0420  5f 75 b2 fe b3 0a 7e f7 b4 ac ca 56 23 65 68 23   _u....~....V#eh#
+0430  73 b7 b2 1e 4f 4f af fd 49 96 bd 5e 42 0a 14 03   s...OO..I..^B...
+0440  ff 3b 37 77 8b 26 37 8f 86 76 1b e7 e1 88 48 2c   .;7w.&7..v....H,
+0450  35 a4 b0 79 fc 15 50 1f c2 10 a3 3b 63 1a 8f d0   5..y..P....;c...
+0460  a6 83 4e 1f 5b 22 9f da 83 fd 49 2f f1 9a b0 c2   ..N.["....I/....
+0470  b2 b8 55 40 b4 c5 5a 7a 94 6f 00 b2 3d 3b 80 da   ..U@..Zz.o..=;..
+0480  f0 9a c0 3c 6a 34 79 fb 91 c9 a6 93 13 d0 fa 0b   ...<j4y.........
+0490  55 10 c1 81 11 76 40 6b cb 6b 23 b9 3c 83 45 8a   U....v@k.k#.<.E.
+04a0  f7 0d 49 4f a0 c2 1b a0 20 1a b4 52 40 da 0b f4   ..IO.... ..R@...
+04b0  25 38 4b c5 ea bb 77 61 c6 5d 09 f6 f8 8d ef 3d   %8K...wa.].....=
+04c0  2c 3d 8d 3f c4 2c 64 1b fc 0e 90 e1 4c d0 78 48   ,=.?.,d.....L.xH
+04d0  96 33 b5 17 1c 31 1d 30 e1 8f 53 3c f8 11 fc 0c   .3...1.0..S<....
+04e0  a6 e1 78 40 57 04 77 6b cd f1 7d f4 88 f5 0f 7e   ..x@W.wk..}....~
+04f0  1d 99 6f ef d5 3c 84 1d 84 b5 6d 4a 9f 0a 95 f4   ..o..<....mJ....
+0500  42 b7 56 89 54 ba 92 ff 55 33 9b 6f e8 1e 44 5d   B.V.T...U3.o..D]
+0510  47 a1 2d 46 37 17 29 35 e7 b4 a4 e4 7b 58 20 19   G.-F7.)5....{X .
+0520  ae 0d bf f9 da 97 a2 74 1e 63 18 7c d9 3d f6 73   .......t.c.|.=.s
+0530  2c b8 c3 61 b0 17 0d aa d6 18 5f 1b 2d c3 d9 66   ,..a......_.-..f
+0540  ed 84 72 53 23 ac 24 62 f3 5b 54 62 ed 70 0a ed   ..rS#.$b.[Tb.p..
+0550  dd f0 ff 3c 9e b6 5c de a3 b4 bd 7f 40 8f ba 6e   ...<..\.....@..n
+
+No.     Time        Source                Destination           Protocol Info
+     19 0.002866    10.0.5.22             10.0.5.11             TCP      5038 > 59957 [ACK] Seq=1 Ack=3073 Win=11968 Len=0 TSV=650549 TSER=21837
+
+Frame 19 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 5038 (5038), Dst Port: 59957 (59957), Seq: 1, Ack: 3073, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     20 0.003037    10.0.5.22             10.0.5.11             TCP      5038 > 59957 [ACK] Seq=1 Ack=4521 Win=14848 Len=0 TSV=650549 TSER=21837
+
+Frame 20 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 5038 (5038), Dst Port: 59957 (59957), Seq: 1, Ack: 4521, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     21 0.003158    10.0.5.22             10.0.5.11             TCP      5038 > 59957 [ACK] Seq=1 Ack=5969 Win=17728 Len=0 TSV=650549 TSER=21837
+
+Frame 21 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 5038 (5038), Dst Port: 59957 (59957), Seq: 1, Ack: 5969, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     22 0.003283    10.0.5.22             10.0.5.11             TCP      5038 > 59957 [ACK] Seq=1 Ack=7417 Win=20672 Len=0 TSV=650549 TSER=21837
+
+Frame 22 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 5038 (5038), Dst Port: 59957 (59957), Seq: 1, Ack: 7417, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     23 0.003406    10.0.5.22             10.0.5.11             TCP      5038 > 59957 [ACK] Seq=1 Ack=8865 Win=23552 Len=0 TSV=650549 TSER=21837
+
+Frame 23 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 5038 (5038), Dst Port: 59957 (59957), Seq: 1, Ack: 8865, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     24 0.003744    10.0.5.22             10.0.5.11             TCP      krb524 > 56828 [PSH, ACK] Seq=16 Ack=86 Win=5824 Len=79 TSV=650549 TSER=21837
+
+Frame 24 (145 bytes on wire, 145 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: krb524 (4444), Dst Port: 56828 (56828), Seq: 16, Ack: 86, Len: 79
+Data (79 bytes)
+
+0000  31 20 20 20 20 31 30 32 34 30 20 20 20 20 30 2e   1    10240    0.
+0010  30 30 20 20 20 20 30 2e 30 30 20 20 20 20 20 38   00    0.00     8
+0020  34 2e 38 30 33 33 20 20 20 38 31 39 32 2e 30 30   4.8033   8192.00
+0030  30 30 20 20 20 20 20 20 31 34 20 20 31 34 34 39   00      14  1449
+0040  32 2e 37 35 20 31 34 30 30 30 30 30 2e 30 0a      2.75 1400000.0.
+
+No.     Time        Source                Destination           Protocol Info
+     25 0.003756    10.0.5.11             10.0.5.22             TCP      56828 > krb524 [ACK] Seq=86 Ack=95 Win=5888 Len=0 TSV=21837 TSER=650549
+
+Frame 25 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 56828 (56828), Dst Port: krb524 (4444), Seq: 86, Ack: 95, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     26 0.003770    10.0.5.22             10.0.5.11             TCP      krb524 > 56828 [FIN, ACK] Seq=95 Ack=86 Win=5824 Len=0 TSV=650549 TSER=21837
+
+Frame 26 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: krb524 (4444), Dst Port: 56828 (56828), Seq: 95, Ack: 86, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     27 0.003820    10.0.5.11             10.0.5.22             TCP      56828 > krb524 [FIN, ACK] Seq=86 Ack=96 Win=5888 Len=0 TSV=21837 TSER=650549
+
+Frame 27 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 56828 (56828), Dst Port: krb524 (4444), Seq: 86, Ack: 96, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     28 0.003884    10.0.5.22             10.0.5.11             TCP      krb524 > 56828 [ACK] Seq=96 Ack=87 Win=5824 Len=0 TSV=650549 TSER=21837
+
+Frame 28 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: krb524 (4444), Dst Port: 56828 (56828), Seq: 96, Ack: 87, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     29 0.003970    10.0.5.22             10.0.5.11             TCP      5038 > 59957 [FIN, ACK] Seq=1 Ack=10242 Win=26432 Len=0 TSV=650549 TSER=21837
+
+Frame 29 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4)
+Internet Protocol, Src: 10.0.5.22 (10.0.5.22), Dst: 10.0.5.11 (10.0.5.11)
+Transmission Control Protocol, Src Port: 5038 (5038), Dst Port: 59957 (59957), Seq: 1, Ack: 10242, Len: 0
+
+No.     Time        Source                Destination           Protocol Info
+     30 0.003981    10.0.5.11             10.0.5.22             TCP      59957 > 5038 [ACK] Seq=10242 Ack=2 Win=5888 Len=0 TSV=21837 TSER=650549
+
+Frame 30 (66 bytes on wire, 66 bytes captured)
+Ethernet II, Src: RealtekS_6a:1c:a4 (00:e0:4c:6a:1c:a4), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+Internet Protocol, Src: 10.0.5.11 (10.0.5.11), Dst: 10.0.5.22 (10.0.5.22)
+Transmission Control Protocol, Src Port: 59957 (59957), Dst Port: 5038 (5038), Seq: 10242, Ack: 2, Len: 0
