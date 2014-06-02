@@ -1,0 +1,51 @@
+    Describe the differences between a LAN switch/bridge and a router.
+	
+	- Routers: Each host's IP address must be configured. If network is reconfigured, IP addresses may need to be reassigned. Routing done via routing protocols (f.e. RIP or OSPF). Each router manipulates packet header. Routers operate on the network layer.
+	  Bridges: MAC addresses are hardwired. No network configuration needed. No routing protocol needed, but learning bridge and spanning tree algorithm. Bridges do not manipulate frames. Bridges operate on the data link layer.
+	
+	
+    What is the difference between an Ethernet switch and an Ethernet hub? Which is more suitable for a network with a high traffic load, a switch or a hub? Explain.]\
+	
+	- When a hub receives a packet of data at one of its ports from a PC on the network, it transmits the packet to all of its ports and, thus, to all of the other PCs on the network. If two or more PCs on the network try to send packets at the same time a collision is said to occur.  When that happens all of the PCs have to go though a routine to resolve the conflict.  The process is proscribed in the Ethernet Carrier Sense Multiple Access with Collision Detection (CSMA/CD) protocol.  
+	  An Ethernet switch automatically divides the network into multiple segments, acts as a high-speed, selective bridge between the segments, and supports simultaneous connections of multiple pairs of computers which don't compete with other pairs of computers for network bandwidth.  It accomplishes this by maintaining a table of each destination address and its port.  When the switch receives a packet, it reads the destination address from the header information in the packet, establishes a temporary connection between the source and destination ports, sends the packet on its way, and then terminates the connection.
+	
+	
+    What motivates the use of the term transparent in transparent bridges?
+	
+	- In Transparent Bridging, end stations are totally unaware that a bridge interconnects the two LAN segments, and it is invisible to the operation of the LAN. Transparent bridges perform no protocol translation (such as from Ethernet to FDDI, or to Token Ring), and they do not calculate paths through the network to any end node. Bridges make their forwarding decisions based on the data link layer's MAC address. Transparent bridging also employs learning to associate MAC addresses with ports.
+	
+	
+    Which role does the spanning tree protocol play when interconnecting LAN switches/bridges?
+	
+	- The role of the Spanning Tree Protocol is to prevent loops in the topology. How it works is as follows: One bridge, called the root bridge is elected to be the root of the tree. Each bridge determines which of its ports has the best path to the root bridge. On each LAN, the bridges elect one bridge, called the designated bridge, which, among all bridges on the same LAN, has the best path to the root bridge. Then, all bridges disable all ports that are not root ports or designated ports. What results is a spanning tree of bridges. Since a tree topology does not have a loop, forwarding along these routes guarantees that loops are entirely avoided.
+	
+	
+    In the context of the IEEE 802.1d specification of the spanning tree protocol, define the following terms:
+        Root bridge
+		
+		- A bridge that is elected as the root of the tree, where all data is forwarded to.
+		
+		
+        Root port
+		
+		- the port on a bridge where data will move closest to the root bridge.
+		
+		
+        Designated bridge
+		
+		- On each LAN, the bridges elect a designated bridge, which has the best path to the root bridge.
+		
+		
+        Designated port
+		
+		- The port that connects a bridge to the LAN where it is a designated bridge.
+		
+		
+        Blocked port 
+		
+		- A disabled port on a bridge, because it is not a root port or a designated port.
+		
+		
+    In the spanning tree protocol, how does a LAN switch/bridge decide which ports are in a blocking state? 
+	
+	- A port on a bridge is disabled if it is not a root port or a designated port. 
