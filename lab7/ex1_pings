@@ -1,0 +1,4 @@
+pings from PC3 succeed
+pings from router2 succeed
+ping from PC4 to 10.0.1.2 fails
+ping from PC4 to 200.0.0.2 succeeds

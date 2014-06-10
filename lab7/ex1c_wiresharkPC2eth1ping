@@ -1,0 +1,1198 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    128.143.136.22        128.143.136.1         ICMP     Echo (ping) request
+
+Frame 1 (98 bytes on wire, 98 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:42.771786000
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 98 bytes
+    Capture Length: 98 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.22 (128.143.136.22), Dst: 128.143.136.1 (128.143.136.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 84
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0.. = Reserved bit: Not Set
+        .1. = Don't fragment: Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: ICMP (0x01)
+    Header checksum: 0x2a73 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.22 (128.143.136.22)
+    Destination: 128.143.136.1 (128.143.136.1)
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0 ()
+    Checksum: 0x4f58 [correct]
+    Identifier: 0x1223
+    Sequence number: 1 (0x0001)
+    Data (56 bytes)
+
+0000  38 68 da 7e 8e 99 0a 00 08 09 0a 0b 0c 0d 0e 0f   8h.~............
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: 3868DA7E8E990A0008090A0B0C0D0E0F1011121314151617...
+        [Length: 56]
+
+No.     Time        Source                Destination           Protocol Info
+      2 0.002583    Dell_23:e8:27         Broadcast             ARP      Who has 128.143.136.22?  Tell 128.143.136.1
+
+Frame 2 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:42.774369000
+    [Time delta from previous captured frame: 0.002583000 seconds]
+    [Time delta from previous displayed frame: 0.002583000 seconds]
+    [Time since reference or first frame: 0.002583000 seconds]
+    Frame Number: 2
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:arp]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: ARP (0x0806)
+    Trailer: 000000000000000000000000000000000000
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (0x0001)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (0x0001)
+    [Is gratuitous: False]
+    Sender MAC address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Sender IP address: 128.143.136.1 (128.143.136.1)
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 128.143.136.22 (128.143.136.22)
+
+No.     Time        Source                Destination           Protocol Info
+      3 0.002606    RealtekS_6a:1c:5a     Dell_23:e8:27         ARP      128.143.136.22 is at 00:e0:4c:6a:1c:5a
+
+Frame 3 (42 bytes on wire, 42 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:42.774392000
+    [Time delta from previous captured frame: 0.000023000 seconds]
+    [Time delta from previous displayed frame: 0.002606000 seconds]
+    [Time since reference or first frame: 0.002606000 seconds]
+    Frame Number: 3
+    Frame Length: 42 bytes
+    Capture Length: 42 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:arp]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: ARP (0x0806)
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (0x0001)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (0x0002)
+    [Is gratuitous: False]
+    Sender MAC address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Sender IP address: 128.143.136.22 (128.143.136.22)
+    Target MAC address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Target IP address: 128.143.136.1 (128.143.136.1)
+
+No.     Time        Source                Destination           Protocol Info
+      4 0.002676    128.143.136.1         128.143.136.22        ICMP     Echo (ping) reply
+
+Frame 4 (98 bytes on wire, 98 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:42.774462000
+    [Time delta from previous captured frame: 0.000070000 seconds]
+    [Time delta from previous displayed frame: 0.002676000 seconds]
+    [Time since reference or first frame: 0.002676000 seconds]
+    Frame Number: 4
+    Frame Length: 98 bytes
+    Capture Length: 98 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.1 (128.143.136.1), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 84
+    Identification: 0x0843 (2115)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (0x01)
+    Header checksum: 0x6130 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.1 (128.143.136.1)
+    Destination: 128.143.136.22 (128.143.136.22)
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0 ()
+    Checksum: 0x5758 [correct]
+    Identifier: 0x1223
+    Sequence number: 1 (0x0001)
+    Data (56 bytes)
+
+0000  38 68 da 7e 8e 99 0a 00 08 09 0a 0b 0c 0d 0e 0f   8h.~............
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: 3868DA7E8E990A0008090A0B0C0D0E0F1011121314151617...
+        [Length: 56]
+
+No.     Time        Source                Destination           Protocol Info
+      5 0.999281    128.143.136.22        128.143.136.1         ICMP     Echo (ping) request
+
+Frame 5 (98 bytes on wire, 98 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:43.771067000
+    [Time delta from previous captured frame: 0.996605000 seconds]
+    [Time delta from previous displayed frame: 0.996605000 seconds]
+    [Time since reference or first frame: 0.999281000 seconds]
+    Frame Number: 5
+    Frame Length: 98 bytes
+    Capture Length: 98 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.22 (128.143.136.22), Dst: 128.143.136.1 (128.143.136.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 84
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0.. = Reserved bit: Not Set
+        .1. = Don't fragment: Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: ICMP (0x01)
+    Header checksum: 0x2a73 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.22 (128.143.136.22)
+    Destination: 128.143.136.1 (128.143.136.1)
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0 ()
+    Checksum: 0x2055 [correct]
+    Identifier: 0x1223
+    Sequence number: 2 (0x0002)
+    Data (56 bytes)
+
+0000  39 68 da 7e bc 9b 0a 00 08 09 0a 0b 0c 0d 0e 0f   9h.~............
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: 3968DA7EBC9B0A0008090A0B0C0D0E0F1011121314151617...
+        [Length: 56]
+
+No.     Time        Source                Destination           Protocol Info
+      6 0.999374    128.143.136.1         128.143.136.22        ICMP     Echo (ping) reply
+
+Frame 6 (98 bytes on wire, 98 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:43.771160000
+    [Time delta from previous captured frame: 0.000093000 seconds]
+    [Time delta from previous displayed frame: 0.000093000 seconds]
+    [Time since reference or first frame: 0.999374000 seconds]
+    Frame Number: 6
+    Frame Length: 98 bytes
+    Capture Length: 98 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.1 (128.143.136.1), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 84
+    Identification: 0x0844 (2116)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (0x01)
+    Header checksum: 0x612f [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.1 (128.143.136.1)
+    Destination: 128.143.136.22 (128.143.136.22)
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0 ()
+    Checksum: 0x2855 [correct]
+    Identifier: 0x1223
+    Sequence number: 2 (0x0002)
+    Data (56 bytes)
+
+0000  39 68 da 7e bc 9b 0a 00 08 09 0a 0b 0c 0d 0e 0f   9h.~............
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: 3968DA7EBC9B0A0008090A0B0C0D0E0F1011121314151617...
+        [Length: 56]
+
+No.     Time        Source                Destination           Protocol Info
+      7 1.999180    128.143.136.22        128.143.136.1         ICMP     Echo (ping) request
+
+Frame 7 (98 bytes on wire, 98 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:44.770966000
+    [Time delta from previous captured frame: 0.999806000 seconds]
+    [Time delta from previous displayed frame: 0.999806000 seconds]
+    [Time since reference or first frame: 1.999180000 seconds]
+    Frame Number: 7
+    Frame Length: 98 bytes
+    Capture Length: 98 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.22 (128.143.136.22), Dst: 128.143.136.1 (128.143.136.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 84
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+        0.. = Reserved bit: Not Set
+        .1. = Don't fragment: Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: ICMP (0x01)
+    Header checksum: 0x2a73 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.22 (128.143.136.22)
+    Destination: 128.143.136.1 (128.143.136.1)
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0 ()
+    Checksum: 0x0e54 [correct]
+    Identifier: 0x1223
+    Sequence number: 3 (0x0003)
+    Data (56 bytes)
+
+0000  3a 68 da 7e cd 9b 0a 00 08 09 0a 0b 0c 0d 0e 0f   :h.~............
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: 3A68DA7ECD9B0A0008090A0B0C0D0E0F1011121314151617...
+        [Length: 56]
+
+No.     Time        Source                Destination           Protocol Info
+      8 1.999271    128.143.136.1         128.143.136.22        ICMP     Echo (ping) reply
+
+Frame 8 (98 bytes on wire, 98 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:44.771057000
+    [Time delta from previous captured frame: 0.000091000 seconds]
+    [Time delta from previous displayed frame: 0.000091000 seconds]
+    [Time since reference or first frame: 1.999271000 seconds]
+    Frame Number: 8
+    Frame Length: 98 bytes
+    Capture Length: 98 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.1 (128.143.136.1), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 84
+    Identification: 0x0845 (2117)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (0x01)
+    Header checksum: 0x612e [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.1 (128.143.136.1)
+    Destination: 128.143.136.22 (128.143.136.22)
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0 ()
+    Checksum: 0x1654 [correct]
+    Identifier: 0x1223
+    Sequence number: 3 (0x0003)
+    Data (56 bytes)
+
+0000  3a 68 da 7e cd 9b 0a 00 08 09 0a 0b 0c 0d 0e 0f   :h.~............
+0010  10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f   ................
+0020  20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f    !"#$%&'()*+,-./
+0030  30 31 32 33 34 35 36 37                           01234567
+        Data: 3A68DA7ECD9B0A0008090A0B0C0D0E0F1011121314151617...
+        [Length: 56]
+
+No.     Time        Source                Destination           Protocol Info
+      9 6.001545    RealtekS_6a:1c:5a     Dell_23:e8:27         ARP      Who has 128.143.136.1?  Tell 128.143.136.22
+
+Frame 9 (42 bytes on wire, 42 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:48.773331000
+    [Time delta from previous captured frame: 4.002274000 seconds]
+    [Time delta from previous displayed frame: 4.002274000 seconds]
+    [Time since reference or first frame: 6.001545000 seconds]
+    Frame Number: 9
+    Frame Length: 42 bytes
+    Capture Length: 42 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:arp]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: ARP (0x0806)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (0x0001)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (0x0001)
+    [Is gratuitous: False]
+    Sender MAC address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Sender IP address: 128.143.136.22 (128.143.136.22)
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 128.143.136.1 (128.143.136.1)
+
+No.     Time        Source                Destination           Protocol Info
+     10 6.001641    Dell_23:e8:27         RealtekS_6a:1c:5a     ARP      128.143.136.1 is at 00:18:8b:23:e8:27
+
+Frame 10 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 10:38:48.773427000
+    [Time delta from previous captured frame: 0.000096000 seconds]
+    [Time delta from previous displayed frame: 4.002370000 seconds]
+    [Time since reference or first frame: 6.001641000 seconds]
+    Frame Number: 10
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:arp]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: ARP (0x0806)
+    Trailer: 000000000000000000000000000000000000
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (0x0001)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (0x0002)
+    [Is gratuitous: False]
+    Sender MAC address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Sender IP address: 128.143.136.1 (128.143.136.1)
+    Target MAC address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Target IP address: 128.143.136.22 (128.143.136.22)
+
+No.     Time        Source                Destination           Protocol Info
+     11 33.201278   128.143.136.22        128.143.136.1         ICMP     Echo (ping) request
+
+Frame 11 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.973064000
+    [Time delta from previous captured frame: 27.199637000 seconds]
+    [Time delta from previous displayed frame: 31.202007000 seconds]
+    [Time since reference or first frame: 33.201278000 seconds]
+    Frame Number: 11
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.22 (128.143.136.22), Dst: 128.143.136.1 (128.143.136.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x000a (10)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: ICMP (0x01)
+    Header checksum: 0xab58 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.22 (128.143.136.22)
+    Destination: 128.143.136.1 (128.143.136.1)
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0 ()
+    Checksum: 0x94f6 [correct]
+    Identifier: 0x0002
+    Sequence number: 0 (0x0000)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 04 ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE904ABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     12 33.201385   128.143.136.1         128.143.136.22        ICMP     Echo (ping) reply
+
+Frame 12 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.973171000
+    [Time delta from previous captured frame: 0.000107000 seconds]
+    [Time delta from previous displayed frame: 0.000107000 seconds]
+    [Time since reference or first frame: 33.201385000 seconds]
+    Frame Number: 12
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.1 (128.143.136.1), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x0846 (2118)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (0x01)
+    Header checksum: 0x611d [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.1 (128.143.136.1)
+    Destination: 128.143.136.22 (128.143.136.22)
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0 ()
+    Checksum: 0x9cf6 [correct]
+    Identifier: 0x0002
+    Sequence number: 0 (0x0000)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 04 ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE904ABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     13 33.203026   128.143.136.22        128.143.136.1         ICMP     Echo (ping) request
+
+Frame 13 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.974812000
+    [Time delta from previous captured frame: 0.001641000 seconds]
+    [Time delta from previous displayed frame: 0.001641000 seconds]
+    [Time since reference or first frame: 33.203026000 seconds]
+    Frame Number: 13
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.22 (128.143.136.22), Dst: 128.143.136.1 (128.143.136.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x000b (11)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: ICMP (0x01)
+    Header checksum: 0xab57 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.22 (128.143.136.22)
+    Destination: 128.143.136.1 (128.143.136.1)
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0 ()
+    Checksum: 0x94f1 [correct]
+    Identifier: 0x0002
+    Sequence number: 1 (0x0001)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 08 ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE908ABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     14 33.203109   128.143.136.1         128.143.136.22        ICMP     Echo (ping) reply
+
+Frame 14 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.974895000
+    [Time delta from previous captured frame: 0.000083000 seconds]
+    [Time delta from previous displayed frame: 0.000083000 seconds]
+    [Time since reference or first frame: 33.203109000 seconds]
+    Frame Number: 14
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.1 (128.143.136.1), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x0847 (2119)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (0x01)
+    Header checksum: 0x611c [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.1 (128.143.136.1)
+    Destination: 128.143.136.22 (128.143.136.22)
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0 ()
+    Checksum: 0x9cf1 [correct]
+    Identifier: 0x0002
+    Sequence number: 1 (0x0001)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 08 ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE908ABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     15 33.203924   128.143.136.22        128.143.136.1         ICMP     Echo (ping) request
+
+Frame 15 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.975710000
+    [Time delta from previous captured frame: 0.000815000 seconds]
+    [Time delta from previous displayed frame: 0.000815000 seconds]
+    [Time since reference or first frame: 33.203924000 seconds]
+    Frame Number: 15
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.22 (128.143.136.22), Dst: 128.143.136.1 (128.143.136.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x000c (12)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: ICMP (0x01)
+    Header checksum: 0xab56 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.22 (128.143.136.22)
+    Destination: 128.143.136.1 (128.143.136.1)
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0 ()
+    Checksum: 0x94f0 [correct]
+    Identifier: 0x0002
+    Sequence number: 2 (0x0002)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 08 ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE908ABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     16 33.204005   128.143.136.1         128.143.136.22        ICMP     Echo (ping) reply
+
+Frame 16 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.975791000
+    [Time delta from previous captured frame: 0.000081000 seconds]
+    [Time delta from previous displayed frame: 0.000081000 seconds]
+    [Time since reference or first frame: 33.204005000 seconds]
+    Frame Number: 16
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.1 (128.143.136.1), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x0848 (2120)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (0x01)
+    Header checksum: 0x611b [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.1 (128.143.136.1)
+    Destination: 128.143.136.22 (128.143.136.22)
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0 ()
+    Checksum: 0x9cf0 [correct]
+    Identifier: 0x0002
+    Sequence number: 2 (0x0002)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 08 ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE908ABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     17 33.204821   128.143.136.22        128.143.136.1         ICMP     Echo (ping) request
+
+Frame 17 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.976607000
+    [Time delta from previous captured frame: 0.000816000 seconds]
+    [Time delta from previous displayed frame: 0.000816000 seconds]
+    [Time since reference or first frame: 33.204821000 seconds]
+    Frame Number: 17
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.22 (128.143.136.22), Dst: 128.143.136.1 (128.143.136.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x000d (13)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: ICMP (0x01)
+    Header checksum: 0xab55 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.22 (128.143.136.22)
+    Destination: 128.143.136.1 (128.143.136.1)
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0 ()
+    Checksum: 0x94ef [correct]
+    Identifier: 0x0002
+    Sequence number: 3 (0x0003)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 08 ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE908ABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     18 33.204901   128.143.136.1         128.143.136.22        ICMP     Echo (ping) reply
+
+Frame 18 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.976687000
+    [Time delta from previous captured frame: 0.000080000 seconds]
+    [Time delta from previous displayed frame: 0.000080000 seconds]
+    [Time since reference or first frame: 33.204901000 seconds]
+    Frame Number: 18
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.1 (128.143.136.1), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x0849 (2121)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (0x01)
+    Header checksum: 0x611a [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.1 (128.143.136.1)
+    Destination: 128.143.136.22 (128.143.136.22)
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0 ()
+    Checksum: 0x9cef [correct]
+    Identifier: 0x0002
+    Sequence number: 3 (0x0003)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 08 ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE908ABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     19 33.205808   128.143.136.22        128.143.136.1         ICMP     Echo (ping) request
+
+Frame 19 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.977594000
+    [Time delta from previous captured frame: 0.000907000 seconds]
+    [Time delta from previous displayed frame: 0.000907000 seconds]
+    [Time since reference or first frame: 33.205808000 seconds]
+    Frame Number: 19
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.22 (128.143.136.22), Dst: 128.143.136.1 (128.143.136.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x000e (14)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 254
+    Protocol: ICMP (0x01)
+    Header checksum: 0xab54 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.22 (128.143.136.22)
+    Destination: 128.143.136.1 (128.143.136.1)
+Internet Control Message Protocol
+    Type: 8 (Echo (ping) request)
+    Code: 0 ()
+    Checksum: 0x94ea [correct]
+    Identifier: 0x0002
+    Sequence number: 4 (0x0004)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 0c ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE90CABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     20 33.205892   128.143.136.1         128.143.136.22        ICMP     Echo (ping) reply
+
+Frame 20 (114 bytes on wire, 114 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:15.977678000
+    [Time delta from previous captured frame: 0.000084000 seconds]
+    [Time delta from previous displayed frame: 0.000084000 seconds]
+    [Time since reference or first frame: 33.205892000 seconds]
+    Frame Number: 20
+    Frame Length: 114 bytes
+    Capture Length: 114 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:icmp:data]
+    [Coloring Rule Name: ICMP]
+    [Coloring Rule String: icmp || icmpv6]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 128.143.136.1 (128.143.136.1), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 100
+    Identification: 0x084a (2122)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (0x01)
+    Header checksum: 0x6119 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 128.143.136.1 (128.143.136.1)
+    Destination: 128.143.136.22 (128.143.136.22)
+Internet Control Message Protocol
+    Type: 0 (Echo (ping) reply)
+    Code: 0 ()
+    Checksum: 0x9cea [correct]
+    Identifier: 0x0002
+    Sequence number: 4 (0x0004)
+    Data (72 bytes)
+
+0000  00 00 00 00 00 4d e9 0c ab cd ab cd ab cd ab cd   .....M..........
+0010  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0020  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0030  ab cd ab cd ab cd ab cd ab cd ab cd ab cd ab cd   ................
+0040  ab cd ab cd ab cd ab cd                           ........
+        Data: 00000000004DE90CABCDABCDABCDABCDABCDABCDABCDABCD...
+        [Length: 72]
+
+No.     Time        Source                Destination           Protocol Info
+     21 38.209545   RealtekS_6a:1c:5a     Dell_23:e8:27         ARP      Who has 128.143.136.1?  Tell 128.143.136.22
+
+Frame 21 (42 bytes on wire, 42 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:20.981331000
+    [Time delta from previous captured frame: 5.003653000 seconds]
+    [Time delta from previous displayed frame: 5.003653000 seconds]
+    [Time since reference or first frame: 38.209545000 seconds]
+    Frame Number: 21
+    Frame Length: 42 bytes
+    Capture Length: 42 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:arp]
+Ethernet II, Src: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a), Dst: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Destination: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: ARP (0x0806)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (0x0001)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (0x0001)
+    [Is gratuitous: False]
+    Sender MAC address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Sender IP address: 128.143.136.22 (128.143.136.22)
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 128.143.136.1 (128.143.136.1)
+
+No.     Time        Source                Destination           Protocol Info
+     22 38.209644   Dell_23:e8:27         RealtekS_6a:1c:5a     ARP      128.143.136.1 is at 00:18:8b:23:e8:27
+
+Frame 22 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 10:39:20.981430000
+    [Time delta from previous captured frame: 0.000099000 seconds]
+    [Time delta from previous displayed frame: 5.003752000 seconds]
+    [Time since reference or first frame: 38.209644000 seconds]
+    Frame Number: 22
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:arp]
+Ethernet II, Src: Dell_23:e8:27 (00:18:8b:23:e8:27), Dst: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Destination: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        Address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        Address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: ARP (0x0806)
+    Trailer: 000000000000000000000000000000000000
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (0x0001)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (0x0002)
+    [Is gratuitous: False]
+    Sender MAC address: Dell_23:e8:27 (00:18:8b:23:e8:27)
+    Sender IP address: 128.143.136.1 (128.143.136.1)
+    Target MAC address: RealtekS_6a:1c:5a (00:e0:4c:6a:1c:5a)
+    Target IP address: 128.143.136.22 (128.143.136.22)

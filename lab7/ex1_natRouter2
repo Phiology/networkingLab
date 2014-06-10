@@ -1,0 +1,13 @@
+Router2#show ip nat translations 
+Pro Inside global      Inside local       Outside local      Outside global
+--- 200.0.0.2          10.0.1.2           ---                ---
+
+after reconfiguration:
+
+Jun 10 09:21:54.419: %SYS-5-CONFIG_I: Configured from console by consoleshow ip nat translations 
+Pro Inside global      Inside local       Outside local      Outside global
+--- 200.0.0.1          10.0.1.1           ---                ---
+--- 200.0.0.2          10.0.1.2           ---                ---
+--- 200.0.0.3          10.0.1.3           ---                ---
+
+

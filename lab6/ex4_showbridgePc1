@@ -1,0 +1,24 @@
+    Address       Action   Interface       Age   RX count   TX count
+0018.8b1a.be34   forward   FastEthernet0/1   0          4          3
+0018.8b1a.be17   forward   FastEthernet0/0   0          3          2
+001f.ca9c.0ce1   forward   FastEthernet0/0   0          3          0
+0021.556b.9d61   forward   FastEthernet0/0   0          5          0
+
+  Address       Action   Interface       Age   RX count   TX count
+0018.8b1a.be34   forward   FastEthernet0/1   0          8          5
+0018.8b1a.be17   forward   FastEthernet0/0   1          5          4
+001f.ca9c.0ce1   forward   FastEthernet0/0   0         10          0
+0021.556b.9d61   forward   FastEthernet0/0   0         13          0
+
+   Address       Action   Interface       Age   RX count   TX count
+0018.8b1a.be34   forward   FastEthernet0/1   0         10          5
+0018.8b1a.be17   forward   FastEthernet0/0   0          6          4
+001f.ca9c.0ce1   forward   FastEthernet0/0   0         16          0
+0021.556b.9d61   forward   FastEthernet0/0   0         22          0
+
+   Address       Action   Interface       Age   RX count   TX count
+0018.8b1a.be34   forward   FastEthernet0/1   0         11          5
+0018.8b1a.be17   forward   FastEthernet0/0   1          6          4
+001f.ca9c.0ce1   forward   FastEthernet0/0   0         19          0
+0021.9b77.11eb   forward   FastEthernet0/0   0          1          0
+0021.556b.9d61   forward   FastEthernet0/0   0         25          0

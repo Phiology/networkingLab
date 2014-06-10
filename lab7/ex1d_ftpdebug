@@ -1,0 +1,10 @@
+PC3 to PC2:
+
+ubuntu@PC3:~$ ftp -d 128.143.136.22
+ftp: connect: Connection timed out
+ftp> ls
+Not connected.
+
+PC4 to PC2:
+
+

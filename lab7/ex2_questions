@@ -1,0 +1,19 @@
+1.) assigned ip address: 10.0.1.2/24
+
+How long does a DHCP client wait until it attemps to renew a lease?
+
+1 second less than lease time (119 sec.)
+
+What type of DHCP message can be observed?
+
+-Request and DHCP ACK
+
+Observe what the client does when server is shut down
+
+requests from formerly known dhcp server, later broadcasts request.
+
+How long does it take to leave ip address?
+
+Approximately 180 sec.
+
+Starting DHClient on PC3 was impossible because no dhclient was installed.

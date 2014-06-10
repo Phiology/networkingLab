@@ -1,0 +1,309 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-V3.1.3
+
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:23:57;
+  ends 2 2014/06/10 12:28:57;
+  tstp 2 2014/06/10 12:28:57;
+  cltt 2 2014/06/10 12:23:57;
+  binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:35:07;
+  ends 2 2014/06/10 12:40:07;
+  cltt 2 2014/06/10 12:35:07;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:37:26;
+  ends 2 2014/06/10 12:42:26;
+  cltt 2 2014/06/10 12:37:26;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:39:25;
+  ends 2 2014/06/10 12:44:25;
+  cltt 2 2014/06/10 12:39:25;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:41:37;
+  ends 2 2014/06/10 12:46:37;
+  cltt 2 2014/06/10 12:41:37;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:43:56;
+  ends 2 2014/06/10 12:48:56;
+  cltt 2 2014/06/10 12:43:56;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:46:19;
+  ends 2 2014/06/10 12:51:19;
+  cltt 2 2014/06/10 12:46:19;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:48:16;
+  ends 2 2014/06/10 12:53:16;
+  cltt 2 2014/06/10 12:48:16;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:50:41;
+  ends 2 2014/06/10 12:55:41;
+  cltt 2 2014/06/10 12:50:41;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:52:51;
+  ends 2 2014/06/10 12:57:51;
+  cltt 2 2014/06/10 12:52:51;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:55:13;
+  ends 2 2014/06/10 13:00:13;
+  cltt 2 2014/06/10 12:55:13;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 12:57:41;
+  ends 2 2014/06/10 13:02:41;
+  cltt 2 2014/06/10 12:57:41;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:00:09;
+  ends 2 2014/06/10 13:05:09;
+  cltt 2 2014/06/10 13:00:09;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:02:19;
+  ends 2 2014/06/10 13:07:19;
+  cltt 2 2014/06/10 13:02:19;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:04:50;
+  ends 2 2014/06/10 13:09:50;
+  cltt 2 2014/06/10 13:04:50;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:06:54;
+  ends 2 2014/06/10 13:11:54;
+  cltt 2 2014/06/10 13:06:54;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:09:14;
+  ends 2 2014/06/10 13:14:14;
+  cltt 2 2014/06/10 13:09:14;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:11:19;
+  ends 2 2014/06/10 13:16:19;
+  cltt 2 2014/06/10 13:11:19;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:13:30;
+  ends 2 2014/06/10 13:18:30;
+  cltt 2 2014/06/10 13:13:30;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:15:35;
+  ends 2 2014/06/10 13:20:35;
+  cltt 2 2014/06/10 13:15:35;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.3 {
+  starts 2 2014/06/10 13:16:07;
+  ends 2 2014/06/10 13:21:07;
+  cltt 2 2014/06/10 13:16:07;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:23:e8:27;
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:17:47;
+  ends 2 2014/06/10 13:22:47;
+  cltt 2 2014/06/10 13:17:47;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.3 {
+  starts 2 2014/06/10 13:19:25;
+  ends 2 2014/06/10 13:24:25;
+  cltt 2 2014/06/10 13:19:25;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:23:e8:27;
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:20:07;
+  ends 2 2014/06/10 13:25:07;
+  cltt 2 2014/06/10 13:20:07;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:22:13;
+  ends 2 2014/06/10 13:27:13;
+  cltt 2 2014/06/10 13:22:13;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.3 {
+  starts 2 2014/06/10 13:23:53;
+  ends 2 2014/06/10 13:28:53;
+  cltt 2 2014/06/10 13:23:53;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:23:e8:27;
+}
+lease 10.0.1.3 {
+  starts 2 2014/06/10 13:24:07;
+  ends 2 2014/06/10 13:29:07;
+  cltt 2 2014/06/10 13:24:07;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:23:e8:27;
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:24:17;
+  ends 2 2014/06/10 13:29:17;
+  cltt 2 2014/06/10 13:24:17;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.3 {
+  starts 2 2014/06/10 13:24:26;
+  ends 2 2014/06/10 13:29:26;
+  cltt 2 2014/06/10 13:24:26;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:23:e8:27;
+}
+lease 10.0.1.3 {
+  starts 2 2014/06/10 13:26:08;
+  ends 2 2014/06/10 13:31:08;
+  cltt 2 2014/06/10 13:26:08;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:23:e8:27;
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:26:14;
+  ends 2 2014/06/10 13:31:14;
+  cltt 2 2014/06/10 13:26:14;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.3 {
+  starts 2 2014/06/10 13:27:52;
+  ends 2 2014/06/10 13:32:52;
+  cltt 2 2014/06/10 13:27:52;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:23:e8:27;
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:28:12;
+  ends 2 2014/06/10 13:33:12;
+  cltt 2 2014/06/10 13:28:12;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}
+lease 10.0.1.3 {
+  starts 2 2014/06/10 13:29:49;
+  ends 2 2014/06/10 13:34:49;
+  cltt 2 2014/06/10 13:29:49;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:23:e8:27;
+}
+lease 10.0.1.2 {
+  starts 2 2014/06/10 13:30:26;
+  ends 2 2014/06/10 13:35:26;
+  cltt 2 2014/06/10 13:30:26;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:18:8b:1a:be:34;
+  client-hostname "PC1";
+}

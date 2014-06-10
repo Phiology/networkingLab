@@ -1,0 +1,1802 @@
+No.     Time        Source                Destination           Protocol Info
+      1 0.000000    10.0.1.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 1 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 11:49:51.167351000
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || gvrp || igmp || ismp]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+    Destination: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+        Address: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000000000000000000000000000
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.1 (224.0.0.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 28
+    Identification: 0x0471 (1137)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: IGMP (0x02)
+    Header checksum: 0xc9ad [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+    [IGMP Version: 2]
+    Type: Membership Query (0x11)
+    Max Response Time: 10,0 sec (0x64)
+    Header checksum: 0xee9b [correct]
+    Multicast Address: 0.0.0.0 (0.0.0.0)
+
+No.     Time        Source                Destination           Protocol Info
+      2 2.335572    10.0.1.1              224.0.0.13            PIMv2    Hello
+
+Frame 2 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:49:53.502923000
+    [Time delta from previous captured frame: 2.335572000 seconds]
+    [Time delta from previous displayed frame: 2.335572000 seconds]
+    [Time since reference or first frame: 2.335572000 seconds]
+    Frame Number: 2
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x0473 (1139)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xc91c [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0x13ed [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): -556733025
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+      3 6.939248    10.0.1.3              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 3 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 11:49:58.106599000
+    [Time delta from previous captured frame: 4.603676000 seconds]
+    [Time delta from previous displayed frame: 4.603676000 seconds]
+    [Time since reference or first frame: 6.939248000 seconds]
+    Frame Number: 3
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || gvrp || igmp || ismp]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+    Destination: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+        Address: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000000000000000000000000000
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.1.40 (224.0.1.40)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 28
+    Identification: 0x0268 (616)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: IGMP (0x02)
+    Header checksum: 0xca8d [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+    [IGMP Version: 2]
+    Type: Membership Report (0x16)
+    Max Response Time: 0,0 sec (0x00)
+    Header checksum: 0x08d7 [correct]
+    Multicast Address: 224.0.1.40 (224.0.1.40)
+
+No.     Time        Source                Destination           Protocol Info
+      4 7.566751    10.0.1.3              224.0.0.13            PIMv2    Hello
+
+Frame 4 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:49:58.734102000
+    [Time delta from previous captured frame: 0.627503000 seconds]
+    [Time delta from previous displayed frame: 0.627503000 seconds]
+    [Time since reference or first frame: 7.566751000 seconds]
+    Frame Number: 4
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x0269 (617)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb24 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0xf18f [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): 1521456158
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+      5 8.246660    Cisco_e0:ba:08        DEC-MOP-Remote-Console 0x6002   DEC DNA Remote Console
+
+Frame 5 (77 bytes on wire, 77 bytes captured)
+    Arrival Time: Jun 10, 2014 11:49:59.414011000
+    [Time delta from previous captured frame: 0.679909000 seconds]
+    [Time delta from previous displayed frame: 0.679909000 seconds]
+    [Time since reference or first frame: 8.246660000 seconds]
+    Frame Number: 5
+    Frame Length: 77 bytes
+    Capture Length: 77 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:data]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: DEC-MOP-Remote-Console (ab:00:00:02:00:00)
+    Destination: DEC-MOP-Remote-Console (ab:00:00:02:00:00)
+        Address: DEC-MOP-Remote-Console (ab:00:00:02:00:00)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: DEC DNA Remote Console (0x6002)
+Data (63 bytes)
+
+0000  3d 00 07 00 00 00 01 00 03 03 00 00 02 00 02 21   =..............!
+0010  00 03 00 06 00 00 00 00 00 00 04 00 02 3c 00 05   .............<..
+0020  00 02 d8 05 06 00 02 00 01 07 00 06 00 1f 6c e0   ..............l.
+0030  ba 08 64 00 01 79 90 01 01 01 91 01 02 ee 05      ..d..y.........
+    Data: 3D0007000000010003030000020002210003000600000000...
+    [Length: 63]
+
+No.     Time        Source                Destination           Protocol Info
+      6 20.406997   10.0.1.3              224.0.0.13            PIMv2    Join/Prune
+
+Frame 6 (68 bytes on wire, 68 bytes captured)
+    Arrival Time: Jun 10, 2014 11:50:11.574348000
+    [Time delta from previous captured frame: 12.160337000 seconds]
+    [Time delta from previous displayed frame: 12.160337000 seconds]
+    [Time since reference or first frame: 20.406997000 seconds]
+    Frame Number: 6
+    Frame Length: 68 bytes
+    Capture Length: 68 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 54
+    Identification: 0x026a (618)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb27 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Join/Prune (3)
+    Checksum: 0xd8bf [correct]
+    PIM parameters
+        Upstream-neighbor: 10.0.1.1
+        Groups: 1
+        Holdtime: 210
+        Group 0: 224.0.1.40/32
+            Join: 1
+                IP address: 10.0.3.2/32 (SWR)
+            Prune: 0
+
+No.     Time        Source                Destination           Protocol Info
+      7 31.833778   10.0.1.1              224.0.0.13            PIMv2    Hello
+
+Frame 7 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:50:23.001129000
+    [Time delta from previous captured frame: 11.426781000 seconds]
+    [Time delta from previous displayed frame: 11.426781000 seconds]
+    [Time since reference or first frame: 31.833778000 seconds]
+    Frame Number: 7
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x0476 (1142)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xc919 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0x13ed [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): -556733025
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+      8 37.113249   10.0.1.3              224.0.0.13            PIMv2    Hello
+
+Frame 8 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:50:28.280600000
+    [Time delta from previous captured frame: 5.279471000 seconds]
+    [Time delta from previous displayed frame: 5.279471000 seconds]
+    [Time since reference or first frame: 37.113249000 seconds]
+    Frame Number: 8
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x026b (619)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb22 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0xf18f [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): 1521456158
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+      9 59.996410   10.0.1.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 9 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 11:50:51.163761000
+    [Time delta from previous captured frame: 22.883161000 seconds]
+    [Time delta from previous displayed frame: 22.883161000 seconds]
+    [Time since reference or first frame: 59.996410000 seconds]
+    Frame Number: 9
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || gvrp || igmp || ismp]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+    Destination: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+        Address: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000000000000000000000000000
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.1 (224.0.0.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 28
+    Identification: 0x0478 (1144)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: IGMP (0x02)
+    Header checksum: 0xc9a6 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+    [IGMP Version: 2]
+    Type: Membership Query (0x11)
+    Max Response Time: 10,0 sec (0x64)
+    Header checksum: 0xee9b [correct]
+    Multicast Address: 0.0.0.0 (0.0.0.0)
+
+No.     Time        Source                Destination           Protocol Info
+     10 61.332003   10.0.1.1              224.0.0.13            PIMv2    Hello
+
+Frame 10 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:50:52.499354000
+    [Time delta from previous captured frame: 1.335593000 seconds]
+    [Time delta from previous displayed frame: 1.335593000 seconds]
+    [Time since reference or first frame: 61.332003000 seconds]
+    Frame Number: 10
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x047a (1146)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xc915 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0x13ed [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): -556733025
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     11 66.936129   10.0.1.3              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 11 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 11:50:58.103480000
+    [Time delta from previous captured frame: 5.604126000 seconds]
+    [Time delta from previous displayed frame: 5.604126000 seconds]
+    [Time since reference or first frame: 66.936129000 seconds]
+    Frame Number: 11
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || gvrp || igmp || ismp]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+    Destination: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+        Address: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000000000000000000000000000
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.1.40 (224.0.1.40)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 28
+    Identification: 0x026c (620)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: IGMP (0x02)
+    Header checksum: 0xca89 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+    [IGMP Version: 2]
+    Type: Membership Report (0x16)
+    Max Response Time: 0,0 sec (0x00)
+    Header checksum: 0x08d7 [correct]
+    Multicast Address: 224.0.1.40 (224.0.1.40)
+
+No.     Time        Source                Destination           Protocol Info
+     12 66.963669   10.0.1.3              224.0.0.13            PIMv2    Hello
+
+Frame 12 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:50:58.131020000
+    [Time delta from previous captured frame: 0.027540000 seconds]
+    [Time delta from previous displayed frame: 0.027540000 seconds]
+    [Time since reference or first frame: 66.963669000 seconds]
+    Frame Number: 12
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x026d (621)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb20 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0xf18f [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): 1521456158
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     13 79.707871   10.0.1.3              224.0.0.13            PIMv2    Join/Prune
+
+Frame 13 (68 bytes on wire, 68 bytes captured)
+    Arrival Time: Jun 10, 2014 11:51:10.875222000
+    [Time delta from previous captured frame: 12.744202000 seconds]
+    [Time delta from previous displayed frame: 12.744202000 seconds]
+    [Time since reference or first frame: 79.707871000 seconds]
+    Frame Number: 13
+    Frame Length: 68 bytes
+    Capture Length: 68 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 54
+    Identification: 0x026e (622)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb23 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Join/Prune (3)
+    Checksum: 0xd8bf [correct]
+    PIM parameters
+        Upstream-neighbor: 10.0.1.1
+        Groups: 1
+        Holdtime: 210
+        Group 0: 224.0.1.40/32
+            Join: 1
+                IP address: 10.0.3.2/32 (SWR)
+            Prune: 0
+
+No.     Time        Source                Destination           Protocol Info
+     14 90.482661   10.0.1.1              224.0.0.13            PIMv2    Hello
+
+Frame 14 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:51:21.650012000
+    [Time delta from previous captured frame: 10.774790000 seconds]
+    [Time delta from previous displayed frame: 10.774790000 seconds]
+    [Time since reference or first frame: 90.482661000 seconds]
+    Frame Number: 14
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x047d (1149)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xc912 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0x13ed [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): -556733025
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     15 96.310193   10.0.1.3              224.0.0.13            PIMv2    Hello
+
+Frame 15 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:51:27.477544000
+    [Time delta from previous captured frame: 5.827532000 seconds]
+    [Time delta from previous displayed frame: 5.827532000 seconds]
+    [Time since reference or first frame: 96.310193000 seconds]
+    Frame Number: 15
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x026f (623)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb1e [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0xf18f [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): 1521456158
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     16 119.880495  10.0.1.1              224.0.0.13            PIMv2    Hello
+
+Frame 16 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:51:51.047846000
+    [Time delta from previous captured frame: 23.570302000 seconds]
+    [Time delta from previous displayed frame: 23.570302000 seconds]
+    [Time since reference or first frame: 119.880495000 seconds]
+    Frame Number: 16
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x047f (1151)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xc910 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0x13ed [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): -556733025
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     17 119.992786  10.0.1.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 17 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 11:51:51.160137000
+    [Time delta from previous captured frame: 0.112291000 seconds]
+    [Time delta from previous displayed frame: 0.112291000 seconds]
+    [Time since reference or first frame: 119.992786000 seconds]
+    Frame Number: 17
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || gvrp || igmp || ismp]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+    Destination: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+        Address: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000000000000000000000000000
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.1 (224.0.0.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 28
+    Identification: 0x0480 (1152)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: IGMP (0x02)
+    Header checksum: 0xc99e [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+    [IGMP Version: 2]
+    Type: Membership Query (0x11)
+    Max Response Time: 10,0 sec (0x64)
+    Header checksum: 0xee9b [correct]
+    Multicast Address: 0.0.0.0 (0.0.0.0)
+
+No.     Time        Source                Destination           Protocol Info
+     18 125.933065  10.0.1.3              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 18 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 11:51:57.100416000
+    [Time delta from previous captured frame: 5.940279000 seconds]
+    [Time delta from previous displayed frame: 5.940279000 seconds]
+    [Time since reference or first frame: 125.933065000 seconds]
+    Frame Number: 18
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || gvrp || igmp || ismp]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+    Destination: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+        Address: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000000000000000000000000000
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.1.40 (224.0.1.40)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 28
+    Identification: 0x0270 (624)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: IGMP (0x02)
+    Header checksum: 0xca85 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+    [IGMP Version: 2]
+    Type: Membership Report (0x16)
+    Max Response Time: 0,0 sec (0x00)
+    Header checksum: 0x08d7 [correct]
+    Multicast Address: 224.0.1.40 (224.0.1.40)
+
+No.     Time        Source                Destination           Protocol Info
+     19 126.060624  10.0.1.3              224.0.0.13            PIMv2    Hello
+
+Frame 19 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:51:57.227975000
+    [Time delta from previous captured frame: 0.127559000 seconds]
+    [Time delta from previous displayed frame: 0.127559000 seconds]
+    [Time since reference or first frame: 126.060624000 seconds]
+    Frame Number: 19
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x0271 (625)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb1c [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0xf18f [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): 1521456158
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     20 133.581844  Dell_77:11:eb         Broadcast             ARP      Who has 10.0.1.1?  Tell 10.0.1.2
+
+Frame 20 (42 bytes on wire, 42 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:04.749195000
+    [Time delta from previous captured frame: 7.521220000 seconds]
+    [Time delta from previous displayed frame: 7.521220000 seconds]
+    [Time since reference or first frame: 133.581844000 seconds]
+    Frame Number: 20
+    Frame Length: 42 bytes
+    Capture Length: 42 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:arp]
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+    Destination: Broadcast (ff:ff:ff:ff:ff:ff)
+        Address: Broadcast (ff:ff:ff:ff:ff:ff)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..1. .... .... .... .... = LG bit: Locally administered address (this is NOT the factory default)
+    Source: Dell_77:11:eb (00:21:9b:77:11:eb)
+        Address: Dell_77:11:eb (00:21:9b:77:11:eb)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: ARP (0x0806)
+Address Resolution Protocol (request)
+    Hardware type: Ethernet (0x0001)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: request (0x0001)
+    [Is gratuitous: False]
+    Sender MAC address: Dell_77:11:eb (00:21:9b:77:11:eb)
+    Sender IP address: 10.0.1.2 (10.0.1.2)
+    Target MAC address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Target IP address: 10.0.1.1 (10.0.1.1)
+
+No.     Time        Source                Destination           Protocol Info
+     21 133.582463  Cisco_6b:9d:60        Dell_77:11:eb         ARP      10.0.1.1 is at 00:21:55:6b:9d:60
+
+Frame 21 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:04.749814000
+    [Time delta from previous captured frame: 0.000619000 seconds]
+    [Time delta from previous displayed frame: 0.000619000 seconds]
+    [Time since reference or first frame: 133.582463000 seconds]
+    Frame Number: 21
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:arp]
+    [Coloring Rule Name: ARP]
+    [Coloring Rule String: arp]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: Dell_77:11:eb (00:21:9b:77:11:eb)
+    Destination: Dell_77:11:eb (00:21:9b:77:11:eb)
+        Address: Dell_77:11:eb (00:21:9b:77:11:eb)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: ARP (0x0806)
+    Trailer: 000000000000000000000000000000000000
+Address Resolution Protocol (reply)
+    Hardware type: Ethernet (0x0001)
+    Protocol type: IP (0x0800)
+    Hardware size: 6
+    Protocol size: 4
+    Opcode: reply (0x0002)
+    [Is gratuitous: False]
+    Sender MAC address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+    Sender IP address: 10.0.1.1 (10.0.1.1)
+    Target MAC address: Dell_77:11:eb (00:21:9b:77:11:eb)
+    Target IP address: 10.0.1.2 (10.0.1.2)
+
+No.     Time        Source                Destination           Protocol Info
+     22 133.582471  10.0.1.2              128.143.136.22        TCP      47521 > ftp [SYN] Seq=0 Win=5840 Len=0 MSS=1460 TSV=2342499 TSER=0 WS=6
+
+Frame 22 (74 bytes on wire, 74 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:04.749822000
+    [Time delta from previous captured frame: 0.000008000 seconds]
+    [Time delta from previous displayed frame: 0.000008000 seconds]
+    [Time since reference or first frame: 133.582471000 seconds]
+    Frame Number: 22
+    Frame Length: 74 bytes
+    Capture Length: 74 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: TCP SYN/FIN]
+    [Coloring Rule String: tcp.flags & 0x02 || tcp.flags.fin == 1]
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+    Destination: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_77:11:eb (00:21:9b:77:11:eb)
+        Address: Dell_77:11:eb (00:21:9b:77:11:eb)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.2 (10.0.1.2), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x62e3 (25315)
+    Flags: 0x02 (Don't Fragment)
+        0.. = Reserved bit: Not Set
+        .1. = Don't fragment: Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc431 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.2 (10.0.1.2)
+    Destination: 128.143.136.22 (128.143.136.22)
+Transmission Control Protocol, Src Port: 47521 (47521), Dst Port: ftp (21), Seq: 0, Len: 0
+    Source port: 47521 (47521)
+    Destination port: ftp (21)
+    [Stream index: 0]
+    Sequence number: 0    (relative sequence number)
+    Header length: 40 bytes
+    Flags: 0x02 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgement: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish request (SYN): server port ftp]
+                [Message: Connection establish request (SYN): server port ftp]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... ...0 = Fin: Not set
+    Window size: 5840
+    Checksum: 0x13d6 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (20 bytes)
+        Maximum segment size: 1460 bytes
+        SACK permitted
+        Timestamps: TSval 2342499, TSecr 0
+        NOP
+        Window scale: 6 (multiply by 64)
+
+No.     Time        Source                Destination           Protocol Info
+     23 136.581596  10.0.1.2              128.143.136.22        TCP      47521 > ftp [SYN] Seq=0 Win=5840 Len=0 MSS=1460 TSV=2343250 TSER=0 WS=6
+
+Frame 23 (74 bytes on wire, 74 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:07.748947000
+    [Time delta from previous captured frame: 2.999125000 seconds]
+    [Time delta from previous displayed frame: 2.999125000 seconds]
+    [Time since reference or first frame: 136.581596000 seconds]
+    Frame Number: 23
+    Frame Length: 74 bytes
+    Capture Length: 74 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: TCP SYN/FIN]
+    [Coloring Rule String: tcp.flags & 0x02 || tcp.flags.fin == 1]
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+    Destination: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_77:11:eb (00:21:9b:77:11:eb)
+        Address: Dell_77:11:eb (00:21:9b:77:11:eb)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.2 (10.0.1.2), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x62e4 (25316)
+    Flags: 0x02 (Don't Fragment)
+        0.. = Reserved bit: Not Set
+        .1. = Don't fragment: Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc430 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.2 (10.0.1.2)
+    Destination: 128.143.136.22 (128.143.136.22)
+Transmission Control Protocol, Src Port: 47521 (47521), Dst Port: ftp (21), Seq: 0, Len: 0
+    Source port: 47521 (47521)
+    Destination port: ftp (21)
+    [Stream index: 0]
+    Sequence number: 0    (relative sequence number)
+    Header length: 40 bytes
+    Flags: 0x02 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgement: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish request (SYN): server port ftp]
+                [Message: Connection establish request (SYN): server port ftp]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... ...0 = Fin: Not set
+    Window size: 5840
+    Checksum: 0x13d6 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (20 bytes)
+        Maximum segment size: 1460 bytes
+        SACK permitted
+        Timestamps: TSval 2343250, TSecr 0
+        NOP
+        Window scale: 6 (multiply by 64)
+
+No.     Time        Source                Destination           Protocol Info
+     24 138.004849  10.0.1.3              224.0.0.13            PIMv2    Join/Prune
+
+Frame 24 (68 bytes on wire, 68 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:09.172200000
+    [Time delta from previous captured frame: 1.423253000 seconds]
+    [Time delta from previous displayed frame: 1.423253000 seconds]
+    [Time since reference or first frame: 138.004849000 seconds]
+    Frame Number: 24
+    Frame Length: 68 bytes
+    Capture Length: 68 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 54
+    Identification: 0x0272 (626)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb1f [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Join/Prune (3)
+    Checksum: 0xd8bf [correct]
+    PIM parameters
+        Upstream-neighbor: 10.0.1.1
+        Groups: 1
+        Holdtime: 210
+        Group 0: 224.0.1.40/32
+            Join: 1
+                IP address: 10.0.3.2/32 (SWR)
+            Prune: 0
+
+No.     Time        Source                Destination           Protocol Info
+     25 142.589845  10.0.1.2              128.143.136.22        TCP      47521 > ftp [SYN] Seq=0 Win=5840 Len=0 MSS=1460 TSV=2344752 TSER=0 WS=6
+
+Frame 25 (74 bytes on wire, 74 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:13.757196000
+    [Time delta from previous captured frame: 4.584996000 seconds]
+    [Time delta from previous displayed frame: 4.584996000 seconds]
+    [Time since reference or first frame: 142.589845000 seconds]
+    Frame Number: 25
+    Frame Length: 74 bytes
+    Capture Length: 74 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:tcp]
+    [Coloring Rule Name: TCP SYN/FIN]
+    [Coloring Rule String: tcp.flags & 0x02 || tcp.flags.fin == 1]
+Ethernet II, Src: Dell_77:11:eb (00:21:9b:77:11:eb), Dst: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+    Destination: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Dell_77:11:eb (00:21:9b:77:11:eb)
+        Address: Dell_77:11:eb (00:21:9b:77:11:eb)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.2 (10.0.1.2), Dst: 128.143.136.22 (128.143.136.22)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 60
+    Identification: 0x62e5 (25317)
+    Flags: 0x02 (Don't Fragment)
+        0.. = Reserved bit: Not Set
+        .1. = Don't fragment: Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (0x06)
+    Header checksum: 0xc42f [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.2 (10.0.1.2)
+    Destination: 128.143.136.22 (128.143.136.22)
+Transmission Control Protocol, Src Port: 47521 (47521), Dst Port: ftp (21), Seq: 0, Len: 0
+    Source port: 47521 (47521)
+    Destination port: ftp (21)
+    [Stream index: 0]
+    Sequence number: 0    (relative sequence number)
+    Header length: 40 bytes
+    Flags: 0x02 (SYN)
+        0... .... = Congestion Window Reduced (CWR): Not set
+        .0.. .... = ECN-Echo: Not set
+        ..0. .... = Urgent: Not set
+        ...0 .... = Acknowledgement: Not set
+        .... 0... = Push: Not set
+        .... .0.. = Reset: Not set
+        .... ..1. = Syn: Set
+            [Expert Info (Chat/Sequence): Connection establish request (SYN): server port ftp]
+                [Message: Connection establish request (SYN): server port ftp]
+                [Severity level: Chat]
+                [Group: Sequence]
+        .... ...0 = Fin: Not set
+    Window size: 5840
+    Checksum: 0x13d6 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    Options: (20 bytes)
+        Maximum segment size: 1460 bytes
+        SACK permitted
+        Timestamps: TSval 2344752, TSecr 0
+        NOP
+        Window scale: 6 (multiply by 64)
+
+No.     Time        Source                Destination           Protocol Info
+     26 149.178752  10.0.1.1              224.0.0.13            PIMv2    Hello
+
+Frame 26 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:20.346103000
+    [Time delta from previous captured frame: 6.588907000 seconds]
+    [Time delta from previous displayed frame: 6.588907000 seconds]
+    [Time since reference or first frame: 149.178752000 seconds]
+    Frame Number: 26
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x0484 (1156)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xc90b [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0x13ed [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): -556733025
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     27 155.759352  10.0.1.3              224.0.0.13            PIMv2    Hello
+
+Frame 27 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:26.926703000
+    [Time delta from previous captured frame: 6.580600000 seconds]
+    [Time delta from previous displayed frame: 6.580600000 seconds]
+    [Time since reference or first frame: 155.759352000 seconds]
+    Frame Number: 27
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x0273 (627)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb1a [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0xf18f [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): 1521456158
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     28 178.676966  10.0.1.1              224.0.0.13            PIMv2    Hello
+
+Frame 28 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:49.844317000
+    [Time delta from previous captured frame: 22.917614000 seconds]
+    [Time delta from previous displayed frame: 22.917614000 seconds]
+    [Time since reference or first frame: 178.676966000 seconds]
+    Frame Number: 28
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x0486 (1158)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xc909 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0x13ed [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): -556733025
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     29 179.989211  10.0.1.1              224.0.0.1             IGMP     V2 Membership Query, general
+
+Frame 29 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:51.156562000
+    [Time delta from previous captured frame: 1.312245000 seconds]
+    [Time delta from previous displayed frame: 1.312245000 seconds]
+    [Time since reference or first frame: 179.989211000 seconds]
+    Frame Number: 29
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || gvrp || igmp || ismp]
+Ethernet II, Src: Cisco_6b:9d:60 (00:21:55:6b:9d:60), Dst: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+    Destination: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+        Address: IPv4mcast_00:00:01 (01:00:5e:00:00:01)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        Address: Cisco_6b:9d:60 (00:21:55:6b:9d:60)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000000000000000000000000000
+Internet Protocol, Src: 10.0.1.1 (10.0.1.1), Dst: 224.0.0.1 (224.0.0.1)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 28
+    Identification: 0x0487 (1159)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: IGMP (0x02)
+    Header checksum: 0xc997 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.1 (10.0.1.1)
+    Destination: 224.0.0.1 (224.0.0.1)
+Internet Group Management Protocol
+    [IGMP Version: 2]
+    Type: Membership Query (0x11)
+    Max Response Time: 10,0 sec (0x64)
+    Header checksum: 0xee9b [correct]
+    Multicast Address: 0.0.0.0 (0.0.0.0)
+
+No.     Time        Source                Destination           Protocol Info
+     30 185.205565  10.0.1.3              224.0.0.13            PIMv2    Hello
+
+Frame 30 (72 bytes on wire, 72 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:56.372916000
+    [Time delta from previous captured frame: 5.216354000 seconds]
+    [Time delta from previous displayed frame: 5.216354000 seconds]
+    [Time since reference or first frame: 185.205565000 seconds]
+    Frame Number: 30
+    Frame Length: 72 bytes
+    Capture Length: 72 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 58
+    Identification: 0x0274 (628)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb19 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Hello (0)
+    Checksum: 0xf18f [correct]
+    PIM parameters
+        Holdtime (1): 105s 
+        Generation ID (20): 1521456158
+        DR Priority (19): 1
+        Unknown option (21), length: 4, value: 0x1000000
+        Unknown option (65004), length: 0, value: 0x0
+
+No.     Time        Source                Destination           Protocol Info
+     31 187.929841  10.0.1.3              224.0.1.40            IGMP     V2 Membership Report / Join group 224.0.1.40
+
+Frame 31 (60 bytes on wire, 60 bytes captured)
+    Arrival Time: Jun 10, 2014 11:52:59.097192000
+    [Time delta from previous captured frame: 2.724276000 seconds]
+    [Time delta from previous displayed frame: 2.724276000 seconds]
+    [Time since reference or first frame: 187.929841000 seconds]
+    Frame Number: 31
+    Frame Length: 60 bytes
+    Capture Length: 60 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:igmp]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || gvrp || igmp || ismp]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+    Destination: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+        Address: IPv4mcast_00:01:28 (01:00:5e:00:01:28)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+    Trailer: 000000000000000000000000000000000000
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.1.40 (224.0.1.40)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 28
+    Identification: 0x0275 (629)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: IGMP (0x02)
+    Header checksum: 0xca80 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.1.40 (224.0.1.40)
+Internet Group Management Protocol
+    [IGMP Version: 2]
+    Type: Membership Report (0x16)
+    Max Response Time: 0,0 sec (0x00)
+    Header checksum: 0x08d7 [correct]
+    Multicast Address: 224.0.1.40 (224.0.1.40)
+
+No.     Time        Source                Destination           Protocol Info
+     32 197.601763  10.0.1.3              224.0.0.13            PIMv2    Join/Prune
+
+Frame 32 (68 bytes on wire, 68 bytes captured)
+    Arrival Time: Jun 10, 2014 11:53:08.769114000
+    [Time delta from previous captured frame: 9.671922000 seconds]
+    [Time delta from previous displayed frame: 9.671922000 seconds]
+    [Time since reference or first frame: 197.601763000 seconds]
+    Frame Number: 32
+    Frame Length: 68 bytes
+    Capture Length: 68 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:pim]
+    [Coloring Rule Name: Broadcast]
+    [Coloring Rule String: eth[0] & 1]
+Ethernet II, Src: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08), Dst: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+    Destination: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        Address: IPv4mcast_00:00:0d (01:00:5e:00:00:0d)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        Address: Cisco_e0:ba:08 (00:1f:6c:e0:ba:08)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.3 (10.0.1.3), Dst: 224.0.0.13 (224.0.0.13)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP 0x30: Class Selector 6; ECN: 0x00)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (0x30)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 54
+    Identification: 0x0276 (630)
+    Flags: 0x00
+        0.. = Reserved bit: Not Set
+        .0. = Don't fragment: Not Set
+        ..0 = More fragments: Not Set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: PIM (0x67)
+    Header checksum: 0xcb1b [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.3 (10.0.1.3)
+    Destination: 224.0.0.13 (224.0.0.13)
+Protocol Independent Multicast
+    Version: 2
+    Type: Join/Prune (3)
+    Checksum: 0xd8bf [correct]
+    PIM parameters
+        Upstream-neighbor: 10.0.1.1
+        Groups: 1
+        Holdtime: 210
+        Group 0: 224.0.1.40/32
+            Join: 1
+                IP address: 10.0.3.2/32 (SWR)
+            Prune: 0

@@ -1,0 +1,8 @@
+Chain POSTROUTING (policy ACCEPT)
+target     prot opt source               destination         
+
+SNAT       all  --  0.0.0.0/24           anywhere            to:128.143.136.22 
+SNAT       all  --  0.0.0.0/24           anywhere            to:128.143.136.22 
+SNAT       all  --  0.0.0.0              anywhere            to:128.143.136.22 
+SNAT       all  --  anywhere             anywhere            to:128.143.136.22 
+SNAT       all  --  anywhere             anywhere            to:128.143.136.22
