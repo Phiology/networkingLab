@@ -1,0 +1,105 @@
+    Briefly explain what the command host does. 
+	
+	- host is a DNS lookup utility converting hostnames into ip-addresses and vice versa. 
+	
+	Describe the following terms that are used in the Domain Name System. 
+		    Top-level domain
+			
+			- Top-level domains are the most 'basic' domains in which subdomains are collected. It divides the internet namespace into categories such as COM, DE, EDU, GOV, NET, ORG, ARPA and so on. The DNS has a root domain at the top of the hierarchy and directly below follow the top-lvl domains.
+			
+			CNAME(canonical name)
+			
+			- A canonical name is the official name of a host (not an alias). The official name is the first hostname listed for its Internet address.
+			
+			Resolver
+			
+			- The resolver is the most common dns client used on linux. Its configuration file (/etc/resolv.conf) contanins information about which DNS servers to use and other options.
+			
+			Name server
+			
+			- A name server's job is to answer queries from resolvers. It is supposed to return hostname or ip-address based on query type. If it does not know the answer to a query, it normally has next hop information (different DNS server where to lookup the wanted information). They know about the (or parts of) domains structure.
+			
+			Label
+			
+			- Naming in DNS begins with giving each domain, or node, in the DNS name space a text label. The label identifies the domain within the structure, and must follow certain syntax rules.
+			
+			FQDN(fully qualified domain name)
+			
+			- A FQDN consists of a host name and domain names up to a top-level domain. For example, www.wiki.net.informatik.uni-goettingen.de consists of the host (www), fifth level doman (net), fourth level domain (net), third level doman (informatik), second level domain (uni-goettingen) and top-lvl domain (de).
+						
+			BIND
+			
+			- BIND (Berkeley Internet Name Domain) is an implementation of the Domain Name System (DNS) protocols and provides an openly redistributable reference implementation of the major components of the Domain Name System. The BIND DNS Server is used on the vast majority of name serving machines on the Internet, providing a robust and stable architecture on top of which an organization's naming architecture can be built. The resolver library included in the BIND distribution provides the standard APIs for translation between domain names and Internet addresses and is intended to be linked with applications requiring name service.
+			
+			Inverse lookup
+			
+			- An inverse lookup looks for a hostname belonging to an ip address, not the other way around.
+			
+			RR(resource record)
+			
+			- A DNS uses resource records to resolve host names and IP addresses. These records are stored in the DNS zone files. The record types NS, SOA, CNAME, and PTR form the basic infrastructure of DNS.
+			
+			SOA(start of authority) 
+			
+			- Specifies the server that contains the zone files for the domain.
+			
+			
+	Explain the following types of DNS queries:
+
+			Inverse queries
+			
+			- As mentioned above, inverse queries want to get a hostname from an ip-address. Because it might be time consuming to resolve the ip address by itself, the in-addr.arpa domain is used. Special pointer (PTR) records are added to the in-addr.arpa domain, and these PTR records match IP addresses (whose octets are actually reversed to delegate administration of A, B, and C class addresses) to friendly domain names. For example, clients seeking to determine the friendly name for the IP address 192.168.1.2 would send the local name server a request for the PTR record for 2.1.168.192.in-addr.arpa.
+			
+			Iterative queries
+			
+			- When the name server of a host cannot resolve a query, it sends a referral to another server to the resolver.
+			
+			Recursive queries 
+			
+			- When the name server of a host cannot resolve a query, the server issues a query to resolve the query.
+			
+What is the difference between a DNS domain and a DNS zone?
+
+- 4.) Domain name servers store information about part of the domain name space called a zone. The name server is authoritative for a particular zone. A single name server can be authoritative for many zones. Understanding the difference between a zone and a domain is sometimes confusing. A zone is simply a portion of a domain. For example, the Domain Microsoft.com may contain all of the data for Microsoft.com, Marketing.microsoft.com and Development.microsoft.com. However, the zone Microsoft.com contains only information for Microsoft.com and references to the authoritative name servers for the subdomains. The zone Microsoft.com can contain the data for subdomains of Microsoft.com if they have not been delegated to another server. For example, Marketing.microsoft.com may manage its own delegated zone. Development.microsoft.com may be managed by the parent, Microsoft.com. If there are no subdomains, then the zone and domain are essentially the same. In this case the zone contains all data for the domain.
+
+What are some of the top-level domains in the DNS namespace?
+
+- as mentioned above, COM, DE, GOV, EDU, MIL, NET, etc.
+
+Are domain names case sensitive? What, if any, is the constraint on the length of domain names?
+
+- Domain names are not case sensitive. The constraint of the length of domain names is 63 for each label and 255 chars for the FDQN.
+
+Provide a list of the names and IP addresses of all root servers of the Internet.
+
+- A.ROOT-SERVERS.NET.     	(VeriSign, Dulles, VA) 	198.41.0.4
+  B.ROOT-SERVERS.NET. 	(ISI, Marina Del Rey CA) 	192.228.79.201
+  C.ROOT-SERVERS.NET. 	(Cogent Communications) 	192.33.4.12
+  D.ROOT-SERVERS.NET. 	(University of Maryland)	128.8.10.90
+  E.ROOT-SERVERS.NET. 	(Nasa Ames Research Center)	192.203.230.10
+  F.ROOT-SERVERS.NET. 	(Internet Systems Consortium) 	192.5.5.241
+  G.ROOT-SERVERS.NET. 	(US Department of Defense) 	192.112.36.4
+  H.ROOT-SERVERS.NET. 	(US Army Research Lab)	128.63.2.53
+  I.ROOT-SERVERS.NET. 	(Stockholm, Sweden)	192.36.148.17
+  J.ROOT-SERVERS.NET. 	(Herndon, VA) 	192.58.128.30
+  K.ROOT-SERVERS.NET. 	(London, United Kingdom) 	193.0.14.129 
+  L.ROOT-SERVERS.NET. 	(IANA, Los Angeles)	198.32.64.12
+  M.ROOT-SERVERS.NET. 	(WIDE, Tokyo)	202.12.27.33
+
+What is the purpose of the top-level domain arpa?
+
+- 8.) The .arpa domain is the Address and Routing Parameter Area domain and is designated to be used exclusively for Internet-infrastructure purposes.
+
+From a command prompt on a Unix or Windows machine, run the command nslookup www.cnn.com, which shows the IP addresses that are associated with the domain name www.cnn.com. When you access www.cnn.com using a web browser on your computer, which IP address is chosen by your computer? 
+
+- Addresses: 157.166.239.177, 157.166.238.48, 158.166.238.17
+  chosen: 157.166.248.13 (but redirection to edition.cnn.com, where nslookup shows 157.166.248.13 and .249.13)
+
+
+		
+		
+		
+		
+	
+			
+	
