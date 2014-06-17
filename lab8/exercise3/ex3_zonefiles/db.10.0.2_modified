@@ -1,0 +1,21 @@
+
+$TTL 86400
+2.0.10.in-addr.arpa.	IN	SOA	PC4.lab8.net.	hostmaster.lab8.net. (
+			1 ; serial
+			28800 ; refresh
+			7200 ; retry
+			604800 ; expire	
+			86400 ; ttl
+			)
+
+
+2.0.10.in-addr.arpa.	IN	NS	 PC4.lab8.net.
+
+12	IN	PTR	PC1.lab8.net.
+12      IN      PTR     PC1.mylab.com.
+22	IN	PTR	PC2.lab8.net.
+22      IN      PTR     PC2.mylab.com.
+32	IN	PTR	PC3.lab8.net.
+32      IN	PTR     PC3.mylab.com.
+42	IN	PTR	PC4.lab8.net.
+42      IN      PTR     PC4.mylab.com.

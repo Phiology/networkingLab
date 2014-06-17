@@ -1,0 +1,5 @@
+; add by jianping for PC3
+;;
+.                        3600000  IN  NS    A.ROOT-SERVERS.EDU.
+A.ROOT-SERVERS.EDU.      3600000      A     10.0.1.11
+;;

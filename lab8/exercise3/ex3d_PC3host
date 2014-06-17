@@ -1,0 +1,39 @@
+Trying "PC3.lab8.net"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 16246
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;PC3.lab8.net.			IN	A
+
+;; ANSWER SECTION:
+PC3.lab8.net.		86400	IN	A	10.0.2.32
+
+;; AUTHORITY SECTION:
+lab8.net.		86400	IN	NS	PC4.lab8.net.
+
+;; ADDITIONAL SECTION:
+PC4.lab8.net.		86400	IN	A	10.0.2.42
+
+Received 80 bytes from 10.0.1.41#53 in 0 ms
+Trying "PC3.lab8.net"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61004
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;PC3.lab8.net.			IN	AAAA
+
+;; AUTHORITY SECTION:
+lab8.net.		86400	IN	SOA	PC4.lab8.net. hostmaster.lab8.net. 1 28800 7200 604800 86400
+
+Received 81 bytes from 10.0.1.41#53 in 0 ms
+Trying "PC3.lab8.net"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 4973
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;PC3.lab8.net.			IN	MX
+
+;; AUTHORITY SECTION:
+lab8.net.		86400	IN	SOA	PC4.lab8.net. hostmaster.lab8.net. 1 28800 7200 604800 86400
+
+Received 81 bytes from 10.0.1.41#53 in 0 ms

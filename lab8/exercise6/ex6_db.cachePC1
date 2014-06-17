@@ -1,0 +1,26 @@
+;
+$TTL 86400
+.	IN      SOA     PC1.mylab.com.	hostmaster.mylab.com. (
+			1 ; serial
+			28800 ; refresh
+			7200 ; retry
+			604800 ; expire	
+			86400 ; ttl
+			)
+
+;
+.        IN      NS      PC1.mylab.com.
+;
+PC1.mylab.com.          IN  A     10.0.1.11
+;
+net.		        IN  NS    PC3.mylab.com.
+PC3.mylab.com.          IN  A     10.0.1.31
+;
+com.                    IN  NS    PC2.mylab.com.
+PC2.mylab.com.          IN  A     10.0.1.21
+;
+1.0.10.in-addr.arpa.    IN  NS    PC2.mylab.com.
+;
+2.0.10.in-addr.arpa.    IN  NS    PC3.mylab.com.
+;
+;

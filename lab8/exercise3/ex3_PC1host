@@ -1,0 +1,100 @@
+Trying "PC3.mylab.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25408
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;PC3.mylab.com.			IN	A
+
+;; ANSWER SECTION:
+PC3.mylab.com.		86400	IN	A	10.0.1.31
+
+;; AUTHORITY SECTION:
+mylab.com.		86400	IN	NS	PC4.mylab.com.
+
+;; ADDITIONAL SECTION:
+PC4.mylab.com.		86400	IN	A	10.0.1.41
+
+Received 81 bytes from 10.0.1.41#53 in 0 ms
+Trying "PC3.mylab.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27731
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;PC3.mylab.com.			IN	AAAA
+
+;; AUTHORITY SECTION:
+mylab.com.		86400	IN	SOA	PC4.mylab.com. hostmaster.mylab.com. 1 28800 7200 604800 86400
+
+Received 82 bytes from 10.0.1.41#53 in 0 ms
+Trying "PC3.mylab.com"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 48611
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;PC3.mylab.com.			IN	MX
+
+;; AUTHORITY SECTION:
+mylab.com.		86400	IN	SOA	PC4.mylab.com. hostmaster.mylab.com. 1 28800 7200 604800 86400
+
+Received 82 bytes from 10.0.1.41#53 in 0 ms
+Trying "21.1.0.10.in-addr.arpa"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57159
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;21.1.0.10.in-addr.arpa.		IN	PTR
+
+;; ANSWER SECTION:
+21.1.0.10.in-addr.arpa.	86400	IN	PTR	PC2.mylab.com.
+
+;; AUTHORITY SECTION:
+1.0.10.in-addr.arpa.	86400	IN	NS	PC4.mylab.com.
+
+;; ADDITIONAL SECTION:
+PC4.mylab.com.		86400	IN	A	10.0.1.41
+
+Received 101 bytes from 10.0.1.41#53 in 0 ms
+Trying "localhost"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 57376
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; QUESTION SECTION:
+;localhost.			IN	A
+
+;; ANSWER SECTION:
+localhost.		86400	IN	A	127.0.0.1
+
+;; AUTHORITY SECTION:
+localhost.		86400	IN	NS	PC4.mylab.com.
+
+;; ADDITIONAL SECTION:
+PC4.mylab.com.		86400	IN	A	10.0.1.41
+
+Received 86 bytes from 10.0.1.41#53 in 0 ms
+Trying "localhost"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30608
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;localhost.			IN	AAAA
+
+;; AUTHORITY SECTION:
+localhost.		86400	IN	SOA	localhost.localhost. root.localhost.localhost. 1 28800 7200 604800 86400
+
+Received 78 bytes from 10.0.1.41#53 in 0 ms
+Trying "localhost"
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 5904
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;localhost.			IN	MX
+
+;; AUTHORITY SECTION:
+localhost.		86400	IN	SOA	localhost.localhost. root.localhost.localhost. 1 28800 7200 604800 86400
+
+Received 78 bytes from 10.0.1.41#53 in 0 ms
+Trying "tcpip-lab.net"
+Received 31 bytes from 10.0.1.41#53 in 0 ms
+Trying "tcpip-lab.net"
+Host tcpip-lab.net not found: 2(SERVFAIL)
+Received 31 bytes from 10.0.1.41#53 in 0 ms

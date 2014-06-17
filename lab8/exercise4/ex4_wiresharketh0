@@ -1,0 +1,2054 @@
+No.     Time        Source                Destination           Protocol Info
+      9 30.617432   10.0.1.11             10.0.1.41             DNS      Standard query A PC3.mylab.com
+
+Frame 9 (73 bytes on wire, 73 bytes captured)
+    Arrival Time: Jun 17, 2037 12:25:43.301826000
+    [Time delta from previous captured frame: 1.168873000 seconds]
+    [Time delta from previous displayed frame: 30.617432000 seconds]
+    [Time since reference or first frame: 30.617432000 seconds]
+    Frame Number: 9
+    Frame Length: 73 bytes
+    Capture Length: 73 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 59
+    Identification: 0x1cbf (7359)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x07c0 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 34539 (34539), Dst Port: 53 (53)
+    Source port: 34539 (34539)
+    Destination port: 53 (53)
+    Length: 39
+    Checksum: 0x166c [incorrect, should be 0xa3ea (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 10]
+    Transaction ID: 0x21d1
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        PC3.mylab.com: type A, class IN
+            Name: PC3.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     10 30.617739   10.0.1.41             10.0.1.11             DNS      Standard query response A 10.0.2.32 A 10.0.1.31
+
+Frame 10 (155 bytes on wire, 155 bytes captured)
+    Arrival Time: Jun 17, 2037 12:25:43.302133000
+    [Time delta from previous captured frame: 0.000307000 seconds]
+    [Time delta from previous displayed frame: 0.000307000 seconds]
+    [Time since reference or first frame: 30.617739000 seconds]
+    Frame Number: 10
+    Frame Length: 155 bytes
+    Capture Length: 155 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 141
+    Identification: 0xfc27 (64551)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x6805 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 34539 (34539)
+    Source port: 53 (53)
+    Destination port: 34539 (34539)
+    Length: 121
+    Checksum: 0x8e33 [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 9]
+    [Time: 0.000307000 seconds]
+    Transaction ID: 0x21d1
+    Flags: 0x8580 (Standard query response, No error)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 1
+    Additional RRs: 2
+    Queries
+        PC3.mylab.com: type A, class IN
+            Name: PC3.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+    Answers
+        PC3.mylab.com: type A, class IN, addr 10.0.2.32
+            Name: PC3.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.2.32
+        PC3.mylab.com: type A, class IN, addr 10.0.1.31
+            Name: PC3.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.1.31
+    Authoritative nameservers
+        mylab.com: type NS, class IN, ns PC4.mylab.com
+            Name: mylab.com
+            Type: NS (Authoritative name server)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 6
+            Name server: PC4.mylab.com
+    Additional records
+        PC4.mylab.com: type A, class IN, addr 10.0.1.41
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.1.41
+        PC4.mylab.com: type A, class IN, addr 10.0.2.42
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.2.42
+
+No.     Time        Source                Destination           Protocol Info
+     11 30.621987   10.0.1.11             10.0.1.41             DNS      Standard query PTR 32.2.0.10.in-addr.arpa
+
+Frame 11 (82 bytes on wire, 82 bytes captured)
+    Arrival Time: Jun 17, 2037 12:25:43.306381000
+    [Time delta from previous captured frame: 0.004248000 seconds]
+    [Time delta from previous displayed frame: 0.004248000 seconds]
+    [Time since reference or first frame: 30.621987000 seconds]
+    Frame Number: 11
+    Frame Length: 82 bytes
+    Capture Length: 82 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 68
+    Identification: 0x1cc1 (7361)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x07b5 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 45746 (45746), Dst Port: 53 (53)
+    Source port: 45746 (45746)
+    Destination port: 53 (53)
+    Length: 48
+    Checksum: 0x1675 [incorrect, should be 0x1136 (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 12]
+    Transaction ID: 0x4988
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        32.2.0.10.in-addr.arpa: type PTR, class IN
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     12 30.622180   10.0.1.41             10.0.1.11             DNS      Standard query response PTR PC3.lab8.net PTR PC3.mylab.com
+
+Frame 12 (169 bytes on wire, 169 bytes captured)
+    Arrival Time: Jun 17, 2037 12:25:43.306574000
+    [Time delta from previous captured frame: 0.000193000 seconds]
+    [Time delta from previous displayed frame: 0.000193000 seconds]
+    [Time since reference or first frame: 30.622180000 seconds]
+    Frame Number: 12
+    Frame Length: 169 bytes
+    Capture Length: 169 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 155
+    Identification: 0xfc28 (64552)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x67f6 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 45746 (45746)
+    Source port: 53 (53)
+    Destination port: 45746 (45746)
+    Length: 135
+    Checksum: 0x962f [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 11]
+    [Time: 0.000193000 seconds]
+    Transaction ID: 0x4988
+    Flags: 0x8580 (Standard query response, No error)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 1
+    Additional RRs: 1
+    Queries
+        32.2.0.10.in-addr.arpa: type PTR, class IN
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+    Answers
+        32.2.0.10.in-addr.arpa: type PTR, class IN, PC3.lab8.net
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 14
+            Domain name: PC3.lab8.net
+        32.2.0.10.in-addr.arpa: type PTR, class IN, PC3.mylab.com
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 15
+            Domain name: PC3.mylab.com
+    Authoritative nameservers
+        2.0.10.in-addr.arpa: type NS, class IN, ns PC4.lab8.net
+            Name: 2.0.10.in-addr.arpa
+            Type: NS (Authoritative name server)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 6
+            Name server: PC4.lab8.net
+    Additional records
+        PC4.lab8.net: type A, class IN, addr 10.0.2.42
+            Name: PC4.lab8.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.2.42
+
+No.     Time        Source                Destination           Protocol Info
+     13 31.621894   10.0.1.11             10.0.1.41             DNS      Standard query PTR 32.2.0.10.in-addr.arpa
+
+Frame 13 (82 bytes on wire, 82 bytes captured)
+    Arrival Time: Jun 17, 2037 12:25:44.306288000
+    [Time delta from previous captured frame: 0.999714000 seconds]
+    [Time delta from previous displayed frame: 0.999714000 seconds]
+    [Time since reference or first frame: 31.621894000 seconds]
+    Frame Number: 13
+    Frame Length: 82 bytes
+    Capture Length: 82 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 68
+    Identification: 0x1dbb (7611)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x06bb [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 42785 (42785), Dst Port: 53 (53)
+    Source port: 42785 (42785)
+    Destination port: 53 (53)
+    Length: 48
+    Checksum: 0x1675 [incorrect, should be 0x6ca0 (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 14]
+    Transaction ID: 0xf9ae
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        32.2.0.10.in-addr.arpa: type PTR, class IN
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     14 31.622093   10.0.1.41             10.0.1.11             DNS      Standard query response PTR PC3.mylab.com PTR PC3.lab8.net
+
+Frame 14 (169 bytes on wire, 169 bytes captured)
+    Arrival Time: Jun 17, 2037 12:25:44.306487000
+    [Time delta from previous captured frame: 0.000199000 seconds]
+    [Time delta from previous displayed frame: 0.000199000 seconds]
+    [Time since reference or first frame: 31.622093000 seconds]
+    Frame Number: 14
+    Frame Length: 169 bytes
+    Capture Length: 169 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 155
+    Identification: 0xfc29 (64553)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x67f5 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 42785 (42785)
+    Source port: 53 (53)
+    Destination port: 42785 (42785)
+    Length: 135
+    Checksum: 0x4b25 [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 13]
+    [Time: 0.000199000 seconds]
+    Transaction ID: 0xf9ae
+    Flags: 0x8580 (Standard query response, No error)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 1
+    Additional RRs: 1
+    Queries
+        32.2.0.10.in-addr.arpa: type PTR, class IN
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+    Answers
+        32.2.0.10.in-addr.arpa: type PTR, class IN, PC3.mylab.com
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 15
+            Domain name: PC3.mylab.com
+        32.2.0.10.in-addr.arpa: type PTR, class IN, PC3.lab8.net
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 14
+            Domain name: PC3.lab8.net
+    Authoritative nameservers
+        2.0.10.in-addr.arpa: type NS, class IN, ns PC4.lab8.net
+            Name: 2.0.10.in-addr.arpa
+            Type: NS (Authoritative name server)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 6
+            Name server: PC4.lab8.net
+    Additional records
+        PC4.lab8.net: type A, class IN, addr 10.0.2.42
+            Name: PC4.lab8.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.2.42
+
+No.     Time        Source                Destination           Protocol Info
+     15 32.621894   10.0.1.11             10.0.1.41             DNS      Standard query PTR 32.2.0.10.in-addr.arpa
+
+Frame 15 (82 bytes on wire, 82 bytes captured)
+    Arrival Time: Jun 17, 2037 12:25:45.306288000
+    [Time delta from previous captured frame: 0.999801000 seconds]
+    [Time delta from previous displayed frame: 0.999801000 seconds]
+    [Time since reference or first frame: 32.621894000 seconds]
+    Frame Number: 15
+    Frame Length: 82 bytes
+    Capture Length: 82 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 68
+    Identification: 0x1eb5 (7861)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x05c1 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 34799 (34799), Dst Port: 53 (53)
+    Source port: 34799 (34799)
+    Destination port: 53 (53)
+    Length: 48
+    Checksum: 0x1675 [incorrect, should be 0x41d6 (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 16]
+    Transaction ID: 0x43ab
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        32.2.0.10.in-addr.arpa: type PTR, class IN
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     16 32.622114   10.0.1.41             10.0.1.11             DNS      Standard query response PTR PC3.lab8.net PTR PC3.mylab.com
+
+Frame 16 (169 bytes on wire, 169 bytes captured)
+    Arrival Time: Jun 17, 2037 12:25:45.306508000
+    [Time delta from previous captured frame: 0.000220000 seconds]
+    [Time delta from previous displayed frame: 0.000220000 seconds]
+    [Time since reference or first frame: 32.622114000 seconds]
+    Frame Number: 16
+    Frame Length: 169 bytes
+    Capture Length: 169 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 155
+    Identification: 0xfc2a (64554)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x67f4 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 34799 (34799)
+    Source port: 53 (53)
+    Destination port: 34799 (34799)
+    Length: 135
+    Checksum: 0xc6cf [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 15]
+    [Time: 0.000220000 seconds]
+    Transaction ID: 0x43ab
+    Flags: 0x8580 (Standard query response, No error)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 2
+    Authority RRs: 1
+    Additional RRs: 1
+    Queries
+        32.2.0.10.in-addr.arpa: type PTR, class IN
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+    Answers
+        32.2.0.10.in-addr.arpa: type PTR, class IN, PC3.lab8.net
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 14
+            Domain name: PC3.lab8.net
+        32.2.0.10.in-addr.arpa: type PTR, class IN, PC3.mylab.com
+            Name: 32.2.0.10.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 15
+            Domain name: PC3.mylab.com
+    Authoritative nameservers
+        2.0.10.in-addr.arpa: type NS, class IN, ns PC4.lab8.net
+            Name: 2.0.10.in-addr.arpa
+            Type: NS (Authoritative name server)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 6
+            Name server: PC4.lab8.net
+    Additional records
+        PC4.lab8.net: type A, class IN, addr 10.0.2.42
+            Name: PC4.lab8.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.2.42
+
+No.     Time        Source                Destination           Protocol Info
+     23 59.497537   10.0.1.11             10.0.1.41             DNS      Standard query A localhost
+
+Frame 23 (69 bytes on wire, 69 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:12.181931000
+    [Time delta from previous captured frame: 0.096371000 seconds]
+    [Time delta from previous displayed frame: 26.875423000 seconds]
+    [Time since reference or first frame: 59.497537000 seconds]
+    Frame Number: 23
+    Frame Length: 69 bytes
+    Capture Length: 69 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 55
+    Identification: 0x38f3 (14579)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0xeb8f [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 47746 (47746), Dst Port: 53 (53)
+    Source port: 47746 (47746)
+    Destination port: 53 (53)
+    Length: 35
+    Checksum: 0x1668 [incorrect, should be 0x1ac8 (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 24]
+    Transaction ID: 0x5ad4
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        localhost: type A, class IN
+            Name: localhost
+            Type: A (Host address)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     24 59.497861   10.0.1.41             10.0.1.11             DNS      Standard query response A 127.0.0.1
+
+Frame 24 (144 bytes on wire, 144 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:12.182255000
+    [Time delta from previous captured frame: 0.000324000 seconds]
+    [Time delta from previous displayed frame: 0.000324000 seconds]
+    [Time since reference or first frame: 59.497861000 seconds]
+    Frame Number: 24
+    Frame Length: 144 bytes
+    Capture Length: 144 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 130
+    Identification: 0xfc2b (64555)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x680c [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 47746 (47746)
+    Source port: 53 (53)
+    Destination port: 47746 (47746)
+    Length: 110
+    Checksum: 0x94a0 [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 23]
+    [Time: 0.000324000 seconds]
+    Transaction ID: 0x5ad4
+    Flags: 0x8580 (Standard query response, No error)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 1
+    Additional RRs: 2
+    Queries
+        localhost: type A, class IN
+            Name: localhost
+            Type: A (Host address)
+            Class: IN (0x0001)
+    Answers
+        localhost: type A, class IN, addr 127.0.0.1
+            Name: localhost
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 127.0.0.1
+    Authoritative nameservers
+        localhost: type NS, class IN, ns PC4.mylab.com
+            Name: localhost
+            Type: NS (Authoritative name server)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 15
+            Name server: PC4.mylab.com
+    Additional records
+        PC4.mylab.com: type A, class IN, addr 10.0.2.42
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.2.42
+        PC4.mylab.com: type A, class IN, addr 10.0.1.41
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.1.41
+
+No.     Time        Source                Destination           Protocol Info
+     25 59.498304   10.0.1.11             10.0.1.41             DNS      Standard query PTR 1.0.0.127.in-addr.arpa
+
+Frame 25 (82 bytes on wire, 82 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:12.182698000
+    [Time delta from previous captured frame: 0.000443000 seconds]
+    [Time delta from previous displayed frame: 0.000443000 seconds]
+    [Time since reference or first frame: 59.498304000 seconds]
+    Frame Number: 25
+    Frame Length: 82 bytes
+    Capture Length: 82 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 68
+    Identification: 0x38f4 (14580)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0xeb81 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 57645 (57645), Dst Port: 53 (53)
+    Source port: 57645 (57645)
+    Destination port: 53 (53)
+    Length: 48
+    Checksum: 0x1675 [incorrect, should be 0xf630 (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 26]
+    Transaction ID: 0xc480
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        1.0.0.127.in-addr.arpa: type PTR, class IN
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     26 59.498489   10.0.1.41             10.0.1.11             DNS      Standard query response PTR localhost
+
+Frame 26 (164 bytes on wire, 164 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:12.182883000
+    [Time delta from previous captured frame: 0.000185000 seconds]
+    [Time delta from previous displayed frame: 0.000185000 seconds]
+    [Time since reference or first frame: 59.498489000 seconds]
+    Frame Number: 26
+    Frame Length: 164 bytes
+    Capture Length: 164 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 150
+    Identification: 0xfc2c (64556)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x67f7 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 57645 (57645)
+    Source port: 53 (53)
+    Destination port: 57645 (57645)
+    Length: 130
+    Checksum: 0x3b9e [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 25]
+    [Time: 0.000185000 seconds]
+    Transaction ID: 0xc480
+    Flags: 0x8580 (Standard query response, No error)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 1
+    Additional RRs: 2
+    Queries
+        1.0.0.127.in-addr.arpa: type PTR, class IN
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+    Answers
+        1.0.0.127.in-addr.arpa: type PTR, class IN, localhost
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 11
+            Domain name: localhost
+    Authoritative nameservers
+        0.0.127.in-addr.arpa: type NS, class IN, ns PC4.mylab.com
+            Name: 0.0.127.in-addr.arpa
+            Type: NS (Authoritative name server)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 15
+            Name server: PC4.mylab.com
+    Additional records
+        PC4.mylab.com: type A, class IN, addr 10.0.1.41
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.1.41
+        PC4.mylab.com: type A, class IN, addr 10.0.2.42
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.2.42
+
+No.     Time        Source                Destination           Protocol Info
+     27 60.497784   10.0.1.11             10.0.1.41             DNS      Standard query PTR 1.0.0.127.in-addr.arpa
+
+Frame 27 (82 bytes on wire, 82 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:13.182178000
+    [Time delta from previous captured frame: 0.999295000 seconds]
+    [Time delta from previous displayed frame: 0.999295000 seconds]
+    [Time since reference or first frame: 60.497784000 seconds]
+    Frame Number: 27
+    Frame Length: 82 bytes
+    Capture Length: 82 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 68
+    Identification: 0x39ee (14830)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0xea87 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 56308 (56308), Dst Port: 53 (53)
+    Source port: 56308 (56308)
+    Destination port: 53 (53)
+    Length: 48
+    Checksum: 0x1675 [incorrect, should be 0x3986 (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 28]
+    Transaction ID: 0x8664
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        1.0.0.127.in-addr.arpa: type PTR, class IN
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     28 60.497963   10.0.1.41             10.0.1.11             DNS      Standard query response PTR localhost
+
+Frame 28 (164 bytes on wire, 164 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:13.182357000
+    [Time delta from previous captured frame: 0.000179000 seconds]
+    [Time delta from previous displayed frame: 0.000179000 seconds]
+    [Time since reference or first frame: 60.497963000 seconds]
+    Frame Number: 28
+    Frame Length: 164 bytes
+    Capture Length: 164 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 150
+    Identification: 0xfc2d (64557)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x67f6 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 56308 (56308)
+    Source port: 53 (53)
+    Destination port: 56308 (56308)
+    Length: 130
+    Checksum: 0x7ef3 [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 27]
+    [Time: 0.000179000 seconds]
+    Transaction ID: 0x8664
+    Flags: 0x8580 (Standard query response, No error)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 1
+    Additional RRs: 2
+    Queries
+        1.0.0.127.in-addr.arpa: type PTR, class IN
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+    Answers
+        1.0.0.127.in-addr.arpa: type PTR, class IN, localhost
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 11
+            Domain name: localhost
+    Authoritative nameservers
+        0.0.127.in-addr.arpa: type NS, class IN, ns PC4.mylab.com
+            Name: 0.0.127.in-addr.arpa
+            Type: NS (Authoritative name server)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 15
+            Name server: PC4.mylab.com
+    Additional records
+        PC4.mylab.com: type A, class IN, addr 10.0.2.42
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.2.42
+        PC4.mylab.com: type A, class IN, addr 10.0.1.41
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.1.41
+
+No.     Time        Source                Destination           Protocol Info
+     29 61.497803   10.0.1.11             10.0.1.41             DNS      Standard query PTR 1.0.0.127.in-addr.arpa
+
+Frame 29 (82 bytes on wire, 82 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:14.182197000
+    [Time delta from previous captured frame: 0.999840000 seconds]
+    [Time delta from previous displayed frame: 0.999840000 seconds]
+    [Time since reference or first frame: 61.497803000 seconds]
+    Frame Number: 29
+    Frame Length: 82 bytes
+    Capture Length: 82 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 68
+    Identification: 0x3ae8 (15080)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0xe98d [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 36783 (36783), Dst Port: 53 (53)
+    Source port: 36783 (36783)
+    Destination port: 53 (53)
+    Length: 48
+    Checksum: 0x1675 [incorrect, should be 0xf748 (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 30]
+    Transaction ID: 0x14e7
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        1.0.0.127.in-addr.arpa: type PTR, class IN
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     30 61.497989   10.0.1.41             10.0.1.11             DNS      Standard query response PTR localhost
+
+Frame 30 (164 bytes on wire, 164 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:14.182383000
+    [Time delta from previous captured frame: 0.000186000 seconds]
+    [Time delta from previous displayed frame: 0.000186000 seconds]
+    [Time since reference or first frame: 61.497989000 seconds]
+    Frame Number: 30
+    Frame Length: 164 bytes
+    Capture Length: 164 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 150
+    Identification: 0xfc2e (64558)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x67f5 [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 36783 (36783)
+    Source port: 53 (53)
+    Destination port: 36783 (36783)
+    Length: 130
+    Checksum: 0x3cb6 [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 29]
+    [Time: 0.000186000 seconds]
+    Transaction ID: 0x14e7
+    Flags: 0x8580 (Standard query response, No error)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .1.. .... .... = Authoritative: Server is an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0000 = Reply code: No error (0)
+    Questions: 1
+    Answer RRs: 1
+    Authority RRs: 1
+    Additional RRs: 2
+    Queries
+        1.0.0.127.in-addr.arpa: type PTR, class IN
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+    Answers
+        1.0.0.127.in-addr.arpa: type PTR, class IN, localhost
+            Name: 1.0.0.127.in-addr.arpa
+            Type: PTR (Domain name pointer)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 11
+            Domain name: localhost
+    Authoritative nameservers
+        0.0.127.in-addr.arpa: type NS, class IN, ns PC4.mylab.com
+            Name: 0.0.127.in-addr.arpa
+            Type: NS (Authoritative name server)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 15
+            Name server: PC4.mylab.com
+    Additional records
+        PC4.mylab.com: type A, class IN, addr 10.0.1.41
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.1.41
+        PC4.mylab.com: type A, class IN, addr 10.0.2.42
+            Name: PC4.mylab.com
+            Type: A (Host address)
+            Class: IN (0x0001)
+            Time to live: 1 day
+            Data length: 4
+            Addr: 10.0.2.42
+
+No.     Time        Source                Destination           Protocol Info
+     40 88.169415   10.0.1.11             10.0.1.41             DNS      Standard query A tcpip-lab.net
+
+Frame 40 (73 bytes on wire, 73 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:40.853809000
+    [Time delta from previous captured frame: 2.495752000 seconds]
+    [Time delta from previous displayed frame: 26.671426000 seconds]
+    [Time since reference or first frame: 88.169415000 seconds]
+    Frame Number: 40
+    Frame Length: 73 bytes
+    Capture Length: 73 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 59
+    Identification: 0x54f3 (21747)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0xcf8b [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 54613 (54613), Dst Port: 53 (53)
+    Source port: 54613 (54613)
+    Destination port: 53 (53)
+    Length: 39
+    Checksum: 0x166c [incorrect, should be 0xecf4 (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 41]
+    Transaction ID: 0x55e6
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        tcpip-lab.net: type A, class IN
+            Name: tcpip-lab.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     41 88.170005   10.0.1.41             10.0.1.11             DNS      Standard query response, Server failure
+
+Frame 41 (73 bytes on wire, 73 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:40.854399000
+    [Time delta from previous captured frame: 0.000590000 seconds]
+    [Time delta from previous displayed frame: 0.000590000 seconds]
+    [Time since reference or first frame: 88.170005000 seconds]
+    Frame Number: 41
+    Frame Length: 73 bytes
+    Capture Length: 73 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 59
+    Identification: 0xfc2f (64559)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x684f [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 54613 (54613)
+    Source port: 53 (53)
+    Destination port: 54613 (54613)
+    Length: 39
+    Checksum: 0x6c72 [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 40]
+    [Time: 0.000590000 seconds]
+    Transaction ID: 0x55e6
+    Flags: 0x8182 (Standard query response, Server failure)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0010 = Reply code: Server failure (2)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        tcpip-lab.net: type A, class IN
+            Name: tcpip-lab.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     42 88.170120   10.0.1.11             10.0.1.41             DNS      Standard query A tcpip-lab.net
+
+Frame 42 (73 bytes on wire, 73 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:40.854514000
+    [Time delta from previous captured frame: 0.000115000 seconds]
+    [Time delta from previous displayed frame: 0.000115000 seconds]
+    [Time since reference or first frame: 88.170120000 seconds]
+    Frame Number: 42
+    Frame Length: 73 bytes
+    Capture Length: 73 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 59
+    Identification: 0x54f4 (21748)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0xcf8a [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 44912 (44912), Dst Port: 53 (53)
+    Source port: 44912 (44912)
+    Destination port: 53 (53)
+    Length: 39
+    Checksum: 0x166c [incorrect, should be 0x12da (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 43]
+    Transaction ID: 0x55e6
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        tcpip-lab.net: type A, class IN
+            Name: tcpip-lab.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     43 88.170302   10.0.1.41             10.0.1.11             DNS      Standard query response, Server failure
+
+Frame 43 (73 bytes on wire, 73 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:40.854696000
+    [Time delta from previous captured frame: 0.000182000 seconds]
+    [Time delta from previous displayed frame: 0.000182000 seconds]
+    [Time since reference or first frame: 88.170302000 seconds]
+    Frame Number: 43
+    Frame Length: 73 bytes
+    Capture Length: 73 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 59
+    Identification: 0xfc30 (64560)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x684e [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 44912 (44912)
+    Source port: 53 (53)
+    Destination port: 44912 (44912)
+    Length: 39
+    Checksum: 0x9257 [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 42]
+    [Time: 0.000182000 seconds]
+    Transaction ID: 0x55e6
+    Flags: 0x8182 (Standard query response, Server failure)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0010 = Reply code: Server failure (2)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        tcpip-lab.net: type A, class IN
+            Name: tcpip-lab.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     44 88.170390   10.0.1.11             10.0.1.41             DNS      Standard query A tcpip-lab.net
+
+Frame 44 (73 bytes on wire, 73 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:40.854784000
+    [Time delta from previous captured frame: 0.000088000 seconds]
+    [Time delta from previous displayed frame: 0.000088000 seconds]
+    [Time since reference or first frame: 88.170390000 seconds]
+    Frame Number: 44
+    Frame Length: 73 bytes
+    Capture Length: 73 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 59
+    Identification: 0x54f4 (21748)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0xcf8a [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 59191 (59191), Dst Port: 53 (53)
+    Source port: 59191 (59191)
+    Destination port: 53 (53)
+    Length: 39
+    Checksum: 0x166c [incorrect, should be 0x1d20 (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 45]
+    Transaction ID: 0x13d9
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        tcpip-lab.net: type A, class IN
+            Name: tcpip-lab.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     45 88.170559   10.0.1.41             10.0.1.11             DNS      Standard query response, Server failure
+
+Frame 45 (73 bytes on wire, 73 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:40.854953000
+    [Time delta from previous captured frame: 0.000169000 seconds]
+    [Time delta from previous displayed frame: 0.000169000 seconds]
+    [Time since reference or first frame: 88.170559000 seconds]
+    Frame Number: 45
+    Frame Length: 73 bytes
+    Capture Length: 73 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 59
+    Identification: 0xfc31 (64561)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x684d [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 59191 (59191)
+    Source port: 53 (53)
+    Destination port: 59191 (59191)
+    Length: 39
+    Checksum: 0x9c9d [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 44]
+    [Time: 0.000169000 seconds]
+    Transaction ID: 0x13d9
+    Flags: 0x8182 (Standard query response, Server failure)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0010 = Reply code: Server failure (2)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        tcpip-lab.net: type A, class IN
+            Name: tcpip-lab.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     46 88.170608   10.0.1.11             10.0.1.41             DNS      Standard query A tcpip-lab.net
+
+Frame 46 (73 bytes on wire, 73 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:40.855002000
+    [Time delta from previous captured frame: 0.000049000 seconds]
+    [Time delta from previous displayed frame: 0.000049000 seconds]
+    [Time since reference or first frame: 88.170608000 seconds]
+    Frame Number: 46
+    Frame Length: 73 bytes
+    Capture Length: 73 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: Checksum Errors]
+    [Coloring Rule String: cdp.checksum_bad==1 || edp.checksum_bad==1 || ip.checksum_bad==1 || tcp.checksum_bad==1 || udp.checksum_bad==1]
+Ethernet II, Src: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34), Dst: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+    Destination: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.41 (10.0.1.41)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 59
+    Identification: 0x54f4 (21748)
+    Flags: 0x04 (Don't Fragment)
+        0... = Reserved bit: Not set
+        .1.. = Don't fragment: Set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0xcf8a [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.11 (10.0.1.11)
+    Destination: 10.0.1.41 (10.0.1.41)
+User Datagram Protocol, Src Port: 50589 (50589), Dst Port: 53 (53)
+    Source port: 50589 (50589)
+    Destination port: 53 (53)
+    Length: 39
+    Checksum: 0x166c [incorrect, should be 0x3eba (maybe caused by "UDP checksum offload"?)]
+        [Good Checksum: False]
+        [Bad Checksum: True]
+Domain Name System (query)
+    [Response In: 47]
+    Transaction ID: 0x13d9
+    Flags: 0x0100 (Standard query)
+        0... .... .... .... = Response: Message is a query
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ...0 .... = Non-authenticated data OK: Non-authenticated data is unacceptable
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        tcpip-lab.net: type A, class IN
+            Name: tcpip-lab.net
+            Type: A (Host address)
+            Class: IN (0x0001)
+
+No.     Time        Source                Destination           Protocol Info
+     47 88.170771   10.0.1.41             10.0.1.11             DNS      Standard query response, Server failure
+
+Frame 47 (73 bytes on wire, 73 bytes captured)
+    Arrival Time: Jun 17, 2037 12:26:40.855165000
+    [Time delta from previous captured frame: 0.000163000 seconds]
+    [Time delta from previous displayed frame: 0.000163000 seconds]
+    [Time since reference or first frame: 88.170771000 seconds]
+    Frame Number: 47
+    Frame Length: 73 bytes
+    Capture Length: 73 bytes
+    [Frame is marked: False]
+    [Protocols in frame: eth:ip:udp:dns]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27), Dst: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+    Destination: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        Address: 00:18:8b:1a:be:34 (00:18:8b:1a:be:34)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Source: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        Address: 00:18:8b:23:e8:27 (00:18:8b:23:e8:27)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+    Type: IP (0x0800)
+Internet Protocol, Src: 10.0.1.41 (10.0.1.41), Dst: 10.0.1.11 (10.0.1.11)
+    Version: 4
+    Header length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00)
+        0000 00.. = Differentiated Services Codepoint: Default (0x00)
+        .... ..0. = ECN-Capable Transport (ECT): 0
+        .... ...0 = ECN-CE: 0
+    Total Length: 59
+    Identification: 0xfc32 (64562)
+    Flags: 0x00
+        0... = Reserved bit: Not set
+        .0.. = Don't fragment: Not set
+        ..0. = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: UDP (0x11)
+    Header checksum: 0x684c [correct]
+        [Good: True]
+        [Bad : False]
+    Source: 10.0.1.41 (10.0.1.41)
+    Destination: 10.0.1.11 (10.0.1.11)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 50589 (50589)
+    Source port: 53 (53)
+    Destination port: 50589 (50589)
+    Length: 39
+    Checksum: 0xbe37 [correct]
+        [Good Checksum: True]
+        [Bad Checksum: False]
+Domain Name System (response)
+    [Request In: 46]
+    [Time: 0.000163000 seconds]
+    Transaction ID: 0x13d9
+    Flags: 0x8182 (Standard query response, Server failure)
+        1... .... .... .... = Response: Message is a response
+        .000 0... .... .... = Opcode: Standard query (0)
+        .... .0.. .... .... = Authoritative: Server is not an authority for domain
+        .... ..0. .... .... = Truncated: Message is not truncated
+        .... ...1 .... .... = Recursion desired: Do query recursively
+        .... .... 1... .... = Recursion available: Server can do recursive queries
+        .... .... .0.. .... = Z: reserved (0)
+        .... .... ..0. .... = Answer authenticated: Answer/authority portion was not authenticated by the server
+        .... .... .... 0010 = Reply code: Server failure (2)
+    Questions: 1
+    Answer RRs: 0
+    Authority RRs: 0
+    Additional RRs: 0
+    Queries
+        tcpip-lab.net: type A, class IN
+            Name: tcpip-lab.net
+            Type: A (Host address)
+            Class: IN (0x0001)

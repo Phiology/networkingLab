@@ -1,0 +1,36 @@
+## named.conf - configuration for bind
+#
+# Generated automatically by bindconf, alchemist et al.
+
+options { 
+	directory "/var/named/"; 	
+};
+
+zone  "." { 
+	type hint; 
+	file  "part6/db.cache";
+};
+
+zone  "0.0.127.in-addr.arpa" { 
+	type master; 
+	file  "part6/db.127.0.0"; 
+};
+
+zone  "localhost" { 
+	type master; 
+	file  "part6/db.localhost"; 
+};
+
+zone  "com" { 
+	type master; 
+	notify no;
+	file  "part6/db.com"; 
+};
+
+zone  "1.0.10.in-addr.arpa" { 
+	type master; 
+	notify no;
+	file  "part6/db.10.0.1"; 
+};
+
+
