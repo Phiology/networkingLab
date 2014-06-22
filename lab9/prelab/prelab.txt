@@ -1,0 +1,59 @@
+SNMP = Simple Network Management Protocol
+
+1. Provide a brief definition of the following SNMP terms, and explain which role they play in SNMP:
+1. SNMP manager
+A SNMP manager, also management system, is a separate entity of the network and responsible for the communication with the SNMP agent implemented network devices.
+
+2. SNMP agent
+The SNMP agent is a programm packaged within the network element. The agent collects the management information database from the device locally and provides it for the SNMP manager.
+
+3. Management Information Base (MIB)
+The Management Information Base is also called Management Information Database and describes the actual managed device parameters. This collection of information is maintained by the agent and used by the manager. So both, agent and manager, share this database.
+
+4. Object identifier (OID)
+An object identifier indicates specific characteristics of a managed device. Each OID is unique and, therefore, has its own specific output.
+
+2. Describe the function of the following “NET-SNMP“ tools in one sentence each:
+1. snmpd
+This tool is an agent answering requests from the SNMP management software.
+
+2. snmpget
+This tool gives a request sent by the magager to a device and is used to retrieve values from that device.
+
+3. Snmpgetnext
+This tool works like the snmpget, but retrieves the value of the next OID in the tree.
+
+4. Snmpwalk
+This tool retrieves a subtree of management values (by recursive snmpgetnext).
+
+5. Snmptranslate
+This tool translates a SNMP OID values from symbolic into numerical form and the other way round.
+
+6. snmpset
+This tool used by the manager modifies or assigns the value of the device.
+
+3. Which port does the snmpd program (SNMP agent) use to listen to SNMP messages? Which port does the snmptrapd program use to listen to SNMP trap messages?
+By default, snmpd listens for incoming SNMP requests on UDP port 161 on all IPv4 interfaces. However, it is possible to modify this behaviour by specifying one or more listening addresses as arguments to snmpd.
+
+4. Relate textual and numerical description of object identifiers by answering the following questions:
+1. Which object is referred to by the object identifier 1.3.6.1.2.1.4.2?: ipDefaultTTL (Integer)
+2. What is the numerical description of object “tcpRetransSegs“ in the tcp group of MIB-II?: 1.3.6.1.2.1.6.12
+3. What is the object identifier of the Internet? 1.3.6.1
+
+5. What is an SNMP trap? Which SNMP entity issues traps and which SNMP entity handles traps?
+Traps are initiated by the agent which sends a signal to the SNMP manager on the occurrence of an event.
+
+6. Describe the main difference between the SNMP versions SNMPv1, SNMPv2, and SNMPv3?
+The main difference is the type of security. Version SNMPv1 has community-based security, v2 party-based security and v3 user-based security.
+
+7. Refer to the configuration file “snmpd.conf“ that you download from http://www.tcpip-lab.net/links/conf/lab9. Describe the VACM access control that is specified in this file.
+Snmpd supports the View-Based Access Control Model (VACM) as defined in RFC 2575, to control who can retrieve or update information. To this end, it recognizes various directives relating to access control.
+
+8. Use the VACM commands given in the downloaded snmpd.conf (com2sec, group, view, and access) to define the following access control rules:
+1. The SNMP agent grants read authority to the MIB subtree that starts at node iso.org.dod.internet.mgmt.mib-2.system.
+
+2. The SNMP manager sending the request has network address 10.10.0.0/16.
+
+3. The SNMP manager provides the community string “public“.
+
+4. The SNMP protocol version of messages is SNMPv1.
