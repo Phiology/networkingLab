@@ -1,0 +1,12 @@
+RFC1213-MIB.txt:sysName OBJECT-TYPE
+SYNTAX  DisplayString (SIZE (0..255))
+    ACCESS  read-write
+    STATUS  mandatory
+    DESCRIPTION
+            "An administratively-assigned name for this
+            managed node.  By convention, this is the node's
+            fully-qualified domain name."
+    ::= { system 5 }
+
+SNMPv2-MIB.txt:sysName OBJECT-TYPE
+SNMPv2-MIB.txt:              sysContact, sysName, sysLocation,

@@ -1,0 +1,4 @@
+                deleteTCB(12)
+
+steps: looked in /usr/share/snmp/mibs/RTF1213 usw. and searched for tcpConnState
+

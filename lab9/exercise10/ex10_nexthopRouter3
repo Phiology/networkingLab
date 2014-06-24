@@ -1,0 +1,5 @@
+RFC1213-MIB::ipRouteNextHop.10.0.1.0 = IpAddress: 10.0.6.1
+RFC1213-MIB::ipRouteNextHop.10.0.2.0 = IpAddress: 10.0.6.1
+RFC1213-MIB::ipRouteNextHop.10.0.3.0 = IpAddress: 10.0.3.3
+RFC1213-MIB::ipRouteNextHop.10.0.4.0 = IpAddress: 10.0.4.3
+RFC1213-MIB::ipRouteNextHop.10.0.6.0 = IpAddress: 10.0.6.3

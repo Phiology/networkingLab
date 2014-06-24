@@ -1,0 +1,2 @@
+RFC1213-MIB::sysUpTime.0 = Timeticks: (25496) 0:04:14.96
+RFC1213-MIB::sysName.0 = STRING: "PC1"

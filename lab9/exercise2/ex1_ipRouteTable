@@ -1,0 +1,7 @@
+ipRouteTable OBJECT-TYPE
+    SYNTAX  SEQUENCE OF IpRouteEntry
+    ACCESS  not-accessible
+    STATUS  mandatory
+    DESCRIPTION
+            "This entity's IP Routing table."
+    ::= { ip 21 }

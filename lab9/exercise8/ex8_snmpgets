@@ -1,0 +1,14 @@
+ubuntu@PC1:~$ snmpget -v1 -c public 10.0.4.14 sysUpTime.0
+RFC1213-MIB::sysUpTime.0 = Timeticks: (2511) 0:00:25.11
+ubuntu@PC1:~$ snmpget -v2c -c public 10.0.4.14 sysUpTime.0
+RFC1213-MIB::sysUpTime.0 = Timeticks: (3447) 0:00:34.47
+ubuntu@PC1:~$ snmpget -v1 -c foobar 10.0.4.14 sysUpTime.0
+Timeout: No Response from 10.0.4.14.
+
+PC1:~$ snmpget -v3 -u user1 -l noAuthNoPriv 10.0.4.14 sysUpTime.0
+RFC1213-MIB::sysUpTime.0 = Timeticks: (2000) 0:00:20.00
+ubuntu@PC1:~$ snmpget -v3 -u user1 -A password -l authNoPriv 10.0.4.14 sysUpTime.0
+RFC1213-MIB::sysUpTime.0 = Timeticks: (4658) 0:00:46.58
+ubuntu@PC1:~$ snmpget -v3 -u user1 -A password -X password -l authPriv 10.0.4.14 sysUpTime.0
+RFC1213-MIB::sysUpTime.0 = Timeticks: (7124) 0:01:11.24
+

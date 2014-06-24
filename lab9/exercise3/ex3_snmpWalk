@@ -1,0 +1,3 @@
+RFC1213-MIB::atIfIndex.2.1.10.0.1.1 = INTEGER: 2
+RFC1213-MIB::atPhysAddress.2.1.10.0.1.1 = Hex-STRING: 00 1F CA E0 EF 29 
+RFC1213-MIB::atNetAddress.2.1.10.0.1.1 = Network Address: 0A:00:01:01

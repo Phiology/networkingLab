@@ -1,0 +1,36 @@
+tcpConnState OBJECT-TYPE
+    SYNTAX     INTEGER {
+                    closed(1),
+                    listen(2),
+                    synSent(3),
+                    synReceived(4),
+                    established(5),
+                    finWait1(6),
+                    finWait2(7),
+                    closeWait(8),
+                    lastAck(9),
+                    closing(10),
+                    timeWait(11),
+                    deleteTCB(12)
+                }
+    MAX-ACCESS read-write
+    STATUS     deprecated
+    DESCRIPTION
+           "The state of this TCP connection.
+
+            The only value that may be set by a management station is
+            deleteTCB(12).  Accordingly, it is appropriate for an agent
+            to return a `badValue' response if a management station
+            attempts to set this object to any other value.
+
+            If a management station sets this object to the value
+            deleteTCB(12), then the TCB (as defined in [RFC793]) of
+            the corresponding connection on the managed node is
+            deleted, resulting in immediate termination of the
+            connection.
+
+            As an implementation-specific option, a RST segment may be
+            sent from the managed node to the other TCP endpoint (note,
+            however, that RST segments are not sent reliably)."
+    ::= { tcpConnEntry 1 }
+

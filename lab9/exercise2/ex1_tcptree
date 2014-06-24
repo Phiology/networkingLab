@@ -1,0 +1,77 @@
++--tcp(6)
+   |
+   +-- -R-- EnumVal   tcpRtoAlgorithm(1)
+   |        Values: other(1), constant(2), rsre(3), vanj(4)
+   +-- -R-- INTEGER   tcpRtoMin(2)
+   +-- -R-- INTEGER   tcpRtoMax(3)
+   +-- -R-- INTEGER   tcpMaxConn(4)
+   +-- -R-- Counter   tcpActiveOpens(5)
+   +-- -R-- Counter   tcpPassiveOpens(6)
+   +-- -R-- Counter   tcpAttemptFails(7)
+   +-- -R-- Counter   tcpEstabResets(8)
+   +-- -R-- Gauge     tcpCurrEstab(9)
+   +-- -R-- Counter   tcpInSegs(10)
+   +-- -R-- Counter   tcpOutSegs(11)
+   +-- -R-- Counter   tcpRetransSegs(12)
+   |
+   +--tcpConnTable(13)
+   |  |
+   |  +--tcpConnEntry(1)
+   |     |  Index: tcpConnLocalAddress, tcpConnLocalPort, tcpConnRemAddress, tcpConnRemPort
+   |     |
+   |     +-- -RW- EnumVal   tcpConnState(1)
+   |     |        Values: closed(1), listen(2), synSent(3), synReceived(4), established(5), finWait1(6), finWait2(7), closeWait(8), lastAck(9), closing(10), timeWait(11), deleteTCB(12)
+   |     +-- -R-- IpAddr    tcpConnLocalAddress(2)
+   |     +-- -R-- INTEGER   tcpConnLocalPort(3)
+   |     |        Range: 0..65535
+   |     +-- -R-- IpAddr    tcpConnRemAddress(4)
+   |     +-- -R-- INTEGER   tcpConnRemPort(5)
+   |              Range: 0..65535
+   |
+   +-- -R-- Counter   tcpInErrs(14)
+   +-- -R-- Counter   tcpOutRsts(15)
+   +-- -R-- Counter64 tcpHCInSegs(17)
+   +-- -R-- Counter64 tcpHCOutSegs(18)
+   |
+   +--tcpConnectionTable(19)
+   |  |
+   |  +--tcpConnectionEntry(1)
+   |     |  Index: tcpConnectionLocalAddressType, tcpConnectionLocalAddress, tcpConnectionLocalPort, tcpConnectionRemAddressType, tcpConnectionRemAddress, tcpConnectionRemPort
+   |     |
+   |     +-- ---- EnumVal   tcpConnectionLocalAddressType(1)
+   |     |        Textual Convention: InetAddressType
+   |     |        Values: unknown(0), ipv4(1), ipv6(2), ipv4z(3), ipv6z(4), dns(16)
+   |     +-- ---- String    tcpConnectionLocalAddress(2)
+   |     |        Textual Convention: InetAddress
+   |     |        Size: 0..255
+   |     +-- ---- Unsigned  tcpConnectionLocalPort(3)
+   |     |        Textual Convention: InetPortNumber
+   |     |        Range: 0..65535
+   |     +-- ---- EnumVal   tcpConnectionRemAddressType(4)
+   |     |        Textual Convention: InetAddressType
+   |     |        Values: unknown(0), ipv4(1), ipv6(2), ipv4z(3), ipv6z(4), dns(16)
+   |     +-- ---- String    tcpConnectionRemAddress(5)
+   |     |        Textual Convention: InetAddress
+   |     |        Size: 0..255
+   |     +-- ---- Unsigned  tcpConnectionRemPort(6)
+   |     |        Textual Convention: InetPortNumber
+   |     |        Range: 0..65535
+   |     +-- -RW- EnumVal   tcpConnectionState(7)
+   |     |        Values: closed(1), listen(2), synSent(3), synReceived(4), established(5), finWait1(6), finWait2(7), closeWait(8), lastAck(9), closing(10), timeWait(11), deleteTCB(12)
+   |     +-- -R-- Unsigned  tcpConnectionProcess(8)
+   |
+   +--tcpListenerTable(20)
+      |
+      +--tcpListenerEntry(1)
+         |  Index: tcpListenerLocalAddressType, tcpListenerLocalAddress, tcpListenerLocalPort
+         |
+         +-- ---- EnumVal   tcpListenerLocalAddressType(1)
+         |        Textual Convention: InetAddressType
+         |        Values: unknown(0), ipv4(1), ipv6(2), ipv4z(3), ipv6z(4), dns(16)
+         +-- ---- String    tcpListenerLocalAddress(2)
+         |        Textual Convention: InetAddress
+         |        Size: 0..255
+         +-- ---- Unsigned  tcpListenerLocalPort(3)
+         |        Textual Convention: InetPortNumber
+         |        Range: 0..65535
+         +-- -R-- Unsigned  tcpListenerProcess(4)

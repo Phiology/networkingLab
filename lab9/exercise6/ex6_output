@@ -1,0 +1,10 @@
+RFC1213-MIB::sysName.0 = STRING: "FUCK"
+
+ubuntu@PC1:~$ snmpget -v1 -c private 10.0.4.14 system.sysName.0
+RFC1213-MIB::sysName.0 = STRING: "FUCK"
+
+ubuntu@PC1:~$ snmpset -v1 -c nonexistantcommunity 10.0.4.14 system.sysName.0 s PC4
+Timeout: No Response from 10.0.4.14
+
+ubuntu@PC1:~$ snmpset -v1 -c private 10.0.4.14 system.sysName.0 s PC4RFC1213-MIB::sysName.0 = STRING: "PC4"
+

@@ -1,0 +1,14 @@
+tcpRtoAlgorithm OBJECT-TYPE
+    SYNTAX      INTEGER {
+                    other(1),    -- none of the following
+                    constant(2), -- a constant rto
+                    rsre(3),     -- MIL-STD-1778, Appendix B
+                    vanj(4),     -- Van Jacobson's algorithm
+                    rfc2988(5)   -- RFC 2988
+                }
+    MAX-ACCESS read-only
+    STATUS     current
+    DESCRIPTION
+           "The algorithm used to determine the timeout value used for
+            retransmitting unacknowledged octets."
+    ::= { tcp 1 }

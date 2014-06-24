@@ -1,0 +1,37 @@
+IP-MIB.txt:ipForwarding OBJECT-TYPE
+ SYNTAX     INTEGER {
+                    forwarding(1),    -- acting as a router
+                    notForwarding(2)  -- NOT acting as a router
+               }
+    MAX-ACCESS read-write
+    STATUS     current
+    DESCRIPTION
+           "The indication of whether this entity is acting as an IPv4
+            router in respect to the forwarding of datagrams received
+            by, but not addressed to, this entity.  IPv4 routers forward
+            datagrams.  IPv4 hosts do not (except those source-routed
+            via the host).
+
+            When this object is written, the entity should save the
+            change to non-volatile storage and restore the object from
+            non-volatile storage upon re-initialization of the system.
+            Note: a stronger requirement is not used because this object
+            was previously defined."
+    ::= { ip 1 }
+
+
+
+
+
+
+
+
+IP-MIB.txt:ipv6IpForwarding OBJECT-TYPE
+IP-MIB.txt:            This object is constrained by ipv6IpForwarding and is
+IP-MIB.txt:            ignored if ipv6IpForwarding is set to notForwarding.  Those
+IP-MIB.txt:            all interfaces and allow the ipv6IpForwarding object to
+IP-MIB.txt:    OBJECT     ipv6IpForwarding
+IP-MIB.txt:    OBJECTS   { ipForwarding, ipDefaultTTL, ipReasmTimeout }
+IP-MIB.txt:    OBJECTS { ipv6IpForwarding, ipv6IpDefaultHopLimit }
+IP-MIB.txt:    OBJECTS   { ipForwarding,           ipDefaultTTL,
+RFC1213-MIB.txt:ipForwarding OBJECT-TYPE

@@ -1,0 +1,529 @@
++--ip(4)
+   |
+   +-- -RW- EnumVal   ipForwarding(1)
+   |        Values: forwarding(1), not-forwarding(2)
+   +-- -RW- INTEGER   ipDefaultTTL(2)
+   +-- -R-- Counter   ipInReceives(3)
+   +-- -R-- Counter   ipInHdrErrors(4)
+   +-- -R-- Counter   ipInAddrErrors(5)
+   +-- -R-- Counter   ipForwDatagrams(6)
+   +-- -R-- Counter   ipInUnknownProtos(7)
+   +-- -R-- Counter   ipInDiscards(8)
+   +-- -R-- Counter   ipInDelivers(9)
+   +-- -R-- Counter   ipOutRequests(10)
+   +-- -R-- Counter   ipOutDiscards(11)
+   +-- -R-- Counter   ipOutNoRoutes(12)
+   +-- -R-- INTEGER   ipReasmTimeout(13)
+   +-- -R-- Counter   ipReasmReqds(14)
+   +-- -R-- Counter   ipReasmOKs(15)
+   +-- -R-- Counter   ipReasmFails(16)
+   +-- -R-- Counter   ipFragOKs(17)
+   +-- -R-- Counter   ipFragFails(18)
+   +-- -R-- Counter   ipFragCreates(19)
+   |
+   +--ipAddrTable(20)
+   |  |
+   |  +--ipAddrEntry(1)
+   |     |  Index: ipAdEntAddr
+   |     |
+   |     +-- -R-- IpAddr    ipAdEntAddr(1)
+   |     +-- -R-- INTEGER   ipAdEntIfIndex(2)
+   |     +-- -R-- IpAddr    ipAdEntNetMask(3)
+   |     +-- -R-- INTEGER   ipAdEntBcastAddr(4)
+   |     +-- -R-- INTEGER   ipAdEntReasmMaxSize(5)
+   |              Range: 0..65535
+   |
+   +--ipRouteTable(21)
+   |  |
+   |  +--ipRouteEntry(1)
+   |     |  Index: ipRouteDest
+   |     |
+   |     +-- -RW- IpAddr    ipRouteDest(1)
+   |     +-- -RW- INTEGER   ipRouteIfIndex(2)
+   |     +-- -RW- INTEGER   ipRouteMetric1(3)
+   |     +-- -RW- INTEGER   ipRouteMetric2(4)
+   |     +-- -RW- INTEGER   ipRouteMetric3(5)
+   |     +-- -RW- INTEGER   ipRouteMetric4(6)
+   |     +-- -RW- IpAddr    ipRouteNextHop(7)
+   |     +-- -RW- EnumVal   ipRouteType(8)
+   |     |        Values: other(1), invalid(2), direct(3), indirect(4)
+   |     +-- -R-- EnumVal   ipRouteProto(9)
+   |     |        Values: other(1), local(2), netmgmt(3), icmp(4), egp(5), ggp(6), hello(7), rip(8), is-is(9), es-is(10), ciscoIgrp(11), bbnSpfIgp(12), ospf(13), bgp(14)
+   |     +-- -RW- INTEGER   ipRouteAge(10)
+   |     +-- -RW- IpAddr    ipRouteMask(11)
+   |     +-- -RW- INTEGER   ipRouteMetric5(12)
+   |     +-- -R-- ObjID     ipRouteInfo(13)
+   |
+   +--ipNetToMediaTable(22)
+   |  |
+   |  +--ipNetToMediaEntry(1)
+   |     |  Index: ipNetToMediaIfIndex, ipNetToMediaNetAddress
+   |     |
+   |     +-- -RW- INTEGER   ipNetToMediaIfIndex(1)
+   |     +-- -RW- String    ipNetToMediaPhysAddress(2)
+   |     |        Textual Convention: PhysAddress
+   |     +-- -RW- IpAddr    ipNetToMediaNetAddress(3)
+   |     +-- -RW- EnumVal   ipNetToMediaType(4)
+   |              Values: other(1), invalid(2), dynamic(3), static(4)
+   |
+   +-- -R-- Counter   ipRoutingDiscards(23)
+   +--ipForward(24)
+   |  +-- -R-- Gauge     ipForwardNumber(1)
+   |  |
+   |  +--ipForwardTable(2)
+   |  |  |
+   |  |  +--ipForwardEntry(1)
+   |  |     |  Index: ipForwardDest, ipForwardProto, ipForwardPolicy, ipForwardNextHop
+   |  |     |
+   |  |     +-- -R-- IpAddr    ipForwardDest(1)
+   |  |     +-- CR-- IpAddr    ipForwardMask(2)
+   |  |     +-- -R-- Integer32 ipForwardPolicy(3)
+   |  |     |        Range: 0..2147483647
+   |  |     +-- -R-- IpAddr    ipForwardNextHop(4)
+   |  |     +-- CR-- Integer32 ipForwardIfIndex(5)
+   |  |     +-- CR-- EnumVal   ipForwardType(6)
+   |  |     |        Values: other(1), invalid(2), local(3), remote(4)
+   |  |     +-- -R-- EnumVal   ipForwardProto(7)
+   |  |     |        Values: other(1), local(2), netmgmt(3), icmp(4), egp(5), ggp(6), hello(7), rip(8), is-is(9), es-is(10), ciscoIgrp(11), bbnSpfIgp(12), ospf(13), bgp(14), idpr(15)
+   |  |     +-- -R-- Integer32 ipForwardAge(8)
+   |  |     +-- CR-- ObjID     ipForwardInfo(9)
+   |  |     +-- CR-- Integer32 ipForwardNextHopAS(10)
+   |  |     +-- CR-- Integer32 ipForwardMetric1(11)
+   |  |     +-- CR-- Integer32 ipForwardMetric2(12)
+   |  |     +-- CR-- Integer32 ipForwardMetric3(13)
+   |  |     +-- CR-- Integer32 ipForwardMetric4(14)
+   |  |     +-- CR-- Integer32 ipForwardMetric5(15)
+   |  |
+   |  +-- -R-- Gauge     ipCidrRouteNumber(3)
+   |  |
+   |  +--ipCidrRouteTable(4)
+   |  |  |
+   |  |  +--ipCidrRouteEntry(1)
+   |  |     |  Index: ipCidrRouteDest, ipCidrRouteMask, ipCidrRouteTos, ipCidrRouteNextHop
+   |  |     |
+   |  |     +-- -R-- IpAddr    ipCidrRouteDest(1)
+   |  |     +-- -R-- IpAddr    ipCidrRouteMask(2)
+   |  |     +-- -R-- Integer32 ipCidrRouteTos(3)
+   |  |     |        Range: 0..2147483647
+   |  |     +-- -R-- IpAddr    ipCidrRouteNextHop(4)
+   |  |     +-- CR-- Integer32 ipCidrRouteIfIndex(5)
+   |  |     +-- CR-- EnumVal   ipCidrRouteType(6)
+   |  |     |        Values: other(1), reject(2), local(3), remote(4)
+   |  |     +-- -R-- EnumVal   ipCidrRouteProto(7)
+   |  |     |        Values: other(1), local(2), netmgmt(3), icmp(4), egp(5), ggp(6), hello(7), rip(8), isIs(9), esIs(10), ciscoIgrp(11), bbnSpfIgp(12), ospf(13), bgp(14), idpr(15), ciscoEigrp(16)
+   |  |     +-- -R-- Integer32 ipCidrRouteAge(8)
+   |  |     +-- CR-- ObjID     ipCidrRouteInfo(9)
+   |  |     +-- CR-- Integer32 ipCidrRouteNextHopAS(10)
+   |  |     +-- CR-- Integer32 ipCidrRouteMetric1(11)
+   |  |     +-- CR-- Integer32 ipCidrRouteMetric2(12)
+   |  |     +-- CR-- Integer32 ipCidrRouteMetric3(13)
+   |  |     +-- CR-- Integer32 ipCidrRouteMetric4(14)
+   |  |     +-- CR-- Integer32 ipCidrRouteMetric5(15)
+   |  |     +-- CR-- EnumVal   ipCidrRouteStatus(16)
+   |  |              Textual Convention: RowStatus
+   |  |              Values: active(1), notInService(2), notReady(3), createAndGo(4), createAndWait(5), destroy(6)
+   |  |
+   |  +--ipForwardConformance(5)
+   |  |  |
+   |  |  +--ipForwardGroups(1)
+   |  |  |  |
+   |  |  |  +--ipForwardMultiPathGroup(2)
+   |  |  |  +--ipForwardCidrRouteGroup(3)
+   |  |  |  +--inetForwardCidrRouteGroup(4)
+   |  |  |
+   |  |  +--ipForwardCompliances(2)
+   |  |     |
+   |  |     +--ipForwardCompliance(1)
+   |  |     +--ipForwardOldCompliance(2)
+   |  |     +--ipForwardFullCompliance(3)
+   |  |     +--ipForwardReadOnlyCompliance(4)
+   |  |
+   |  +-- -R-- Gauge     inetCidrRouteNumber(6)
+   |  |
+   |  +--inetCidrRouteTable(7)
+   |  |  |
+   |  |  +--inetCidrRouteEntry(1)
+   |  |     |  Index: inetCidrRouteDestType, inetCidrRouteDest, inetCidrRoutePfxLen, inetCidrRoutePolicy, inetCidrRouteNextHopType, inetCidrRouteNextHop
+   |  |     |
+   |  |     +-- ---- EnumVal   inetCidrRouteDestType(1)
+   |  |     |        Textual Convention: InetAddressType
+   |  |     |        Values: unknown(0), ipv4(1), ipv6(2), ipv4z(3), ipv6z(4), dns(16)
+   |  |     +-- ---- String    inetCidrRouteDest(2)
+   |  |     |        Textual Convention: InetAddress
+   |  |     |        Size: 0..255
+   |  |     +-- ---- Unsigned  inetCidrRoutePfxLen(3)
+   |  |     |        Textual Convention: InetAddressPrefixLength
+   |  |     |        Range: 0..2040
+   |  |     +-- ---- ObjID     inetCidrRoutePolicy(4)
+   |  |     +-- ---- EnumVal   inetCidrRouteNextHopType(5)
+   |  |     |        Textual Convention: InetAddressType
+   |  |     |        Values: unknown(0), ipv4(1), ipv6(2), ipv4z(3), ipv6z(4), dns(16)
+   |  |     +-- ---- String    inetCidrRouteNextHop(6)
+   |  |     |        Textual Convention: InetAddress
+   |  |     |        Size: 0..255
+   |  |     +-- CR-- Integer32 inetCidrRouteIfIndex(7)
+   |  |     |        Textual Convention: InterfaceIndexOrZero
+   |  |     |        Range: 0..2147483647
+   |  |     +-- CR-- EnumVal   inetCidrRouteType(8)
+   |  |     |        Values: other(1), reject(2), local(3), remote(4), blackhole(5)
+   |  |     +-- -R-- EnumVal   inetCidrRouteProto(9)
+   |  |     |        Textual Convention: IANAipRouteProtocol
+   |  |     |        Values: other(1), local(2), netmgmt(3), icmp(4), egp(5), ggp(6), hello(7), rip(8), isIs(9), esIs(10), ciscoIgrp(11), bbnSpfIgp(12), ospf(13), bgp(14), idpr(15), ciscoEigrp(16), dvmrp(17)
+   |  |     +-- -R-- Gauge     inetCidrRouteAge(10)
+   |  |     +-- CR-- Unsigned  inetCidrRouteNextHopAS(11)
+   |  |     |        Textual Convention: InetAutonomousSystemNumber
+   |  |     +-- CR-- Integer32 inetCidrRouteMetric1(12)
+   |  |     +-- CR-- Integer32 inetCidrRouteMetric2(13)
+   |  |     +-- CR-- Integer32 inetCidrRouteMetric3(14)
+   |  |     +-- CR-- Integer32 inetCidrRouteMetric4(15)
+   |  |     +-- CR-- Integer32 inetCidrRouteMetric5(16)
+   |  |     +-- CR-- EnumVal   inetCidrRouteStatus(17)
+   |  |              Textual Convention: RowStatus
+   |  |              Values: active(1), notInService(2), notReady(3), createAndGo(4), createAndWait(5), destroy(6)
+   |  |
+   |  +-- -R-- Counter   inetCidrRouteDiscards(8)
+   |
+   +-- -RW- EnumVal   ipv6IpForwarding(25)
+   |        Values: forwarding(1), notForwarding(2)
+   +-- -RW- Integer32 ipv6IpDefaultHopLimit(26)
+   |        Range: 0..255
+   +-- -R-- TimeTicks ipv4InterfaceTableLastChange(27)
+   |        Textual Convention: TimeStamp
+   |
+   +--ipv4InterfaceTable(28)
+   |  |
+   |  +--ipv4InterfaceEntry(1)
+   |     |  Index: ipv4InterfaceIfIndex
+   |     |
+   |     +-- ---- Integer32 ipv4InterfaceIfIndex(1)
+   |     |        Textual Convention: InterfaceIndex
+   |     |        Range: 1..2147483647
+   |     +-- -R-- Integer32 ipv4InterfaceReasmMaxSize(2)
+   |     |        Range: 0..65535
+   |     +-- -RW- EnumVal   ipv4InterfaceEnableStatus(3)
+   |     |        Values: up(1), down(2)
+   |     +-- -R-- Unsigned  ipv4InterfaceRetransmitTime(4)
+   |
+   +-- -R-- TimeTicks ipv6InterfaceTableLastChange(29)
+   |        Textual Convention: TimeStamp
+   |
+   +--ipv6InterfaceTable(30)
+   |  |
+   |  +--ipv6InterfaceEntry(1)
+   |     |  Index: ipv6InterfaceIfIndex
+   |     |
+   |     +-- ---- Integer32 ipv6InterfaceIfIndex(1)
+   |     |        Textual Convention: InterfaceIndex
+   |     |        Range: 1..2147483647
+   |     +-- -R-- Unsigned  ipv6InterfaceReasmMaxSize(2)
+   |     |        Range: 1500..65535
+   |     +-- -R-- String    ipv6InterfaceIdentifier(3)
+   |     |        Textual Convention: Ipv6AddressIfIdentifierTC
+   |     |        Size: 0..8
+   |     +-- -RW- EnumVal   ipv6InterfaceEnableStatus(5)
+   |     |        Values: up(1), down(2)
+   |     +-- -R-- Unsigned  ipv6InterfaceReachableTime(6)
+   |     +-- -R-- Unsigned  ipv6InterfaceRetransmitTime(7)
+   |     +-- -RW- EnumVal   ipv6InterfaceForwarding(8)
+   |              Values: forwarding(1), notForwarding(2)
+   |
+   +--ipTrafficStats(31)
+   |  |
+   |  +--ipSystemStatsTable(1)
+   |  |  |
+   |  |  +--ipSystemStatsEntry(1)
+   |  |     |  Index: ipSystemStatsIPVersion
+   |  |     |
+   |  |     +-- ---- EnumVal   ipSystemStatsIPVersion(1)
+   |  |     |        Textual Convention: InetVersion
+   |  |     |        Values: unknown(0), ipv4(1), ipv6(2)
+   |  |     +-- -R-- Counter   ipSystemStatsInReceives(3)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCInReceives(4)
+   |  |     +-- -R-- Counter   ipSystemStatsInOctets(5)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCInOctets(6)
+   |  |     +-- -R-- Counter   ipSystemStatsInHdrErrors(7)
+   |  |     +-- -R-- Counter   ipSystemStatsInNoRoutes(8)
+   |  |     +-- -R-- Counter   ipSystemStatsInAddrErrors(9)
+   |  |     +-- -R-- Counter   ipSystemStatsInUnknownProtos(10)
+   |  |     +-- -R-- Counter   ipSystemStatsInTruncatedPkts(11)
+   |  |     +-- -R-- Counter   ipSystemStatsInForwDatagrams(12)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCInForwDatagrams(13)
+   |  |     +-- -R-- Counter   ipSystemStatsReasmReqds(14)
+   |  |     +-- -R-- Counter   ipSystemStatsReasmOKs(15)
+   |  |     +-- -R-- Counter   ipSystemStatsReasmFails(16)
+   |  |     +-- -R-- Counter   ipSystemStatsInDiscards(17)
+   |  |     +-- -R-- Counter   ipSystemStatsInDelivers(18)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCInDelivers(19)
+   |  |     +-- -R-- Counter   ipSystemStatsOutRequests(20)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCOutRequests(21)
+   |  |     +-- -R-- Counter   ipSystemStatsOutNoRoutes(22)
+   |  |     +-- -R-- Counter   ipSystemStatsOutForwDatagrams(23)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCOutForwDatagrams(24)
+   |  |     +-- -R-- Counter   ipSystemStatsOutDiscards(25)
+   |  |     +-- -R-- Counter   ipSystemStatsOutFragReqds(26)
+   |  |     +-- -R-- Counter   ipSystemStatsOutFragOKs(27)
+   |  |     +-- -R-- Counter   ipSystemStatsOutFragFails(28)
+   |  |     +-- -R-- Counter   ipSystemStatsOutFragCreates(29)
+   |  |     +-- -R-- Counter   ipSystemStatsOutTransmits(30)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCOutTransmits(31)
+   |  |     +-- -R-- Counter   ipSystemStatsOutOctets(32)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCOutOctets(33)
+   |  |     +-- -R-- Counter   ipSystemStatsInMcastPkts(34)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCInMcastPkts(35)
+   |  |     +-- -R-- Counter   ipSystemStatsInMcastOctets(36)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCInMcastOctets(37)
+   |  |     +-- -R-- Counter   ipSystemStatsOutMcastPkts(38)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCOutMcastPkts(39)
+   |  |     +-- -R-- Counter   ipSystemStatsOutMcastOctets(40)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCOutMcastOctets(41)
+   |  |     +-- -R-- Counter   ipSystemStatsInBcastPkts(42)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCInBcastPkts(43)
+   |  |     +-- -R-- Counter   ipSystemStatsOutBcastPkts(44)
+   |  |     +-- -R-- Counter64 ipSystemStatsHCOutBcastPkts(45)
+   |  |     +-- -R-- TimeTicks ipSystemStatsDiscontinuityTime(46)
+   |  |     |        Textual Convention: TimeStamp
+   |  |     +-- -R-- Unsigned  ipSystemStatsRefreshRate(47)
+   |  |
+   |  +-- -R-- TimeTicks ipIfStatsTableLastChange(2)
+   |  |        Textual Convention: TimeStamp
+   |  |
+   |  +--ipIfStatsTable(3)
+   |     |
+   |     +--ipIfStatsEntry(1)
+   |        |  Index: ipIfStatsIPVersion, ipIfStatsIfIndex
+   |        |
+   |        +-- ---- EnumVal   ipIfStatsIPVersion(1)
+   |        |        Textual Convention: InetVersion
+   |        |        Values: unknown(0), ipv4(1), ipv6(2)
+   |        +-- ---- Integer32 ipIfStatsIfIndex(2)
+   |        |        Textual Convention: InterfaceIndex
+   |        |        Range: 1..2147483647
+   |        +-- -R-- Counter   ipIfStatsInReceives(3)
+   |        +-- -R-- Counter64 ipIfStatsHCInReceives(4)
+   |        +-- -R-- Counter   ipIfStatsInOctets(5)
+   |        +-- -R-- Counter64 ipIfStatsHCInOctets(6)
+   |        +-- -R-- Counter   ipIfStatsInHdrErrors(7)
+   |        +-- -R-- Counter   ipIfStatsInNoRoutes(8)
+   |        +-- -R-- Counter   ipIfStatsInAddrErrors(9)
+   |        +-- -R-- Counter   ipIfStatsInUnknownProtos(10)
+   |        +-- -R-- Counter   ipIfStatsInTruncatedPkts(11)
+   |        +-- -R-- Counter   ipIfStatsInForwDatagrams(12)
+   |        +-- -R-- Counter64 ipIfStatsHCInForwDatagrams(13)
+   |        +-- -R-- Counter   ipIfStatsReasmReqds(14)
+   |        +-- -R-- Counter   ipIfStatsReasmOKs(15)
+   |        +-- -R-- Counter   ipIfStatsReasmFails(16)
+   |        +-- -R-- Counter   ipIfStatsInDiscards(17)
+   |        +-- -R-- Counter   ipIfStatsInDelivers(18)
+   |        +-- -R-- Counter64 ipIfStatsHCInDelivers(19)
+   |        +-- -R-- Counter   ipIfStatsOutRequests(20)
+   |        +-- -R-- Counter64 ipIfStatsHCOutRequests(21)
+   |        +-- -R-- Counter   ipIfStatsOutForwDatagrams(23)
+   |        +-- -R-- Counter64 ipIfStatsHCOutForwDatagrams(24)
+   |        +-- -R-- Counter   ipIfStatsOutDiscards(25)
+   |        +-- -R-- Counter   ipIfStatsOutFragReqds(26)
+   |        +-- -R-- Counter   ipIfStatsOutFragOKs(27)
+   |        +-- -R-- Counter   ipIfStatsOutFragFails(28)
+   |        +-- -R-- Counter   ipIfStatsOutFragCreates(29)
+   |        +-- -R-- Counter   ipIfStatsOutTransmits(30)
+   |        +-- -R-- Counter64 ipIfStatsHCOutTransmits(31)
+   |        +-- -R-- Counter   ipIfStatsOutOctets(32)
+   |        +-- -R-- Counter64 ipIfStatsHCOutOctets(33)
+   |        +-- -R-- Counter   ipIfStatsInMcastPkts(34)
+   |        +-- -R-- Counter64 ipIfStatsHCInMcastPkts(35)
+   |        +-- -R-- Counter   ipIfStatsInMcastOctets(36)
+   |        +-- -R-- Counter64 ipIfStatsHCInMcastOctets(37)
+   |        +-- -R-- Counter   ipIfStatsOutMcastPkts(38)
+   |        +-- -R-- Counter64 ipIfStatsHCOutMcastPkts(39)
+   |        +-- -R-- Counter   ipIfStatsOutMcastOctets(40)
+   |        +-- -R-- Counter64 ipIfStatsHCOutMcastOctets(41)
+   |        +-- -R-- Counter   ipIfStatsInBcastPkts(42)
+   |        +-- -R-- Counter64 ipIfStatsHCInBcastPkts(43)
+   |        +-- -R-- Counter   ipIfStatsOutBcastPkts(44)
+   |        +-- -R-- Counter64 ipIfStatsHCOutBcastPkts(45)
+   |        +-- -R-- TimeTicks ipIfStatsDiscontinuityTime(46)
+   |        |        Textual Convention: TimeStamp
+   |        +-- -R-- Unsigned  ipIfStatsRefreshRate(47)
+   |
+   +--ipAddressPrefixTable(32)
+   |  |
+   |  +--ipAddressPrefixEntry(1)
+   |     |  Index: ipAddressPrefixIfIndex, ipAddressPrefixType, ipAddressPrefixPrefix, ipAddressPrefixLength
+   |     |
+   |     +-- ---- Integer32 ipAddressPrefixIfIndex(1)
+   |     |        Textual Convention: InterfaceIndex
+   |     |        Range: 1..2147483647
+   |     +-- ---- EnumVal   ipAddressPrefixType(2)
+   |     |        Textual Convention: InetAddressType
+   |     |        Values: unknown(0), ipv4(1), ipv6(2), ipv4z(3), ipv6z(4), dns(16)
+   |     +-- ---- String    ipAddressPrefixPrefix(3)
+   |     |        Textual Convention: InetAddress
+   |     |        Size: 0..255
+   |     +-- ---- Unsigned  ipAddressPrefixLength(4)
+   |     |        Textual Convention: InetAddressPrefixLength
+   |     |        Range: 0..2040
+   |     +-- -R-- EnumVal   ipAddressPrefixOrigin(5)
+   |     |        Textual Convention: IpAddressPrefixOriginTC
+   |     |        Values: other(1), manual(2), wellknown(3), dhcp(4), routeradv(5)
+   |     +-- -R-- EnumVal   ipAddressPrefixOnLinkFlag(6)
+   |     |        Textual Convention: TruthValue
+   |     |        Values: true(1), false(2)
+   |     +-- -R-- EnumVal   ipAddressPrefixAutonomousFlag(7)
+   |     |        Textual Convention: TruthValue
+   |     |        Values: true(1), false(2)
+   |     +-- -R-- Unsigned  ipAddressPrefixAdvPreferredLifetime(8)
+   |     +-- -R-- Unsigned  ipAddressPrefixAdvValidLifetime(9)
+   |
+   +-- -RW- INTEGER   ipAddressSpinLock(33)
+   |        Textual Convention: TestAndIncr
+   |        Range: 0..2147483647
+   |
+   +--ipAddressTable(34)
+   |  |
+   |  +--ipAddressEntry(1)
+   |     |  Index: ipAddressAddrType, ipAddressAddr
+   |     |
+   |     +-- ---- EnumVal   ipAddressAddrType(1)
+   |     |        Textual Convention: InetAddressType
+   |     |        Values: unknown(0), ipv4(1), ipv6(2), ipv4z(3), ipv6z(4), dns(16)
+   |     +-- ---- String    ipAddressAddr(2)
+   |     |        Textual Convention: InetAddress
+   |     |        Size: 0..255
+   |     +-- CR-- Integer32 ipAddressIfIndex(3)
+   |     |        Textual Convention: InterfaceIndex
+   |     |        Range: 1..2147483647
+   |     +-- CR-- EnumVal   ipAddressType(4)
+   |     |        Values: unicast(1), anycast(2), broadcast(3)
+   |     +-- -R-- ObjID     ipAddressPrefix(5)
+   |     |        Textual Convention: RowPointer
+   |     +-- -R-- EnumVal   ipAddressOrigin(6)
+   |     |        Textual Convention: IpAddressOriginTC
+   |     |        Values: other(1), manual(2), dhcp(4), linklayer(5), random(6)
+   |     +-- CR-- EnumVal   ipAddressStatus(7)
+   |     |        Textual Convention: IpAddressStatusTC
+   |     |        Values: preferred(1), deprecated(2), invalid(3), inaccessible(4), unknown(5), tentative(6), duplicate(7), optimistic(8)
+   |     +-- -R-- TimeTicks ipAddressCreated(8)
+   |     |        Textual Convention: TimeStamp
+   |     +-- -R-- TimeTicks ipAddressLastChanged(9)
+   |     |        Textual Convention: TimeStamp
+   |     +-- CR-- EnumVal   ipAddressRowStatus(10)
+   |     |        Textual Convention: RowStatus
+   |     |        Values: active(1), notInService(2), notReady(3), createAndGo(4), createAndWait(5), destroy(6)
+   |     +-- CR-- EnumVal   ipAddressStorageType(11)
+   |              Textual Convention: StorageType
+   |              Values: other(1), volatile(2), nonVolatile(3), permanent(4), readOnly(5)
+   |
+   +--ipNetToPhysicalTable(35)
+   |  |
+   |  +--ipNetToPhysicalEntry(1)
+   |     |  Index: ipNetToPhysicalIfIndex, ipNetToPhysicalNetAddressType, ipNetToPhysicalNetAddress
+   |     |
+   |     +-- ---- Integer32 ipNetToPhysicalIfIndex(1)
+   |     |        Textual Convention: InterfaceIndex
+   |     |        Range: 1..2147483647
+   |     +-- ---- EnumVal   ipNetToPhysicalNetAddressType(2)
+   |     |        Textual Convention: InetAddressType
+   |     |        Values: unknown(0), ipv4(1), ipv6(2), ipv4z(3), ipv6z(4), dns(16)
+   |     +-- ---- String    ipNetToPhysicalNetAddress(3)
+   |     |        Textual Convention: InetAddress
+   |     |        Size: 0..255
+   |     +-- CR-- String    ipNetToPhysicalPhysAddress(4)
+   |     |        Textual Convention: PhysAddress
+   |     |        Size: 0..65535
+   |     +-- -R-- TimeTicks ipNetToPhysicalLastUpdated(5)
+   |     |        Textual Convention: TimeStamp
+   |     +-- CR-- EnumVal   ipNetToPhysicalType(6)
+   |     |        Values: other(1), invalid(2), dynamic(3), static(4), local(5)
+   |     +-- -R-- EnumVal   ipNetToPhysicalState(7)
+   |     |        Values: reachable(1), stale(2), delay(3), probe(4), invalid(5), unknown(6), incomplete(7)
+   |     +-- CR-- EnumVal   ipNetToPhysicalRowStatus(8)
+   |              Textual Convention: RowStatus
+   |              Values: active(1), notInService(2), notReady(3), createAndGo(4), createAndWait(5), destroy(6)
+   |
+   +--ipv6ScopeZoneIndexTable(36)
+   |  |
+   |  +--ipv6ScopeZoneIndexEntry(1)
+   |     |  Index: ipv6ScopeZoneIndexIfIndex
+   |     |
+   |     +-- ---- Integer32 ipv6ScopeZoneIndexIfIndex(1)
+   |     |        Textual Convention: InterfaceIndex
+   |     |        Range: 1..2147483647
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndexLinkLocal(2)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndex3(3)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndexAdminLocal(4)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndexSiteLocal(5)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndex6(6)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndex7(7)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndexOrganizationLocal(8)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndex9(9)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndexA(10)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndexB(11)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndexC(12)
+   |     |        Textual Convention: InetZoneIndex
+   |     +-- -R-- Unsigned  ipv6ScopeZoneIndexD(13)
+   |              Textual Convention: InetZoneIndex
+   |
+   +--ipDefaultRouterTable(37)
+   |  |
+   |  +--ipDefaultRouterEntry(1)
+   |     |  Index: ipDefaultRouterAddressType, ipDefaultRouterAddress, ipDefaultRouterIfIndex
+   |     |
+   |     +-- ---- EnumVal   ipDefaultRouterAddressType(1)
+   |     |        Textual Convention: InetAddressType
+   |     |        Values: unknown(0), ipv4(1), ipv6(2), ipv4z(3), ipv6z(4), dns(16)
+   |     +-- ---- String    ipDefaultRouterAddress(2)
+   |     |        Textual Convention: InetAddress
+   |     |        Size: 0..255
+   |     +-- ---- Integer32 ipDefaultRouterIfIndex(3)
+   |     |        Textual Convention: InterfaceIndex
+   |     |        Range: 1..2147483647
+   |     +-- -R-- Unsigned  ipDefaultRouterLifetime(4)
+   |     |        Range: 0..65535
+   |     +-- -R-- EnumVal   ipDefaultRouterPreference(5)
+   |              Values: reserved(-2), low(-1), medium(0), high(1)
+   |
+   +-- -RW- INTEGER   ipv6RouterAdvertSpinLock(38)
+   |        Textual Convention: TestAndIncr
+   |        Range: 0..2147483647
+   |
+   +--ipv6RouterAdvertTable(39)
+      |
+      +--ipv6RouterAdvertEntry(1)
+         |  Index: ipv6RouterAdvertIfIndex
+         |
+         +-- ---- Integer32 ipv6RouterAdvertIfIndex(1)
+         |        Textual Convention: InterfaceIndex
+         |        Range: 1..2147483647
+         +-- CR-- EnumVal   ipv6RouterAdvertSendAdverts(2)
+         |        Textual Convention: TruthValue
+         |        Values: true(1), false(2)
+         +-- CR-- Unsigned  ipv6RouterAdvertMaxInterval(3)
+         |        Range: 4..1800
+         +-- CR-- Unsigned  ipv6RouterAdvertMinInterval(4)
+         |        Range: 3..1350
+         +-- CR-- EnumVal   ipv6RouterAdvertManagedFlag(5)
+         |        Textual Convention: TruthValue
+         |        Values: true(1), false(2)
+         +-- CR-- EnumVal   ipv6RouterAdvertOtherConfigFlag(6)
+         |        Textual Convention: TruthValue
+         |        Values: true(1), false(2)
+         +-- CR-- Unsigned  ipv6RouterAdvertLinkMTU(7)
+         +-- CR-- Unsigned  ipv6RouterAdvertReachableTime(8)
+         |        Range: 0..3600000
+         +-- CR-- Unsigned  ipv6RouterAdvertRetransmitTime(9)
+         +-- CR-- Unsigned  ipv6RouterAdvertCurHopLimit(10)
+         |        Range: 0..255
+         +-- CR-- Unsigned  ipv6RouterAdvertDefaultLifetime(11)
+         |        Range: 0 | 4..9000
+         +-- CR-- EnumVal   ipv6RouterAdvertRowStatus(12)
+                  Textual Convention: RowStatus
+                  Values: active(1), notInService(2), notReady(3), createAndGo(4), createAndWait(5), destroy(6)

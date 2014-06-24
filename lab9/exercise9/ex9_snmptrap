@@ -1,0 +1,9 @@
+root@PC1:~# snmptrapd -f -Le
+/etc/snmp/snmptrapd.conf: line 20: Warning: Unknown token: disableAuthentication.
+NET-SNMP version 5.4.1
+2037-06-24 12:20:50 10.0.4.14(via UDP: [10.0.4.14]:56830) TRAP, SNMP v1, community public
+	RFC1155-SMI::enterprises.8072.3.2.10 Cold Start Trap (0) Uptime: 0:00:00.05
+
+2037-06-24 12:21:21 10.0.4.14(via UDP: [10.0.4.14]:56830) TRAP, SNMP v1, community public
+	RFC1155-SMI::enterprises.8072.4 Enterprise Specific Trap (2) Uptime: 0:00:31.19
+
