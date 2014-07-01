@@ -1,0 +1,6 @@
+
+uter3#mrinfo
+10.0.4.3 [version  12.4] [flags: PMA]:
+  10.0.4.3 -> 10.0.4.4 [1/0/pim]
+  10.0.3.3 -> 10.0.3.2 [1/0/pim/querier]
+

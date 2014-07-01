@@ -1,0 +1,58 @@
+P Multicast Routing Table
+Flags: D - Dense, S - Sparse, B - Bidir Group, s - SSM Group, C - Connected,
+       L - Local, P - Pruned, R - RP-bit set, F - Register flag,
+       T - SPT-bit set, J - Join SPT, M - MSDP created entry,
+       X - Proxy Join Timer Running, A - Candidate for MSDP Advertisement,
+       U - URD, I - Received Source Specific Host Report,
+       Z - Multicast Tunnel, z - MDT-data group sender,
+       Y - Joined MDT-data group, y - Sending to MDT-data group,
+       V - RD & Vector, v - Vector
+Outgoing interface flags: H - Hardware switched, A - Assert winner
+ Timers: Uptime/Expires
+ Interface state: Interface, Next-Hop or VCD, State/Mode
+
+(*, 224.0.10.1), 00:13:26/stopped, RP 10.0.3.2, flags: SJCF
+  Incoming interface: FastEthernet0/0, RPF nbr 10.0.2.2
+  Outgoing interface list:
+    Serial0/3/0, Forward/Dense, 00:04:35/00:00:00
+
+(10.0.4.14, 224.0.10.1), 00:00:08/00:02:54, flags: PJT
+  Incoming interface: Serial0/3/0, RPF nbr 10.0.5.4
+  Outgoing interface list:
+    FastEthernet0/0, Prune/Dense, 00:00:08/00:02:51
+
+(10.0.2.12, 224.0.10.1), 00:03:11/00:02:53, flags: T
+  Incoming interface: FastEthernet0/0, RPF nbr 0.0.0.0
+  Outgoing interface list:
+    Serial0/3/0, Forward/Dense, 00:03:11/00:00:00
+
+(10.0.1.11, 224.0.10.1), 00:13:27/00:02:53, flags: FT
+  Incoming interface: FastEthernet0/1, RPF nbr 0.0.0.0
+  Outgoing interface list:
+    FastEthernet0/0, Forward/Dense, 00:11:02/00:00:00
+    Serial0/3/0, Forward/Dense, 00:07:36/00:00:00
+          
+(*, 224.0.1.40), 00:28:57/00:02:38, RP 10.0.3.2, flags: SJCL
+  Incoming interface: FastEthernet0/0, RPF nbr 10.0.2.2
+  Outgoing interface list:
+    Serial0/3/0, Forward/Dense, 00:04:39/00:00:00
+    FastEthernet0/1, Forward/Dense, 00:28:58/00:00:00
+
+Router1#show ip route  
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+     10.0.0.0/24 is subnetted, 5 subnets
+C       10.0.2.0 is directly connected, FastEthernet0/0
+R       10.0.3.0 [120/1] via 10.0.2.2, 00:00:11, FastEthernet0/0
+C       10.0.1.0 is directly connected, FastEthernet0/1
+R       10.0.4.0 [120/1] via 10.0.5.4, 00:00:02, Serial0/3/0
+C       10.0.5.0 is directly connected, Serial0/3/0
+

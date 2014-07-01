@@ -1,0 +1,19 @@
+tEthernet0/1 is up, line protocol is up
+  Internet address is 10.0.1.1/24
+  IGMP is enabled on interface
+  Current IGMP host version is 2
+  Current IGMP router version is 2
+  IGMP query interval is 60 seconds
+  IGMP querier timeout is 120 seconds
+  IGMP max query response time is 10 seconds
+  Last member query count is 2
+  Last member query response interval is 1000 ms
+  Inbound IGMP access group is not set
+  IGMP activity: 15 joins, 14 leaves
+  Multicast routing is enabled on interface
+  Multicast TTL threshold is 0
+  Multicast designated router (DR) is 10.0.1.1 (this system)
+  IGMP querying router is 10.0.1.1 (this system)
+  Multicast groups joined by this system (number of users):
+      224.0.1.40(1)
+
