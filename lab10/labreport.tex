@@ -1,0 +1,214 @@
+% das Papierformat zuerst
+\documentclass[a4paper, 11pt]{article}
+
+\title{Networking Lab Day 10}
+\author{Kevin Neumann, Alain C. Mendy}
+\date{\today{}, Goettingen}
+
+% hier beginnt das Dokument
+\begin{document}
+\maketitle
+\newpage
+
+Unfortunately, the PC1, where we saved all our data onto, crashed before the start of exercise 6, so that all data up to this point was lost. The questions are thus answered from recollections and common sense.
+
+\section{Part 1: Sending data to an IP multicast group with socat}
+
+\subsection {What does the OUI look like? Is the multicast bit set? Is the globally unique bit set?}
+
+The OUI looks like: IPv4cast_00:0a:01 . The multicast bit is set, the globally unique bit is not.
+
+\subsection {Can you infer the multicast group from the NIC-specific part of the MAC address?}
+
+The multicast group from the NIC-specific part is 00:0a:01
+
+\subsection {What is the IP TTL?}
+
+The IP TTL says, how many hops may be passed white travelling. It is set to 1 here.
+
+\subsection {Do you observe IGMP messages?}
+
+There were no IGMP messages observed, because all data is packed inside the UDP message.
+
+\section{Part 2: Receiving IP multicast data with socat}
+
+\subsection {Examine the time frame before the first mark: What and how many IGMP messages do you observe? }
+
+There were 4 IGMP messages observed, each for the joining group 224.0.10.1
+
+\subsection {Examine the time frame between the first and the second mark: Do the receivers react on the new sender? }
+
+New UDP messaged with other source NIC and Port were observed.
+
+\subsection {Examine the time frame after the second mark: What and how many IGMP messages do you observe?}
+
+No new IGMP messages were observed.
+
+\subsection {Explain how adding and deleting senders and receivers to a multicast group works. }
+
+The sender sends information to the multicast address, the receiver ads the membership to it.
+
+\subsection {Why is there no multicast support for TCP? }
+
+Because TCP is based on end-to-end connection and is thus not made for communicating via broadcast.
+
+\section{Part 4: Setting up an IGMP enabled router}
+
+\subsection {For all four receivers: Which PC is receiving data from which multicast group and which PC?}
+
+
+Receiver 10.0.1.11:3333 (PC1): PC2 / PC3
+
+Receiver 10.0.1.14:1111 (PC4): PC1 / PC2
+
+Receiver 10.0.1.14:2222 (PC4): PC1 / PC3
+
+Receiver 10.0.1.14:3333 (PC4): PC2 / PC3
+
+\subsection {Create a table that contains the IGMP message types you captured. Give typical TTL values and their destination IP addresses! }
+
+\begin{table}
+\centering
+\begin{tabular}{lll}
+	\hline
+	\textbf{Message} & \textbf{TTL} & \textbf{Destination IP} \\
+	\hline
+	Membership Query & 1 & 224.0.0.1 \\
+	Membership report & 1 & 224.0.0.251,224.0.1.40,224.0.10.3,224.0.10.1 \\
+	Leave group & 1 & 224.0.0.2 \\
+	\hline
+\end{tabular}
+\caption{Captured IGMP messages}
+\label{tab:threecols}
+\end{table}
+
+\section{Part 5: Querying IP Multicast Group Membership}
+
+\subsection {Give the numbers you wrote down.}
+
+I remember that all 5 nodes responded (PC1-4 and router1). 
+
+\subsection {When multiple receivers were running on the same host, did you receive multiple replies from these hosts? }
+
+No, multiple replies were not received.
+
+\section{Part 6: Part 6}
+
+\subsection{How many reports are sent for each IGMP query?}
+
+4 Reports are sent for one IGMP query.
+
+\subsection{What is the interval between the IGMP messages? Are all PCs sending those messages? }
+
+PC1: Just router1 and PC1/PC2 are sending messages, no fixed interval was observed
+PC3: Just router1 and PC3/PC4 are sending messages, no fixed interval was observed 
+
+\section{Part 7: Part 7}
+
+\subsection{What messages were received in what receiver?}
+
+PC1 received messages from PC2
+PC4:1111: no messages were received
+PC4:2222: messaged from PC3 were received
+PC4:3333: received messages from PC3
+
+\subsection{Given the Wireshark capture, determine what IP address the IGMP queries and IGMP reports are sent to. }
+
+
+PC1: Queries were sent to 224.0.0.1 and reports were sent to 224.0.0.251, 224.0.10.3 and 224.0.1.40
+
+PC3: : Queries were sent to 224.0.0.1 and reports were sent to 224.0.0.251, 224.0.10.1, 224.0.10.2 and 224.0.10.3
+
+\subsection{What can you conclude from this on the behevior of Router1 when it wants to receive IGMP reports? }
+
+Router1 forwards requests issued via multicast.
+
+\subsection{How many reports are sent for each IGMP query? }
+
+Depending on the PCs, from 1-6 reports were sent for each query.
+
+\section{Part 8: Part 8}
+
+\subsection{Which router is the querier?}
+
+Router1 is the querier.
+
+\subsection{Which router is the forwarder?}
+
+Router 1 also acts as the forwarder.
+
+\subsection{After you changed the IP address of Router1: Had this modification any impact on the role assignments you determined above?}
+
+Yes, for some queries, the shorter path leads via router2, thus it also becomes querier/forwarder.
+
+\section{Part 8: Part 8}
+
+\subsection{Which router is the querier?}
+
+Router1 is the querier.
+
+\subsection{Which router is the forwarder?}
+
+Router 1 also acts as the forwarder.
+
+\subsection{After you changed the IP address of Router1: Had this modification any impact on the role assignments you determined above?}
+
+Yes, for some queries, the shorter path leads via router2, thus it also becomes querier/forwarder.
+
+\section{Part 9: New Network Setup}
+
+\subsection{Determine the designated and querying routers for each network.}
+
+
+Network 10.0.1.0: Designated/querying is Router1 IF0/1
+Network 10.0.2.0: Designated/querying are Router1 IF0/0 and Router2 IF0/0
+Network 10.0.3.0: Designated/querying are Router2 IF0/1 and Router3 IF0/1
+Network 10.0.4.0: Designated/querying are Router3 IF0/0 and Router4 IF0/0
+
+\subsection{What multicast groups are joined by the routers?}
+
+The group 224.0.1.40 is joined by Router1 (IF0/1), Router2 (IF0/0), Router3 (IF0/0) and Router4 (IF0/0).
+
+\section{Part 10: PIM Prune and Graft}
+
+\subsection{What PIM message types do you observe?}
+
+Hello-messages (PIMv2) were observed.
+
+\subsection{Do you observe any IGMP messages that are related to this sender? List source nodes and message types.}
+
+Yes, membership queries and membership responses were observed. Nodes were the routers/default gateways.
+
+\subsection{Do you observe PIM messages that weren't sent before starting the socat sender? List the new message types.}
+
+The newly observed messages were PIM Join/Prune messages.
+
+\subsection{Examine the destination address of the PIM Prune messages. Can you find any forwarded PIM Prune messages? Explain why or why not.}
+
+The destination address of the PIM prune messages was 224.0.0.13 . No forwarding messages were found, because no receivers belong to a multicast group.
+
+\subsection{Are any of the multicast packets actually forwarded? Explain the observed behaviour.}
+
+There are no packets being forwarded, because no different receivers belong to a multicast group/are not reachable from the node.
+
+\subsection{What new PIM message type do you observe?}
+
+Assert messages were observed.
+
+\subsection{Determine the flooding period.}
+
+It is hardly possible to determine a flooding period.
+
+\subsection{How long does it take for all routes to recover?}
+
+It tool 93 seconds for all routes to recover.
+
+\subsection{Use the previous evaluations to explain how the PIM routers build their distribution tree.}
+
+The PIM routers build their distribution trees by using the shortest path tree.
+
+
+
+
+
+\end{document}
